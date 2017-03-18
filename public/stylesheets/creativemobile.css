@@ -1,0 +1,574 @@
+body{
+        height: 100%;
+        overflow-y: auto;
+}
+.frogIndex
+{
+        position: relative;
+    top: inherit;
+
+}
+nav.navbar.navbar-inverse.mobileHeader
+{
+/*    position: fixed;*/
+    width: 100%;    
+}
+body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
+    position: inherit;
+}
+.container-fluid {
+       height: 100%;
+}
+
+.logo-icon, .logo-icon-blue {
+    position: absolute;
+       left: 8em;
+    top: 0.52em;
+}
+
+div.navbar.navbar-inverse.mobileHeader{
+    background-color: transparent;
+}
+.navbar-inverse {
+    background-color: white;
+    border-color: white;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #333333;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #ffffff;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+    margin-left: 0em;
+    border: none;
+}
+.navbar .navbar-nav {
+    display: block;
+    float: none;
+    vertical-align: top;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #333333;
+    font-weight: 800;
+    padding: 0em;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color:#35BFD3;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+/*Index page*/
+
+
+
+/*
+.photosInner {
+    height: inherit;
+    width: inherit;
+    overflow: hidden;
+    position: relative;
+}
+
+div.photos {
+
+           width: initial;
+    overflow: hidden;
+
+}
+*/
+/*
+img.change {
+       width: 10%;
+
+}
+*/
+div.yourMoodParent,div.index2{
+
+          width: 100%; 
+          height: 100%;
+}
+.yourMood > h1 {
+     font-size: medium;
+}
+.yourMood > h4 {
+font-size: smaller;
+}
+.yourMood > p {
+        font-size: xx-small;
+  }
+.yourMood {
+margin-top:auto;
+    transform: translateY(350%);
+}
+
+/*frog image*/
+.frogImageMoods > img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+.frogImageMoods {
+    position: initial;
+    z-index: 1035;
+    top: inherit;
+    left: inherit;
+    width: initial;
+    height: initial;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+.frogImageMoods h1 {
+    font-family: mermaid;
+    position: absolute;
+    text-align: center;
+    vertical-align: top;
+    left: initial;
+    top: initial;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    width: 100%;
+/*
+    
+   
+*/
+}
+
+h1#setMoodText{
+    font-family: mermaid;
+    position: absolute;
+    text-align: center;
+    vertical-align: top;
+    left: initial;
+    top: initial;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    width: 100%;
+    top: 44%;
+    font-size: xx-large; 
+}
+h2.indexheader,h2.whatWeOffer,h2.indexheader3
+{
+        font-weight: 600;
+    color: #35BFD3;
+
+
+}
+h2.indexheader
+{
+    font-size: 1.5em;
+}
+
+h2.indexheader3
+{
+    font-size: 1.85em;
+}
+
+/*
+.getStarted{
+        width: 7em;
+}
+*/
+button.btn.btn-lg.moodNav.getStarted{
+    width: auto;
+}
+div.photosParent {
+
+    left: 0%;
+    right: 0%;
+        position: relative;
+/*     top: 69%;*/
+
+}
+
+
+/*know us page*/
+.know-us h2 {
+       font-weight: 600;
+      font-size: 1.5em;
+}
+.know-us .dotHr {
+    margin:auto;
+}
+
+.content div > p {
+    font-weight: 700;
+       font-size: 0.71em;
+    line-height: 1.6;
+   }
+.how-it-works .pagination>li>div, .how-it-works .dotHr div, .why-us .dotHr div, .what-we-offer .dotHr div, .page4 .dotHr div, .page2 .dotHr div, .page5 .dotHr div, .page6 .dotHr div
+ #reports .dotHr div, #myStory .dotHr div, #profile .dotHr div, .know-us .dotHr div {
+    float: left;
+    background: #ffffff;
+    border: 0.005px dotted #35BFD3;
+    border-radius: 0%;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 3px;
+}
+p.KuWfC1Pad
+{
+       font-weight: 700;
+    font-size: 0.71em;
+    line-height: 1.6;
+    text-align: justify;
+}
+p.WhoWeAreP
+{ font-weight: 700;
+       line-height: 1.6;
+    text-align: justify;
+        font-size: 0.86214em;
+}
+.content div > p {
+    font-weight: 700;
+    font-size: 0.71em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/*index section2*/
+
+
+.whatWeOffer{
+        font-size: 1.25em;
+}
+
+#sectionIndex2 div#myCarousel.carousel.slide.text-center.carouselEdit {
+   position: relative;
+    width: 85%;
+    left: 0em;
+    margin: auto;
+}
+div#myCarousel.carousel.slide.text-center.carouselEdit {
+   position: relative;
+    width: 85%;
+    left: 0em;
+    margin: auto;
+}
+a.left {
+    position: relative;
+    left: -41%;
+         top: -8em;
+}
+a.right {
+    right: -41%;
+    position: relative;
+       top: -8em;
+}
+
+
+#Responsible,p#Changing Season,#Broke,#Rich
+{
+        color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 2%;
+        margin: auto;
+}
+#sectionIndex2 div.carousel-inner {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+div.mobileWhatWeOffer{
+    
+}
+
+.offer{
+    width:100%;
+    height:100%
+}
+button#indexScriptYourStory.btn.btn-lg.moodNav.story {
+    width: 53%;
+}
+/*index section3*/
+.PAN {
+    top: 0%;
+    position: relative;
+    left: 0%;
+}
+
+.PAN > img,.Package > img,.Withdraw img {
+   
+    width: 50%;
+    height: 50%;
+    left: 0%;
+
+}
+.investing {
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.Withdraw {
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+a#index4.left,a#index4.right
+    {
+ 
+    top: -6em;
+}
+ div.carousel-inner {
+      position: relative;
+/*    width: 48%;*/
+         width: 100%;
+    font-weight: bolder;
+    margin: auto;
+    overflow: hidden;
+}
+ div#index4 div.carousel-inner {
+      position: relative;
+      width: 100%;
+
+    font-weight: bolder;
+    margin: auto;
+    overflow: hidden;
+         font-size: 1.32em;
+}
+.avatarTestimonial .name {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+.item h4 {
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-top: 0;
+}
+.newsletter > p {
+    width: initial;
+   }
+.avatarTestimonial img {
+    padding: 0;
+    margin: 0;
+    height: 31px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+div.index4{
+           height: 91%;
+}
+div.index3
+{
+           height: 151%;
+
+}
+.footerFrog > img {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    width: 45%;
+}
+
+.slider {
+    position: relative;
+    left: 15%;
+   top: inherit;
+    right: 15%;
+}
+img.change {
+        width: 15%;
+}
+.photos {
+       width: 78%;
+    overflow: hidden;
+}
+div.rowIndexSlider
+{
+        position: relative;
+/*    top: -11em;*/
+}
+
+/*pricing*/
+.what-we-offer h2, .how-it-works h2, .know-us h2, .why-us > h2 {
+    padding: initial;
+    font-weight: 600;
+    color: #35BFD3;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: large;
+    width: initial;
+}
+a#pricingCarousel.left{
+       position: relative;
+    left: -46%;
+    top: -3em; 
+}
+a#pricingCarousel.right {
+    right: -46%;
+    position: relative;
+    top: -3em;
+}
+
+.pricingPanelRow {
+    padding-left: initial;
+    padding-right: initial;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*
+ul#Gp,ul#Bp{
+    padding-left: 10%;
+}
+li#Gp1,li#Gp2,li#Gp3,li#Gp4,li#bp1,li#bp2,li#bp3
+{
+        font-size: 1.05em;
+    font-weight: 700;
+    color: #333333;
+    text-align: left;
+}
+*/
+.how-it-works .panel {
+    border: 2px solid #35BFD3;
+    border-radius: 10px;
+}
+
+.how-it-works .panel-heading h2 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #F2F5FB;
+    font-size: 1.2em;
+}
+.how-it-works .panel-heading {
+    background-color: #35BFD3;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#pricingDot {
+    top: 17px;
+    left: 65%;
+    position: absolute;
+    /* left: 45%; */
+    bottom: 12.5em;
+    width: 100px;
+}
+.pDot {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 100%;
+    border: 2px #F2F5FB solid;
+    background-color: #FFDE15;
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.how-it-works .panel-body h2 {
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 2em;
+}
+.how-it-works .panel-body ul {
+    padding-left: 15px;
+    color: #333333;
+    font-size: 1em;
+    font-weight: 600;
+}
+.how-it-works .panel-body ul li {
+    text-align: left;
+}
+.how-it-works .panel-body {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-top: 7px;
+    height: 14em;
+    border-radius: 10px;
+}
+
+p.shrinkpara
+{
+        font-size: 1em;
+}
+
+
+.how-it-works a.tooltips span {
+    z-index: 10;
+    display: none;
+    padding: 10px 12px;
+    margin-top: -8%;
+    margin-left: -52%;
+    width: 18em;
+    line-height: 18px;
+    padding-right: 5px;
+    text-align: left;
+}
+p
+{
+    font-size: inherit;
+    text-align: center;
+}
+
+.below {
+    position: relative;
+    right: initial;
+    height: initial;
+}
+
+.below > .goal {
+    float: none;
+    margin-right: auto;
+    text-align: center;
+}
+div.container-fluid.moods.text-center
+{
+    padding: initial;
+}
+
+.below .goal img {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+}
+
+#mobilePage2 p
+{
+        font-size: large;
+    font-weight: 700;
+}
+
+.blankInput[type=number] {
+       width: calc(28% - 2px);
+   }
+
+.page3 .table>thead>tr>th {
+      border-right: none;
+   }
+.page3 .table {
+    width: initial;
+}
+
+.page3 .table {
+    width: 90%;
+    /* padding: 5%; */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.page3 .table>thead>tr>th {
+    border-right: none;
+    text-align: center;
+}
+p#invest{
+    color:#35BFD3;
+}

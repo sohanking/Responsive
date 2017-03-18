@@ -1,0 +1,57 @@
+    
+<!--
+                <div class="frogImage text-center">
+                    <img class="img-responsive" src="images/Broke.png" alt="" />
+                
+                    <h1>Feeling Rich</h1>
+                </div>
+-->
+<!--
+     <div class="row slider">
+            
+-->
+              <div class="row">
+                            <div class="col-sm-12">
+<!--
+                                <div class="frogImageMoods text-center">
+                    <img id="setMood" class="img-responsive" src="#" alt="" />
+
+                
+                    <h1 id="setMoodText">Feeling Rich</h1>
+                </div>
+-->
+                     <div class="photos">
+                     
+                          
+                    <div class="photosInner">
+                     
+                        <img class="change" id="Broke" src="images/smallBroke.png" alt="Home view" >
+                     
+                      <img class="change" id="Loved" src="images/smallLoved.png" alt="Home view" >
+                     
+                      <img class="change" id="Nerdy" src="images/smallNerdy.png" alt="Home view" >
+                     
+                     <img class="change" id="Responsible" src="images/smallResponsible.png" alt="Home view" >
+                     
+                      <img class="change" id="Rich" src="images/smallRich.png" alt="Home view" >
+                     
+                      <img class="change" id="Social" src="images/smallSocial.png" alt="Home view" >
+                     
+                     </div> 
+                         
+                 
+                     </div>
+<!--
+                                  <div class="slider-control">
+                               <img class="left" src="images/leftArrow.png" alt="Home view" >
+                        <img class="right" src="images/rightArrow.png" alt="Home view" >  
+                        
+                     </div>
+-->
+                </div>
+        
+                          
+                    
+                 </div>
+    
+    

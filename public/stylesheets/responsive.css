@@ -1,0 +1,5845 @@
+
+
+
+@media only screen and (max-width:1440px) and (max-height:900px){
+    #invisible{
+    display: none;
+    }
+    button.btn.btn-lg.moodNav.profileSubmit2{
+            width: 6em;
+    }
+    .footFixer
+    {
+/*
+            position: fixed;
+    top: 44em;
+*/
+        position: fixed;
+    top: 45em;
+    }
+    .frogImageMoods > img {
+    max-width: 116%;
+    width: 121%;
+    height: auto;
+}
+     #pay2560,#signup2560,#page2560,#getStarted2560,#storyButton2560{
+        display:none;
+    }
+    #whyInvestory1366{
+        display:inline;
+    }
+    /*image spite for index sec2*/
+    #EmergencyFundsImg {
+        left: 3em;
+    top: 2em;
+    }
+    p#Broke {
+   position: relative;
+ top: 1.4em;
+    left: 0.5em;
+    margin-top: 0em;
+}
+    #taxSavingsImg {
+    left: 0em;
+    bottom: -6em;
+    }
+    p#taxSavings {
+       position: relative;
+    left: -0.5em;
+    top: 5em;
+}
+    #buildHealthImg {
+    left: 3em;
+    top: 2em;
+    }
+    p#Rich {
+           position: relative;
+    left: 0em;
+       top: 1.5em;
+    margin-top: 0.5em;
+}
+    #smartGoalsImg {
+        left: 1em;
+    top: -0.5em;
+   }
+    p#Responsible {
+        position: relative;
+    left: 0em;
+    top: 0em;
+}
+    /*index*/
+div.container-fluid.how-it-works.frNow.text-center {
+           margin-top: 7em;
+   
+    }
+    .frNow{
+         margin-bottom: -6em;
+    }
+    .how-it-works .pagination {
+    position: relative;
+    /* position: absolute; */
+    left: -1%;
+    top: 3em;
+    padding: 0;
+    margin: 0;
+    margin-top: 1%;
+}
+    #indexGetStartedHide1400,#getStarted2560{
+        display:none;
+    }
+    .frogImage > img {
+    position: relative;
+    top: 6%;
+}
+    .frogImage h1 {
+      top: 5.5em;
+    left: -0.2em;
+     font-size: 3.5em;
+ 
+}
+    .frogImage > img {
+       position: relative;
+    top: 44%;
+}
+    div.dotHr.dotsScriptStory {
+    margin-left: 9%;
+}
+     .why-us {
+    margin-top: 7%;
+}
+    .yourMood {
+    margin-top: 28em;
+}
+    #dotMenu {
+    left: 48em;
+}
+  
+    .frogImage {
+       left: 45%;
+    }
+    #angle {
+    left: 50.27em;
+}
+       .menu {
+    left: 38.4em;
+} 
+
+    /*index*/
+      /*header*/
+    nav hr {
+       width: 95%;
+    left: -2.5%;
+}
+    .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+    .nameHeader {
+       left: -6em;
+  }
+    ul#dropdownForLogOut.dropdown-menu {
+     left: 8em;
+  }
+    .navbar .navbar-collapse {
+/*    margin-left: 5%;5.73%;*/
+            margin-left: 5.25%;
+              margin-top: 2em;
+/*    background-color: #ffffff;*/
+
+}
+    #searchBox[type=search] {
+          width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    color: #333;
+    border-color: transparent;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background: url(../images/search.png);
+    background-repeat: no-repeat;
+    padding-left: 2.5em;
+    position: fixed;
+    top: 9.15%;
+}
+    /*social icons*/
+    #SocialIconsList li, #SocialIconsList a {
+    width: 1.5em;
+    height: 32.5px;
+   }
+    
+  button#indexGetStarted.btn.btn-lg.moodNav.getStarted{
+        width:7em;
+    }
+    button#indexScriptYourStory.btn.btn-lg.moodNav.story{
+         width:9em;
+    }
+    .how-it-works .pricing, .how-it-works .video-tour {
+    width: 8em;
+}
+     .how-home .row {
+    margin-left: 5%;
+    margin-right: 5%;
+     margin-bottom: 8%;
+    margin-bottom: 4%;
+}
+   div#indexLookingFor.row {
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 5%;
+    margin-top: 10em;
+}
+    h2.indexHeadngLookingFor {
+    position: absolute;
+    left: 41.5%;
+    margin-top: 3%;
+}
+/*
+   div#myCarousel.carousel.slide.text-center.carouselEdit {
+       position: relative;
+    width: 34em;
+    left: -21em;
+    top: 3em;
+           margin-bottom: -3em;
+}
+*/
+div#myCarousel.carousel.slide.text-center.carouselEdit {
+    position: relative;
+    width: 34em;
+    left: -21em;
+    top: 3em;
+    margin-bottom: -4em;
+}
+.item h4 {
+    font-size: 1.45em;
+    font-weight: 700;
+    margin-top: 0;
+}
+    
+    #indexFourColumns.row.indexColumn{
+        margin-top:2em;
+    }
+  .why-us .carousel-inner {
+
+    margin-bottom: 0em;
+}
+
+
+    a.right {
+    right: 28em;
+    position: absolute;
+    top: 50%;
+}
+    
+    .avatarTestimonial .name {
+    font-size: 20px;
+    font-weight: 700;
+}
+    a.left {
+    position: absolute;
+    left: 30em;
+    top: 50%;
+}
+     .build-wealth
+    {
+            top: -1em;
+    }
+    .smart-goals{
+        top:15px;
+    }
+    .investing {
+    top: 4.7em;
+   }
+    .Withdraw {
+      top: 7.7em;
+}
+    /*pricing*/
+    #dotsvisible1440{
+      display: inherit;
+    }
+    button.btn.btn-lg.moodNav.pay{
+        width: 9%;
+    }
+    div.dotHr.howItWorksSignUp {
+    margin-top: -2.5em;
+    margin-left: 6em;
+}
+    div.dotHr.dotPayButton {
+    margin-left: 24%;
+}
+    .what-we-offer p {
+    margin-top: 1%;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.9em;
+    margin-bottom: 3%;
+}
+    .how-it-works > h4{
+        font-size: 1.5em;
+    }
+    .h2hstyle {
+    margin-left: 1em;
+}
+    .how-it-works .content div > p
+    {
+            font-size: 21px;
+    }
+    .shrinkpara{
+            margin-left: 1.3em;
+    }
+    .shrinkleft1 {
+    left: 3em;
+}
+    .shrinkleft {
+    left: 6em;
+    padding-left: 0px;
+}
+.shrinkleft2 {
+    left: 7em;
+}
+
+    
+    .pricingPanelRow{
+            padding-left: 10em;
+    padding-right: 10em;
+    }
+    .how-it-works .panel-body ul li
+    {
+            font-size: 21px;
+    }
+    .how-it-works .panel-heading h2{
+        font-size: 2.2em;
+    }
+    .how-it-works .panel-body{
+        height:21em;
+    }
+    .moodNav
+    {
+            font-size: 1.5em;
+    }
+/*how it works*/
+  
+    div.row.howItWorksRow {
+    margin-top: 1%;
+}
+    .frNow .pagination {
+   position: relative;
+    left: 0%;
+    top: 1em;
+}
+    .how-it-works {
+    margin-top: 10.5em;
+}
+    /*header*/
+   button.btn.btn-lg.moodNav.login {
+    width: 80px;
+    position: absolute;
+    left: 91%;
+}
+    .ImageHeader {
+       top: 3em;
+   }
+    #searchBox[type=text]{
+        top:5.95%;
+        left: 63.05%;
+    }
+    .navbar-default .navbar-nav > li > a{
+        font-size: 1.2em;
+    }
+   
+    btn .caret {
+    margin-left: 6.5em;
+}
+    .moodGoals{
+        left: 34.8%;
+    }
+   
+   
+    /*footer*/
+    .foot{
+        position: relative;
+    }
+    .foot .row div {
+    text-align: left;
+    font-size: 1.5em;
+}
+    .foot .row:nth-child(2) {
+    margin-left: 3em;
+}
+     
+    .footerFrog > img{
+        bottom: 8.4%;
+    }
+    .col-lg-12 {
+   width: 178%;
+    padding-left: 2em;
+}
+    .socialIcons img{
+        width: 2em;
+        margin-right: 2%;
+    }
+    .footerFrog > img{
+          position: relative;
+    left: 0%;
+    bottom: -3em;
+    width: 210px;
+/*
+            position: absolute;
+    left: 42%;
+    bottom: 9em;
+    width: 210px;
+*/
+    }
+    
+    .foot{
+          right: 0%;
+    width: 88.8%;
+    left: 0.5%;
+    }
+   
+     h4 {
+    font-size: 28px;
+}
+    .foot .row {
+    width: 50%;
+    float: left;
+}
+    .footerFrog h2:nth-child(1) {
+                     position: relative;
+    left: 8em;
+    font-size: 3em;
+    top: 4.25em;
+    width: 6em;
+}
+     .foot .row:nth-child(2) {
+         
+           margin-left: 8.4em;
+          width:43%;
+}
+   .footerFrog h2:nth-child(2) {
+          position: relative;
+       width: 3em;
+    left: 20em;
+    font-size: 3em;
+    top: 2.25em;
+
+}
+    /*footer ends*/
+    
+    
+    
+    /*know us page*/
+    h2.WSHeader {
+    padding-top: 1.5em;
+    }
+    #nameAndLogoDots1280{
+    display: none;
+    }
+  
+    h2.WFrogHead {
+    border-top-width: 0.5em;
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+    h2.NameAndLogo{
+    padding-top:3.5em;
+        padding-bottom:0em;
+}
+   
+    div.dotHr.NaLDots {
+    margin-left: 25%;
+}
+    .col-sm-3 .KuWfC{
+        
+    }
+    .how-it-works h2,  .why-us > h2 {
+    font-size: 3.1em;
+            padding-top: 0em;
+}
+    .what-we-offer h2{
+    font-size: 3.1em;
+    padding-top: 1em;
+}
+    .know-us h2{
+         font-size: 3.1em;
+    }
+    .content div > p.KUNLogoP {
+    margin-bottom: 10px;
+    margin-top:10px;
+    font-size: 20px;
+   line-height: 1.5em;
+ }
+    div.row.KuWfRow {
+    margin-top: 3em;
+         margin-left: -11em;
+    margin-right: -11em;
+         margin-bottom: 2em;
+
+}
+    .content div > p.KuWfC1Pad ,.content div >p.KuWfC2Pad{
+       font-size: 1.4em;
+    line-height: 1.55em;
+}
+    .content div > p{
+            font-size: 1.1em;
+    }
+    h2.headdingKnowUsColumn{
+            font-size: 2.4em;
+    }
+    p.WhoWeAreP,.textBtwn{
+       font-size: 1.5em;
+    }
+    h6.InvestTeamP {
+    margin-bottom: 11px;
+    margin-top: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+   div.WhoWeAre {
+    text-align: justify;
+   padding-left: 25%;
+    padding-right: 27%;
+    /* line-height: 1em; */
+}
+    /*know us*/
+    img.WFrogImg{
+bottom: 50.8%;
+            width: 8em;
+    height: 8em;
+    }
+    img.WInvstImg
+    {
+             bottom: -13.9%;
+    width: 6em;
+    }
+  div.container.content.classSectio2
+    {
+               margin-top: 0em;
+    margin-bottom: 0%;
+    }
+    
+    /*reports*/
+    #reports {
+    margin-top: 1em;
+    margin-left: 36px;
+    margin-bottom: 14px;
+}
+    div.dropdown-backdrop{
+        display: none;
+    }
+    div.btnCenterReport1 {
+ position: relative;
+    top: 22em;
+    left: -37em;
+
+}
+    div.btnCenterReport2 {
+       position: relative;
+    top: 22em;
+    left: -34em;
+    margin-bottom: 14em;
+}
+    p.paragraph{
+            font-size: 23px;
+    }
+    h4.headFive{
+      font-size: 24px;  
+    }
+    h2.stylingH
+    {
+        font-size: 3em;
+    }
+    #reports .upgrade{
+             top: -3em;
+    left: 53.5%;
+    }
+    div.dotHr.dotted {
+    position: relative;
+    top: 1.5em;
+       left: 41em;
+}
+    .heddingFour{
+             position: relative;
+    top: 0.5em;
+    margin-bottom: 1em;
+    margin-top: 0em;
+    left: -3em;
+
+    }
+  
+    
+    .scrollbar
+    {
+            height: 20.5em;
+        position: relative;
+     left: 2em;
+
+    }
+    #reports .classy{
+        font-size: 20px;
+    }
+    #reports div.panel-body.panelBodyCut {
+    height: 20.2em;
+}
+    .topNav{
+            left: 21%;
+            top: 11em;
+    }
+    
+    /*accounts Invoices*/
+    th.thDates{
+            width: 8.79em;
+}
+
+th.thInvoices{
+          width: 10.13em;
+}
+th.thAllocation{
+    text-align: center;
+    width: 6em;
+}
+th.thAmount{
+ width: 7.144em;
+    text-align: center;
+}
+
+   tbody#ex3.scrollbar {
+    height: 8em;
+    margin-top: 0px;
+    width: 97%;
+    left: 0em;
+       height: 11em;
+}
+    table.table.table2  tr > td:nth-child(1){
+       width: 11.2em; font-size: initial;
+    }
+    table.table.table2  tr > td:nth-child(2){
+              width: 12.98em;
+   font-size: initial;
+    }
+    table.table.table2  tr > td:nth-child(3){
+             width: 7.74em;
+    font-size: initial;
+    }
+    .page31 .table>thead>tr>th{
+          font-size: large;    
+    }
+    table.table.table3{
+       padding-left: 12em; 
+    }
+    /*settings*/
+   
+  .settingsDataHeader {
+   
+   font-size: 3em;
+     margin-top: -1em;
+}
+    .form-horizontal .control-label{
+      font-size: 24px;
+            width: 42%;
+    }
+    .form-controler {
+       font-size: 1em;
+     width: 15em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+    #settings div.col-sm-6.accSettings {
+    left: 7em;
+    font-weight: bolder;
+    left: 2%;
+}
+    
+    .settingsForm .col-sm-6.accSettings2{
+            width: 40%;
+    padding: 0;
+    position: relative;
+    left: 0%;
+    }
+    
+    /*FAQ's*/
+    
+    .sliderFaqs {
+    position: relative;
+    left: 0em;
+    width: 47%;
+        top: 4em;
+            height: 20em;
+
+   margin-bottom: -10em;
+
+}
+    div.topNav.wxt.FAQ {
+    z-index: 1030;
+    top: 1em;
+    left: 24.5%;
+}
+    h5.FAQHeader {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 24px;
+}
+    /*Faq's*/
+    .faqs {
+    padding-top: 8em;
+}
+    .faqs > h2 {
+    
+    font-size: 39px;
+}
+    .sliderFaqs button.accordion{
+            font-size: 20px;
+    }
+    .btn-circle {
+    width: 50px;
+    height: 50px;
+   border-radius: 25px;
+    font-size:27px;
+       padding: 10px 0;
+}
+    .sliderFaqs button.accordion .col-sm-11 {
+       font-size: 23px;
+}
+    .sliderFaqs div.panel {
+  padding-left: 1em;
+   font-size: 20px;
+    margin-left: 2.5em;
+   
+}
+    /*accounts invoices*/
+    #account div.text-center {
+    position: relative;
+    top: 13em;
+}
+    div.topNav.abc {
+    left: 25%;
+    top: 14em;
+    }#account p{
+           font-size: 18px;
+    font-weight: bolder;
+    }
+    #invoices div.page31
+    {
+            position: relative;
+    bottom: 6em;
+    }
+    /*profile*/
+    
+    h2.profilePan{
+        margin-top:2em;margin-bottom:2em;margin-left:1em;
+    }
+.how-it-works p {
+    font-weight: 600;
+    color: #333333;
+    font-size: 1em;
+    line-height: 1.2;
+    margin-top: 0em;
+}
+    .rowTransform{
+    padding-left: 27em;
+    padding-right: 30em;
+    padding-top: 4em;
+}
+div.dropdownMarital{
+    margin-top:-1.5em;
+}
+
+div.row.testimonyRow{
+     margin-top: -1em;   
+}
+ .contentEdit{
+        margin-top: 0em;
+    }
+    div.row.rowTransform
+    {
+            margin-top: -7em;
+    }
+    div#ProfileColumn1.col-sm-6.setting.colProfile{
+        left: -6%;
+    }
+    textarea#comment.form-controler.addressSection2 {
+    position: fixed;
+    left: 34%;
+}
+    input#calendar.form-controler
+    {
+        margin-bottom: 0em;
+    }
+   .settingSection2{
+            left: -4em;
+    }
+    
+  .rightSetting{
+        left:1em;
+    }
+    
+    label.control-label.col-sm-1.Ageing {
+       position: relative;
+    top: -1.8em;
+    left: 13.5em;
+}
+    div#profileAge.col-md-1 {
+    left: 18em;
+    top: -2.2em;
+}
+    /*story*/
+    .g8 {
+      right: 42em;
+}
+    .g9 {
+      right: 36em;
+}
+    .g11 {
+    top: -6.5em;
+    right: 26em;
+}
+    .g12 {
+    top: -12em;
+    right: 25em;
+}
+    .g13 {
+    top: -16.5em;
+    right: 19.5em;
+}
+    .g14 {
+    top: -8.5em;
+    right: 19em;
+}
+    .g15 {
+    top: -1em;
+    right: 19em;
+}
+     .img-responsive {
+    display: inline-table;
+    max-width: 100%;
+    height: auto;
+}
+    .goalReport {
+    position: relative;
+    left: 5em;
+}
+    /*Get started*/
+     .frogImageMoods h1{
+            left: 0.5em;
+    top: 3em;
+            font-size: 4em;
+    }
+   .slider {
+    left: 18%;
+    top: 13em;
+}
+   
+    .photos{
+        width:75%;
+    }
+    img.change {
+  /*  width: 18%;*/
+}
+    .photosInner{
+         height: auto;
+    width: 650px;
+    }
+    .frogImageMoods{
+         top: 1em;
+left: -11%;
+    width: 25em; 
+    }
+    img.left,img.right{
+            width: 40px;
+    }
+    .slider-control .right {
+
+    left: 20em;
+}
+    .slider-control {
+    
+    left: -14%;
+}
+    
+    /*column2*/
+    div.col-md-8.selective {
+        top: 5em;
+        left: 4.5em;
+}
+    .moods {
+    padding-bottom: 8em;
+}
+     .contentMood h2 {    font-size: 2.6em;
+    }
+    .contentMood .page1> p,
+    .contentMood .page2> p,
+    .contentMood .page3> p,
+    .contentMood .page4> p,
+    .contentMood .page5> p{
+        font-size: 1.5em;
+    }
+    .below .goal img{
+        width: 150px;
+    height: 150px;
+    }
+    
+    .below  #mood{
+        font-size: 1.8em;
+    }
+    .contentMood .worksBtn .page-buttons {
+    margin-top: 5em;
+}
+    .contentMood .moodNav
+    {
+        width: 7em;
+    height: 2em;
+    text-align: center;
+    font-size: initial;
+    }
+#btm {
+    position: relative;
+    float: left;
+    color: #333;
+    font-size: x-large;
+    font-weight: 600;
+    font-style: italic;
+   left: -12em;
+    bottom: -1em;
+}
+    /*part3*/
+    .page3 .table,.page5 .table
+    {
+            width: 91%;
+    height: 17em;
+    }
+    .page3 .table>thead>tr>th,.page5 .table>thead>tr>th{
+        font-size: 2em;
+    }
+    .page3 .table>tbody>tr>td,.page5 .table>tbody>tr>td{
+        font-size: 1.4em;
+    }
+    #goalIndicator{
+            font-size: 1.5em;
+    }
+    .contentMood .page2 .login-btn{
+        left:40%;
+    }
+    /*risk profiling*/
+    .sliderRiskProfile button.accordion .col-sm-11{
+         /*   font-size: 1.2em;
+    font-weight: 700;*/
+    }
+    #riskHeight{
+            height: 15.5em;
+    }
+    .sliderRiskProfile button.accordion .col-sm-11{
+        font-size: 1.2em;
+    }
+    .sliderRiskProfile .riskProfiling #mood {
+    
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-top: 0.5em;
+}
+    .below > .goal {
+    float: left;
+    margin-right: 3em;
+    text-align: left;
+}
+
+    /*Get started ends*/
+}
+
+@media only screen and (max-width:1440px) {
+        #invisible{
+    display: none;
+    }
+    table.table.table2 tr > td:nth-child(1) {
+    width: 11.32em;
+    font-size: initial;
+}
+table.table.table2 tr > td:nth-child(2) {
+    width: 13.18em;
+    font-size: initial;
+}
+    /*index*/
+    .what-we-offer h2 {
+    font-size: 2.1em;
+  }
+    .what-we-offer p {
+      font-size: .99em;
+   }
+    .yourMood {
+    margin-top: 18em;
+}
+    
+    .moodNav {
+    font-size: 0.95em;
+}
+    .what-we-offer p {
+       font-size: 1.29em;
+    margin-bottom: 1%;
+}
+    #angle {
+    left: 50.327em;
+}    
+    .frogImage > img {
+    position: relative;
+    top: 13%;
+    max-width: 342px;
+}
+    .frogImage h1 {
+    top: 4.5em;
+    left: -0.2em;
+    font-size: 2.75em;
+}
+.yourMood {
+    margin-top: 18em;
+}
+    .what-we-offer p {
+    margin-bottom: 1%;
+}
+    .what-we-offer h2 {
+    font-size: 2em;
+    padding-top: 1.5em;
+}
+    .how-it-works h2, .why-us > h2{
+          font-size: 2em; 
+    }
+    .moodNav {
+    font-size: 1.15em;
+}
+    h2.indexHeadngLookingFor {
+    position: absolute;
+    left: 43.5%;
+    margin-top: 0%;
+}
+    div#indexLookingFor.row {
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 5%;
+    margin-top: 5em;
+}
+.how-it-works .pagination {
+   
+    margin-top: 0%;
+}
+    .how-home .row {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+    margin-bottom: 1%;
+    margin-top: 0em;
+}
+    .how-it-works .pagination {
+     top: 1em;
+   }
+ .why-us .dotHr, .know-us .dotHr {
+    margin-left: 10.25%;
+}
+    
+    .how-it-works .dotHr {
+    margin-left: 8.25%;
+}
+    div.dotHr.dotsScriptStory {
+    margin-left: 10%;
+}
+.what-we-offer .dotHr {
+    margin-left: 8.5%;
+}
+    h2.indexHeadngLookingFor
+    {
+            padding: 0em;
+    top: 43%;
+    left: 46%;
+    }
+    .know-us .dotHr {
+    margin-left: 6.5%;
+}
+  .why-us .dotHr {
+    margin-left: 8.25%;
+}
+    div#myCarousel.carousel.slide.text-center.carouselEdit {
+    left: 34em;
+    top: -1em;
+
+}
+    #indexFourColumns.row.indexColumn {
+    margin-top: 0em;
+}
+    .content div > p {
+    font-size: 0.99em;
+}
+    .item h4 {
+    font-size: 1.25em;
+  }
+    a.left ,a.right{
+      top: 56%;
+}
+    /*footer*/
+    .foot h4 > a {
+    color: #F2F5FB;
+    font-weight: 600;
+    font-size: 0.8em;
+    line-height: 0.5;
+}
+    .foot .row div {
+    text-align: left;
+    font-size: 0.99em;
+}
+    .footerFrog h2:nth-child(1) {
+    position: relative;
+      left: 16em;
+       top: -1em;
+    width: 6em;
+    margin-bottom: -6em;
+    font-size: 2em;
+}
+    .footerFrog h2:nth-child(2) {
+    position: relative;
+    width: 3em;
+    left: 29em;
+    font-size: 2em;
+    top: 2.95em;
+    margin-bottom: 1em;
+}
+    .footerFrog > img {
+    position: relative;
+    left: 0%;
+    bottom: -3em;
+    width: 172px;
+}
+    div#myCarousel.carousel.slide.text-center.carouselEdit {
+       margin-bottom: -1em;
+}
+    .foot p > a {
+    font-size: 1.3em;
+}
+    .foot .row:nth-child(2) {
+    margin-left: 7.4em;
+    width: 43%;
+    position: relative;
+    left: 5em;
+}
+    /*pricing*/
+    div.dotHr.howItWorksSignUp {
+    margin-top: -2.5em;
+    margin-left: 6em;
+    margin-bottom: 16em;
+}
+    .footFixer {
+    position: fixed;
+    top: 30em;
+        width: 97%;
+}
+/*Know us*/
+    h2.NameAndLogo{
+    font-size: 2.21em;
+    margin-top: 0.95em; 
+    }
+    h2.WFrogHead{
+          font-size: 2.21em;
+    }
+.content div > p.KuWfC1Pad, .content div >p.KuWfC2Pad {
+    font-size: 1.4em;
+    line-height: 1.55em;
+    line-height: 1.2;
+    margin-top: 0em;
+     margin-bottom: -0.1em;
+
+}
+    .content div > p.KUNLogoP {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 1.09em;
+}
+    div.row.KuWfRow {
+    margin-top: 2em;
+    margin-bottom: 0em;
+}
+    img.WFrogImg {
+    bottom: 43.8%;
+    width: 6em;
+    height: 7em;
+    left: 61%;
+}
+    h2.WSHeader {
+    padding-top: 0em;
+}
+    /*pricing*/
+    .topNav {
+    left: 27%;
+    top: 11em;
+}
+    h4.mem {
+    font-size: 17px;
+}
+    .form-horizontal .control-label {
+    font-size: 16px;
+    width: 42%;
+}
+    div#ProfileColumn1.col-sm-6.setting.colProfile {
+    left: -1%;
+}
+    label.control-label.col-sm-1.Ageing {
+   
+    left: 15.5em;
+}
+    div#profileAge.col-md-1 {
+    left: 12em;
+    top: -2.2em;
+}
+    div.dropdownMarital {
+    margin-top: -1.25em;
+}
+
+.settingSection2 {
+    left: 1em;
+}
+    button.btn.btn-lg.moodNav.profileSubmit2
+    {
+            width: 5em;
+    top: 3em;
+    position: relative;
+    }
+    
+    /*accounts*/
+    div.topNav.abc {
+    left: 30%;
+    top: 14em;
+}
+    .heddingFour {
+     margin-left: 4em;
+}
+    /*moods*/
+    .frogImageMoods {
+top: 0.5em;
+    left: -11%;
+    width: 25em;
+}
+    .frogImageMoods > img {
+      max-width: 80%;
+    height: 18em;
+   }
+    .frogImageMoods h1 {
+    left: 0.25em;
+    top: 3em;
+    font-size: 2em;
+
+}
+    div.col-md-8.selective {
+    top: 0em;
+    left: 2.5em;
+}
+    .contentMood h2 {
+    font-size: 1.86em;
+}
+    .contentMood .page1> p, .contentMood .page2> p, .contentMood .page3> p, .contentMood .page4> p, .contentMood .page5> p {
+    font-size: 1.25em;
+}
+    .below #mood {
+    font-size: 1.28em;
+}
+    .below .goal img {
+      width: 109px;
+    height: 103px;
+}
+    .contentMood .moodNav {
+    width: 5em;
+
+}
+    .contentMood .worksBtn .page-buttons {
+       margin-top: 0em;
+}
+    img.change {
+    width: 8%;
+}
+
+img.left, img.right {
+    width: 29px; 
+}
+    img.left{
+           top: 1em;    position: relative;
+    }
+    .photos {
+    width: 56%;
+}
+    
+    .slider {
+        left: 20%;
+    top: 0.2em;
+}
+    .slider-control .right {
+    left: 16em;
+    position: relative;
+    top: 1em;
+}
+
+.page3 .table>thead>tr>th, .page5 .table>thead>tr>th {
+    font-size: 1.5em;
+}
+    img.WInvstImg {
+    bottom: -13.9%;
+    width: 5em;
+}
+}
+
+
+
+
+@media only screen and (max-width:1366px) and (max-height:768px){
+        #invisible{
+    display: none;
+    }
+    p.WhoWeAreP, .textBtwn {
+    font-size: 2;
+    font-size: 1.98em;
+}
+    .footFixer {
+    position: fixed;
+    top: 34.5em;
+}
+    .frogImage h1 {
+    top: 5.5em;
+    left: -0.2em;
+    font-size: 2.5em;
+}
+   frogImage h1 {
+    top: 5.5em;
+    left: -0.2em;
+    font-size: 2.5em;
+} #pay2560,#signup2560,#page2560,#getStarted2560,#storyButton2560{
+        display:none;
+    }
+   #indexGetStartedHide1400{
+        display:inline;
+    }
+    /*sprite*/
+  li#Broke.EmergencyFundsImg{
+              left: -1em;
+      top:1em;
+    }
+    #EmergencyFundsImg {
+    left: -2em;
+    top: 0em;
+}
+    
+#buildHealthImg{
+    left: 2em;
+    bottom: 0;
+    top: 1em;
+              }
+    #taxSavingsImg {
+    left: -2em;
+    bottom: -6em;
+}
+        
+/*
+#buildHealthImg{
+
+     left: 0em;
+    top: 0.2em;
+            }
+*/
+  #smartGoalsImg{
+/*
+         left: 38em;
+    top: -9.5em;
+*/
+             left: 4em;
+    top: -2.5em;
+              }
+p#Broke {
+    position: relative;
+          top: 1.5em;
+    left: 0em;
+}
+    p#taxSavings{
+        position: relative;
+       left: -1.5em;
+    top: 5.9em;
+}
+p#Rich
+{
+/*
+    position: relative;
+    left: -0.5em;
+    top: 4em;
+*/
+           position: relative;
+    left: 0.5em;
+      top: 2.7em;
+    margin-top: 0em;
+}
+p#Responsible
+{
+        position: relative;
+       left: 0em;
+        top: 0.75em;
+    }
+
+div.dotHr.dotsScriptStory{
+        margin-left: 9%;
+}
+    .what-we-offer{
+    margin-top: 7%;
+}
+    /*header*/
+    .navbar .navbar-nav {
+       margin-right: -5em;
+    margin-top: 1em;
+    margin-left: -4em;
+}
+    nav hr {
+          width: 91%;
+    top: 1.5em;
+    left: -0.5%;
+
+}
+    #searchBox[type=search] {
+    top: 10.2%;
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    color: #333;
+    border-color: transparent;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background: url(../images/search.png);
+    background-repeat: no-repeat;
+    padding-left: 2.5em;
+    position: fixed;
+}
+    .navbar-nav>li {
+    float: left;
+    left: 0.5em;
+}
+    .menu {
+    left: 36.4em;
+}
+    #dotMenu {
+    left: 46em;
+}
+    #angle {
+    left: 48.6em;
+}/*header*/
+     .nameHeader {
+    left: -10em;
+             top: 2em;
+}
+    .navbar .navbar-collapse {
+    margin-left:0.3%;
+       margin-top: -1em;
+/*    background-color: #ffffff;*/
+}
+    .smart-goals {
+    top: -14px;
+}
+    .ImageHeader {
+    top: 1.5em;
+}
+    
+    /*index*/
+    
+    .how-it-works .pagination{
+        left:-2%;
+    }
+    .frogImage > img {
+    position: relative;
+    top: 7%;
+}
+    #indexGetStartedHide1400{
+        display:inline;
+    }
+   .why-us .carousel-inner {
+margin-top: 10%;
+    left: 0.5em;
+}
+    .frogImage {
+    left: 47%;
+}
+    a.right {
+    right: 29em;
+            top: 54%;
+    }
+    #indexGetStartedHide1366{
+        display: none;
+    }
+    /*social icons*/
+    #SocialIconsList li, #SocialIconsList a {
+    width: 2.25em;
+    height: 32.5px;
+}
+    .yourMood {
+    margin-top: 17em;
+}
+    .frogImage h1 {
+       left: -0.2em;
+   }
+    /*ends*/
+   
+    .what-we-offer h2{
+      font-size: 25px;  
+             left: 47%;
+    }
+    .what-we-offer p {
+    margin-top: 0.75em;
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+    div#indexLookingFor.row {
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-bottom: 5%;
+    margin-top: 7em;
+}
+    .how-home .row {
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 1%;
+    margin-top: 1em;
+}
+    div#myCarousel.carousel.slide.text-center.carouselEdit {
+       margin-bottom: 3em;
+    position: relative;
+    width: 27em;
+    left: 35em;
+    top: -1em;
+    margin-top: 0em;
+}
+    #indexFourColumns.row.indexColumn {
+    margin-top: -0.5em;
+}
+    .moods {
+    padding-bottom: 0em;
+}
+    ul#dropdownForLogOut.dropdown-menu {
+    left: 6em;
+}
+    .avatarTestimonial .name {
+    font-size: 15px;
+}
+    .item h4 {
+    font-size: 16px;
+   }
+    a.left {
+       left: 31em;
+            top: 54%;
+}
+    .investing {
+    position: relative;
+    top: 5.5em;
+    left: -1.5em;
+}
+    .Withdraw {
+    top: 8.5em;
+  }
+    /*Faq's*/
+    .faqs {
+    padding-top: 7em;
+}
+
+
+  .faqs > h2 {
+       margin-bottom: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 2em;
+}
+    h5.FAQHeader {
+       font-size: 1em;
+}div.topNav.wxt.FAQ {
+    position: absolute;
+    left: 27.5%;
+    top: 12em;
+}
+.sliderFaqs {
+    position: relative;
+    left: -1em;
+    width: 42%;
+    top: 1em;
+    height: 15em;
+    overflow-y: scroll;
+        margin-bottom: -9em;
+}
+    .sliderFaqs button.accordion {
+    color: #35BFD3;
+    cursor: pointer;
+    padding: 2px;
+    width: 100%;
+    border: none;
+    text-align: justify;
+    outline: none;
+    font-size: 1.1em;
+    transition: 0.4s;
+    background-color: #ffffff;
+    padding-right: 0;
+    font-weight: 600;
+}
+    .btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: 15px;
+    border-color: #35BFD3;
+    color: #35BFD3;
+    font-size: 1.2em;
+    background-color: #F2F5FB;
+}
+    .sliderFaqs button.accordion .col-sm-11 {
+       padding-right: 0;
+    font-size: 18px;
+}
+    .sliderFaqs div.panel {
+    padding: 5px;
+    margin-bottom: 0;
+    max-height: 0;
+    text-align: left;
+    font-size: 1.1em;
+    margin-left: 2.5em;
+    background-color: #ffffff;
+    font-weight: 600;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+    .footerFrog > img {
+    position: relative;
+   left: 0%;
+    bottom: -2em;
+    /* bottom: -191%; */
+    width: 171px;
+        top: 1em;
+}
+    .foot h4 > a {
+    color: #F2F5FB;
+    font-weight: 600;
+    font-size: 21px;
+}
+    .foot .row div {
+    text-align: left;
+    font-size: 14px;
+}
+    .foot .row:nth-child(2) {
+    /*margin-left: 19.5em;*/
+            left: 2em;
+        margin-left: 17.5em;
+      width: 38%;
+}
+    .foot .row {
+    width: 41%;
+    float: left;
+        
+}
+    .foot{
+       position: relative;
+    height: 9em;
+    width: 86%;
+    right: 0%;
+    left: 0%;
+/*            margin-top: 6em;*/
+            margin-top: -2em;
+
+    }
+ .socialIcons,.newsletter
+    {
+            left: -1em;
+    }
+    .footerFrog h2:nth-child(1),
+    .footerFrog h2:nth-child(2) {
+           font-size: 2em;
+    position: relative;
+    display: -webkit-inline-box;
+}
+/*
+    .footerFrog h2:nth-child(1){
+         left: -1em;
+    top: -0.35em;
+    }
+*/
+    .footerFrog h2:nth-child(1) {
+      left: 15em;
+    position: relative;
+    top: -2.35em;
+    width: 6em;
+}
+/*
+     .footerFrog h2:nth-child(2){
+          left: 6em;
+    top: -0.35em;
+
+    }
+*/.footerFrog h2:nth-child(2) {
+    left: 28em;
+    top:1.65em;
+    position: relative;
+    width: 4em;
+}
+
+
+    .navbar-default .navbar-nav > li > a {
+    font-size: 1em;
+    left: 1em;
+}
+    #searchBox[type=text] {
+    top: 8.35%;
+    left: 64.7%;
+}
+    
+    
+    
+    /*pricing*/
+    #dotsvisible1440{
+        display: none;
+    }
+    div.dotHr.dotPayButton {
+    margin-left: 22%;
+}
+    div.dotHr.howItWorksSignUp {
+    margin-top: -2.5em;
+    margin-left: 9em;
+}
+    .rowclass {
+    width: 70.125em;
+}
+    .shrinkleft1 {
+    left: 9em;
+}
+    
+    .content div > h2 {
+    font-weight: 700;
+    margin-bottom: 0%;
+    color: #333;
+    margin-top: 3%;
+}
+    .how-it-works .content div > p {
+    padding-left: 0;
+    padding-right: 0;
+                font-size: 15px;
+    margin-left: 4em;
+}
+    .content div > p {
+    font-weight: 700;
+    font-size: 1.05em;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+    .how-it-works p {
+      margin-top: 0.2em;
+}
+    
+    .shrinkpara {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 1.18em;
+    padding-right: 1.5em;
+    padding-bottom: 0px;
+    width: 14.6em;
+    margin-left: 5.3em;
+}
+    .shrinkleft {
+    left: 6em;
+    padding-left: 0px;
+}
+    .how-it-works .panel-body {
+    padding-top: 7px;
+    height: 15em;
+}
+    .panel-body {
+    padding: 15px;
+}
+    div.dotHr.payHowItWorks {
+    margin-left: 22%;
+}
+   .moodNav {
+   
+    width: 7em;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    float: left;
+}
+    .how-it-works h2, .know-us h2, .why-us > h2 {
+    font-size: 2.2em;
+}
+    .how-it-works > h4 {
+    font-size: 18px;
+       margin-top: 10px;
+}
+    .how-it-works {
+    margin-top: 8.5em;
+}
+    .frNow{
+            margin-bottom: -5em;
+    }
+    .how-it-works .panel-heading h2 {
+    font-size: 20px;
+}
+    .pricingPanelRow {
+    padding-left: 20em;
+    padding-right: 20em;
+}
+    .how-it-works .panel-body ul li {
+    font-size: 15px;
+}
+    .shrinkleft2 {
+    left: 0em;
+}
+    .frNow .pagination {
+        left: 0%;
+    top: 2em;
+}
+    div.row.howItWorksRow {
+    margin-top: 3%;
+}
+    
+    /* know us*/
+    div.dotHr.dotAboveNoCut.longDotUs{
+     margin-left: 6%;
+}
+    .know-us .dotHr {
+        margin-left: 6%;}
+    .lastKnowUs{
+ margin-bottom: -6em;
+    }
+   
+     div.container.content.classSectio2 {
+    margin-top: 1em;
+}
+    h2.NameAndLogo {
+            padding-top: 4.25em;
+/*    padding-top: 0.5em;*/
+    padding-bottom: 0em;
+}
+      #whyInvestory1366{
+        display:none;
+    }
+    #knowUsDots1366 {
+    display: inline;
+}
+    div.col-sm-3.KuWfC {
+    width: 27%;
+}
+    
+    #knowUsDots1366{
+        display:none;
+    }
+    div.dotHr.NaLDots {
+    margin-left: 29%;
+}
+    .content div > p.KUNLogoP {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: large;
+    line-height: 1.5em;
+}
+    .content div > p.KuWfC1Pad, .content div >p.KuWfC2Pad {
+    font-size: 1.07em;
+    line-height: 1.5em;
+}
+    div.row.KuWfRow {
+    margin-top: 1em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+    div.WhoWeAre {
+    text-align: justify;
+    padding-left: 30%;
+    padding-right: 27%;
+    /* line-height: 1em; */
+    font-size: 9.2px;
+}
+    h6.InvestTeamP {
+    margin-bottom: 6px;
+    margin-top: 4px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+    h4 {
+    font-size:19px; 
+/*        25px;*/
+}
+    img.WFrogImg {
+    bottom: 43.5%;
+    width: 6em;
+    height: 6em;
+}
+    img.WInvstImg {
+/*    bottom: 71.05%;*/
+    bottom: -21.995%;
+}
+    /*reports*/
+    p.paragraph {
+    font-size: 16px;
+}
+    h4.headFive {
+        font-size: 19px;
+}
+h4.headFive {
+    margin-bottom: -0.5em;
+    color: #35BFD3;
+    font-weight: 600;
+    margin-top: 0.2em;
+}
+    h2.stylingH {
+    font-size: 2em;
+       margin-top: 0.65em;
+    font-weight: bolder;
+}
+    .stylingP {
+    font-size: 0.38em;
+   font-weight: 900;
+    color: #35BFD3;
+    padding-top: 0.5%;
+    padding-left: 0.25%;
+    margin-top: 0em;
+}
+    #reports .upgrade {
+        top: -3em;
+    left: 51.5%;
+}
+    div.dotHr.dotted {
+       position: relative;
+    top: -2.5em;
+    left: 39em;
+}
+   .heddingFour {
+    position: relative;
+    top: 0em;
+    margin-bottom: 0.5em;
+     margin-top: -2.5em;
+    top: 0em;
+    font-size: 22px;
+}
+    #reports h4.paint {
+       font-size: 20px;
+}
+    #reports .classy {
+    font-size: 17px;
+}
+    #reports div.row.panelRow.scroll {
+    width: 68em;
+   }
+    #reports div.panel-body.panelBodyCut {
+    height: 18.2em;
+}
+    .scrollbar {
+    height: 18.5em;
+    position: relative;
+    left: 5em;
+        top: 1em;
+            width: 69em;
+}
+    .topNav {
+/*        position: fixed;*/
+    left: 26%;
+            top: 11em;
+       
+        
+}
+  
+    /*profile*/
+ 
+    
+    
+    h2.profilePan{
+        margin-top:2em;margin-bottom:2em;margin-left:3em;
+    }
+    .settingSection2 {
+     left: -1em;
+}
+    div.dropdownMarital {
+    margin-top: 0em;
+}
+    div.row.testimonyRow {
+    margin-top: 0em;
+}
+    textarea#comment.form-controler.addressSection2 {
+    position: fixed;
+       left: 34.5%;
+}
+    div#ProfileColumn1.col-sm-6.setting.colProfile {
+    left: -2%;
+}
+    .profileSubmit {
+    position: relative;
+    left: 50%;
+    top: 2em;
+}
+    .profileSubmit2{
+            position: relative;
+    top: 2em;
+    }
+    input#calendar.form-controler {
+    margin-bottom: 0.5em;
+  
+}
+    .form-controler {
+    font-size: 14px;
+    /* width: 15em; */
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+}
+    .form-horizontal .control-label {
+    font-size: 14px;
+    width: 42%;
+}
+    .form-controler {
+    font-size: 14px;
+ width: 13em; 
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+}
+    .rightSetting {
+    left: 1em;
+            
+}
+    label.control-label.col-sm-1.Ageing{
+            width: 10%;
+        left: 4em;
+    top: 0.2em;
+    }
+    div#profileAge.col-md-1 {
+        left: 3.75em;
+    top: 0.5em;
+}
+    div.row.rowTransform {
+/*    margin-top: -1em;*/
+            margin-top: -16em;
+}
+
+
+    /*settings*/
+    
+     
+
+    #account div.text-center {
+    position: relative;
+    top: 11em;
+         right: -1em;
+
+}
+    div.topNav.abc {
+    left: 31%;
+    top: 11em;
+    }
+    .settingsDataHeader {
+    font-size: 2em;
+    margin-top: -4em;
+}
+    div.btnCenterReport1 {
+   position: relative;
+    top: 21em;
+    left: -31em;
+
+}
+    div.btnCenterReport2 {
+    position: relative;
+    top: 29em;
+    left: 35em;
+    display: table-cell;
+}
+    #reports div#myProgress {
+    left: 3.5em;
+    width: 5em;
+}
+/*
+    div.btnCenterReport2 {
+    position: absolute;
+    top: 139%;
+    left: 44%;
+}
+*/
+    /*invoices*/
+    .page31 .table>thead>tr>th {
+    font-size: 17px;
+}
+    table.table.table2 tr > td:nth-child(1) {
+    width: 11.55em;
+    font-size: 15.2px;
+}
+    table.table.table2 tr > td:nth-child(2) {
+    width: 14.4em;
+    font-size: initial;
+}
+    table.table.table2 tr > td:nth-child(3) {
+    width: 7.09em;
+    font-size: initial;
+}
+    tbody#ex3.scrollbar {
+    height: 8em;
+    margin-top: 0px;
+    width: 97%;
+    left: 0.2em;
+    height: 8em;
+    top: 0em;
+}
+    #settings div.col-sm-6.accSettings {
+    left: 7em;
+    font-weight: bolder;
+    left: 2%;
+    width: 23%;
+}
+    #settings div.col-sm-6.accSettings {
+    left: 7em;
+    font-weight: bolder;
+    left: 8%;
+    width: 23%;
+}
+    .settingsForm .col-sm-6.accSettings2 {
+    width: 32%;
+    padding: 0;
+    position: relative;
+    left: 14%;
+}
+    #settings div.col-sm-6 .accSettingsCol2 {
+    right: 2em;
+    top: 0em;
+    font-weight: bolder;
+    left: -1em;
+}
+  /*accounts 1366*/
+   th.thDates {
+    width: 8.12em;
+}
+th.thInvoices{
+        width: 10.3em;
+}
+th.thAllocation{
+    text-align: center;
+    width: 5em;
+}
+th.thAmount{
+     width: 5.715em;
+    text-align: center;
+}
+
+div.topNav.abc{
+      left: 30%;  
+}
+.tableAccounts{
+    width: 78.2%;
+}
+    /*Get started 2*/
+    
+     .frogImageMoods {
+    position: relative;
+       z-index: 1030;
+    top: 2%;
+    left: 7%;
+    width: 252px;
+    height: 252px;
+    margin-top: 0em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+    .frogImageMoods h1 {
+    font-family: mermaid;
+    position: absolute;
+    text-align: center;
+    vertical-align: top;
+    top: 3em;
+    left: 0.5em;
+    color: white;
+    font-weight: 900;
+    font-size: 2.5em;
+    width: 100%;
+}
+    div.col-md-8.selective {
+    top: 1.5em;
+    left: 3.5em;
+}
+    .contentMood h2 {
+   
+    font-size: 1.6em;
+    font-weight: 900;
+   
+}
+    .contentMood .page1> p, .contentMood .page2> p, .contentMood .page3> p, .contentMood .page4> p, .contentMood .page5> p {
+        font-size: 1em;
+    font-weight: 900;
+        margin-top: 5px;
+}
+    .below {
+    position: relative;
+    right: 1.25em;
+    height: 9em;
+}
+    .below > .goal {
+    float: left;
+    margin-right: 5em;
+    text-align: left;
+}
+    .below #mood {
+       font-size: 1.2em;
+    font-weight: 900;
+       }
+    .below .goal img {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+    .contentMood .worksBtn .page-buttons {
+    left: 0em;
+    margin: 0;
+}
+    .contentMood .worksBtn .login-btn {
+    float: left;
+    padding: 0.5em 0em;
+    position: relative;
+    left: 1%;
+}
+    .contentMood .moodNav {
+    width: 5em;
+    height: auto;
+    text-align: center;
+     font-size: 1em; 
+}
+    #btm {
+    float: left;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    left: -11em;
+    bottom: 0em;
+}
+    .frogImageMoods > img {
+    max-width: 128%;
+    width: 118%;
+    height: auto;
+}
+    .slider {
+    position: relative;
+        left: 26%;
+    top: 2.7em;
+}
+    .photos {
+    width: 59%;
+    overflow: hidden;
+}
+    .slider-control {
+    position: absolute;
+    top: 1em;
+    left: -12%;
+}
+    .slider-control .left {
+    position: relative;
+    bottom: -0.25em;
+}
+    .slider img {
+    cursor: pointer;
+    margin-left: 9px;
+    margin-right: 9px;
+    float: left;
+}
+    .slider-control .right {
+    position: relative;
+    left: 16em;
+    /* bottom: 0.5em; */
+}
+    img.change {
+    width: 9%;
+}
+    img.left, img.right {
+    width: 30px;
+}
+    .photosInner {
+    height: auto;
+    width: 657px;
+}
+    /*page2*/
+    .contentMood .page2 .login-btn {
+    left: 31%;
+}
+    /*page3*/
+    .page3 .table>thead>tr>th , .page5 .table>thead>tr>th{
+    border-top: 0;
+    border-right: 1px solid #35BFD3;
+    border-bottom: 1px solid #35BFD3;
+    font-size: 1.4em;
+    font-weight: 800;
+    text-align: left;
+}
+    
+
+.page3 .table>tbody>tr>td,
+.page5 .table>tbody>tr>td {
+    border-top: 0;
+    border-right: 1px solid #35BFD3;
+    width: auto;
+    font-size: 1em;
+    font-weight: 900;
+} 
+    .page3 .table,  .page5 .table {
+    border: 1px solid #35BFD3;
+    border-radius: 10px;
+    border-collapse: separate;
+    width: 65%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+            height: auto;
+}
+    .table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+    /*page3*/
+    #riskHeight {
+    overflow-y: scroll;
+    height: 12em;
+    padding-top: 5px;
+}
+    .sliderRiskProfile button.accordion {
+    color: #35BFD3;
+    cursor: pointer;
+    padding: 2px;
+    width: 100%;
+    border: none;
+    text-align: justify;
+    outline: none;
+    font-size: 1.2em;
+    transition: 0.4s;
+    background-color: #ffffff;
+    padding-right: 0;
+    font-weight: 900;
+}
+    .riskProfiling {
+    margin-left: 3em;
+}
+    .sliderRiskProfile .riskProfiling #mood {
+    color: #35BFD3;
+    font-size: 1.1em;
+    font-weight: 900;
+    list-style-type: circle;
+    line-height: 1;
+    text-align: left;
+    padding: 0;
+    cursor: pointer;
+}
+    .sliderRiskProfile button.accordion .col-sm-11 {
+    font-size: 1.0em;
+}
+    #goalIndicator {
+    color: #35BFD3;
+    font-size: 1.05em;
+    font-style: italic;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+    .moods {
+/*     margin-left: 7em;*/
+         margin-left: 0em;
+}
+.contentMood .page2 .login-btn {
+    left: 37%;
+    top: 65%;
+}
+
+    /*get started 2 ends*/
+    
+}
+
+@media only screen and (max-width:1326px){
+        #invisible{
+    display: none;
+    }
+   .what-we-offer {
+    margin-top: 1%;
+}
+    .how-it-works {
+    margin-top: 4.5em;
+}
+}
+@media only screen and (max-width:1280px) and (max-height:950px){
+        #invisible{
+    display: none;
+    }
+   button.btn.btn-lg.moodNav.profileSubmit2 
+    {
+            top: 14em;
+    position: relative;
+    width: 5em;
+    left: -6em;
+
+    }
+    .foot .row:nth-child(2) {
+    margin-left: -6.32em;
+    left: 14em;
+}
+
+.newsletter > p {
+    top: 2em;
+    position: relative;
+    left: 0em;
+}
+    div.footFixer
+    {
+            top: 47em;
+    position: fixed;
+    width: 99%;
+    }
+    h2.NameAndLogo {
+    padding-top: 4em;
+    padding-bottom: 0em;
+}
+    #pay2560,#signup2560,#page2560,#getStarted2560,#storyButton2560{
+        display:none;
+    }
+    #indexGetStartedHide1400{
+        display:none;
+    }
+    #indexGetStartedHide1400{
+        display:inline;
+    }
+    #indexGetStartedHide1366{
+        display:inline;
+    }
+    /*sprite*/
+    #EmergencyFundsImg {
+    left: 5em;
+            top: 1em;
+    }
+    p#Broke {
+     position: relative;
+    top: 0.2em;
+    left: 0em;
+   }
+    #taxSavingsImg {
+    left: 4em;
+    bottom: -5em;
+    }
+    p#taxSavings {
+        position: relative;
+    left: 1.5em;
+    top: 4.5em;
+}
+    #buildHealthImg {
+        left: 6em;
+    top: 1em;
+   }
+    p#Rich {
+        position: relative;
+    left: 0.5em;
+    top: 2.5em;
+    margin-top: -1em;
+}
+    p#Responsible {
+   position: relative;
+    left: -0.5em;
+    top: 0.52em;
+
+}
+    #smartGoalsImg {
+       left: 3em;
+    top: -1em;
+   }
+
+
+     div.dropdown-backdrop{
+        display: none;
+    }
+    /*index*/
+     #getStarted2560,#indexGetStartedHide1280,#dots950{
+        display: none;
+    }
+    h2.indexHeadngLookingFor {
+    position: absolute;
+    left: 41.5%;
+    margin-top: 3%;
+}
+    .how-it-works .dotHr,.what-we-offer .dotHr{
+               margin-left: 8%;
+
+    }
+    .frogImage > img {
+       position: relative;
+    top: 32%;
+}
+.frogImage h1 {
+    top: 6.5em;
+    left: -1.2em;
+       font-size: 3em;
+  }
+
+    .what-we-offer, .how-it-works, .why-us {
+    margin-top: 8%;
+}
+    .yourMood {
+    margin-top: 27em;
+}
+    #dotMenu {
+    left: 42em;
+}
+    #angle {
+    left: 44.6em;
+}
+    .menu {
+    left: 32.4em;
+}
+    #moodOfMonth {
+       bottom: 0.2em;
+    left: 8em;
+  }
+    div.dotHr.dotsScriptStory {
+    margin-left: 8%;
+}
+.why-us .dotHr {
+    margin-left: 3%;
+}
+    /*social icons*/
+    
+    .what-we-offer p, .how-it-works p {
+       font-size: 1.8em;
+}
+    
+div.col-sm-6.col-md-3.emergency-funds,
+      div.col-sm-6.col-md-3.tax-savings,
+    div.col-sm-6.col-md-3.build-wealth,
+    div.col-sm-6.col-md-3.smart-goals,
+    div.col-sm-6.col-md-3.PAN,
+    div.col-sm-6.col-md-3.Package,
+    div.col-sm-6.col-md-3.investing,
+    div.col-sm-6.col-md-3.Withdraw
+    {
+            width: 25%;
+    }
+    div#indexLookingFor.row {
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 13%;
+    margin-bottom: 10%;
+}
+    
+  button#indexGetStarted.btn.btn-lg.moodNav.getStarted {
+    width: 7em;
+}
+    button#indexScriptYourStory.btn.btn-lg.moodNav.story {
+    width: 9em;
+}
+    #indexGetStartedHide,#indexScriptStoryHide,#indexPricingOptionHide{
+        display: none;
+    }
+    .how-it-works .pricing, .how-it-works .video-tour {
+    width: 8em;
+}
+    .how-home .row {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+    div#indexFourColumns.row
+    {
+            position: relative;
+    left: 8em;
+    }
+   div#myCarousel.carousel.slide.text-center.carouselEdit {
+      position: relative;
+    width: 37em;
+    left: 27.5em;
+    top: 1em;
+    margin-bottom: -13em;
+}
+    .why-us .carousel-inner {
+    margin-top: 7%;    margin-bottom: 7em;
+}
+   .avatarTestimonial .name {
+    font-size: 1.65em;
+    font-weight: 700;
+}
+    a.left {
+       left: 24em;top: 54%;
+   }
+    a.right {
+    right: 22em;top: 54%;
+   }
+    .item h4 {
+    font-size: 1.58em;
+    font-weight: 700;
+    margin-top: 0;
+}
+    /*pricing*/
+    button.btn.btn-lg.moodNav.pay{
+          width: 11%;  
+    }
+    .how-it-works h2{
+        margin-top: 1em;
+    }
+   div.container-fluid.how-it-works.frNow.text-center {
+    margin-bottom: -11em;
+    margin-top: 2em;
+
+}
+    {
+            
+    }
+    .frNow > .row {
+    padding-left: 15em;
+    padding-right: 15em;
+   
+}
+    .how-it-works .panel-body {
+    height: 21em;
+}
+    div.dotHr.dotPayButton {
+    margin-left: 20%;
+}
+    
+      #ColumnsOfKnowUs{
+        display:none;
+    }
+     	.what-we-offer h2,
+.how-it-works h2,
+.know-us h2,
+.why-us > h2{
+    
+
+	font-size: 2.8em;
+
+}
+    
+   .container {
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+}
+    .how-it-works > h4 {
+    font-size: 1.5em;
+}
+    .how-it-works .content div > p {
+    font-size: x-large;
+}
+    .h2hstyle {
+    margin-left: 2.0em;
+}
+    .shrinkpara {
+    margin-left: 1em;
+}
+        .shrinkleft1 {
+    left: 0em;
+}
+    .shrinkleft {
+    left: 5em;
+    padding-left: 0px;
+}
+    .shrinkleft2 {
+    left: 7em;
+}
+    div > p {
+    font-size: 17px;
+}
+    .how-it-works > .row {
+    margin-top: 5%;
+}
+    .pricingPanelRow{
+    padding-left: 6em;
+    padding-right: 6em;
+    }
+    .how-it-works .panel-heading h2 {
+    font-size: 2em;
+}
+    .how-it-works .panel-body ul li {
+    font-size: 21px;
+}
+    #reports div.panel-body.panelBodyCut {
+    padding: 5px;
+    height: 19em;
+}
+    lg.moodNav.pay {
+    font-size: x-large;
+}
+    button.btn.btn-lg.moodNav.pay{
+        font-size: x-large;
+    }
+    /*how it works*/
+    .how-it-works p{
+        font-size: 1.2em;
+    }
+    .how-it-works .pagination{
+            margin-top: 3%;
+    margin-left: -48em;
+    }
+    div.row.howItWorksRow {
+           margin-top: 0%;
+    margin-bottom: -4.5%;
+}
+    #dotsvisible1440{
+        display:none;
+    }
+    div.dotHr.howItWorksSignUp {
+    margin-top: 4.5em;
+}
+    .how-it-works {
+    margin-top: 9.5em;
+}
+    .moodNav {
+    font-size: 1.4em;
+     top: 1em;
+}
+    textarea#comment.form-controler.addressSection2 {
+    position: fixed;
+       left: 31.5%;
+
+}
+    div#profileAge.col-md-1 {
+    left: -13em;
+    top: 0.4em;
+}
+    div#ProfileColumn1.col-sm-6.setting.colProfile{
+      left: -3em;  
+    }
+    .Ageing {
+    margin-left: 2em;
+    left: 1.72em;
+    top: -3px;
+}
+    /*header*/
+    nav hr {
+    width: 92%;
+      left: -2.5%;
+}
+    .navbar-right {
+        margin-right: -4.2em;
+    margin-top: 1em;
+    position: relative;
+    left: -4em;
+}
+    ul#dropdownForLogOut.dropdown-menu {
+    left: 7em;
+}
+    .ImageHeader {
+    left: 71em;
+    top: 3em;
+}
+    #dropdownMenu1 {
+      right: 9.5em;
+  }
+    .nameHeader {
+       left: -7em;
+  }
+   #searchBox[type=search] {
+    width: 30px;
+    height: 30px;
+    border-radius: 14px;
+    color: #333;
+    border-color: transparent;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background: url(../images/search.png);
+    background-repeat: no-repeat;
+    padding-left: 2.5em;
+    position: fixed;
+    top: 8.67%;
+}
+    #show.btn.btn-lg.moodNav.login{
+     width: 5em;
+    }
+    .navbar-default .navbar-nav > li > a{
+            font-size: 1.2em;
+    }
+    .navbar .navbar-collapse{
+            margin-left:4.2%;
+            margin-top: 2em;
+    }
+    /*footer header*/
+    div.col-lg-12.socialIcons{
+             top: 0em;
+    left: 1em;
+    }
+    .footerFrog > img {
+      position: relative;
+    bottom: -3em;
+    left: 42%;
+    z-index: 1030;
+        left:0;
+}
+    .foot .row div {
+    text-align: left;
+    padding-left: 0em;
+            width: 11em;
+}
+    .navbar-nav>li {
+       left: -0.5em;
+}
+    .foot .row:nth-child(2) {
+    margin-left: 3em;
+}
+    h4.swethaJain{
+          font-size: 30px;  
+    }
+  
+    .footerFrog h2:nth-child(1),.footerFrog h2:nth-child(2)
+    {
+            position: relative;
+    font-size: 3em;
+    bottom: -1.4em;
+    width: 5em;
+    }
+    .footerFrog h2:nth-child(1) {
+       left: 7em;
+    position: relative;
+    font-size: 3em;
+    bottom: -3em;
+    width: 6em;
+}
+    .moodGoals {
+    left: 32.8%;
+}
+    .foot{
+             width: 89%;
+    position: relative;
+    left: 0.5%;
+    height: 13em;
+
+    }
+     .foot .row{
+       position: relative;
+    left: 2em;
+        }
+    .foot .row:nth-child(2) {
+    margin-left: 23em;
+}
+    .col-lg-12 {
+    width: 178%;
+    padding-left: 0em;
+}
+     .foot p > a {
+    color: #333333;
+    font-weight: 700;
+    line-height: 0.6;
+    font-size: 18px;
+}
+    .col-lg-12 {
+    /* width: 178%; */
+    padding-left: 1em;
+}
+    .foot .row {
+    width: 56%;
+}
+    .foot .row:nth-child(2) {
+           margin-left: -7em;
+ left: 12em;
+
+}
+    
+    .socialIcons img{
+           width: 23.5%;
+            margin-right: 1%;
+    }
+     .foot .row {
+    left: 1em;
+top: 1em;
+}
+.newsletter > p {
+    width: 11em;
+    line-height: 1.5;
+    border-bottom: 2px dotted #333333;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #333;
+    top: 3em;
+    position: relative;
+    left: -10em;
+}
+
+
+    .foot h4 > a
+    {
+            font-size: 27px;
+    }
+    /*header footer ends*/
+    
+    /*knowus page*/
+    #nameAndLogoDots1280{
+    display: none;
+    }
+    div.dotHr.NaLDots {
+    margin-left: 24%;
+}
+     div.col-sm-3.KuWfC{
+        width: 26%;
+    }
+    div.row.KuWfRow {
+    margin-top: 2em;
+    margin-left: -11em;
+    margin-right: -11em;
+}
+    .content div > p.KUNLogoP {
+    margin-bottom: 3px;
+    margin-top: 3px;
+      font-size: 24px;
+    line-height: 1.75em;
+    }
+    
+    .container {
+      margin-top: 0em;
+
+    margin-bottom: 0em;
+}
+    div.col-sm-3.KuWfC1, div.col-sm-3.KuWfC2 {
+    width: 25%;
+}
+
+    .col-sm-3 {
+    width: 21%;
+}
+    .col-sm-6 {
+    width: 60%;
+}
+    .content div > p.KuWfC1Pad,.content div >p.KuWfC2Pad{
+        font-size: 1.4em;
+            line-height: 1.95em;
+    }
+   .why-us .content,div.container.content.classSection2 {
+    width: auto;
+    margin-bottom: 1%;
+           margin-top: 4em;
+}
+    .col-sm-3.classSectio21{
+        width: 25%;
+    }
+    .content div > p {
+     font-size:1.25em;/* 1.5em;*/
+     padding-left: 1em;
+    padding-right: 1em;
+}
+   .textBtwn{
+            font-size: 27px;
+    }
+    p.WhoWeAreP {
+    font-size: 24px;
+}
+   div.container-fluid.know-us.text-center.lastKnowUs {
+    margin-bottom: 2em;
+}
+    h6.InvestTeamP{
+        font-size: 24px;
+    }
+    div.WhoWeAre {
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 19%;
+}
+     img.WFrogImg{
+        bottom: 51.8%;
+    }
+    img.WInvstImg{
+bottom: -4em;
+    width: 6em;
+    }
+   
+    /*reports*/
+    div.btnCenterReport1 {
+   position: relative;
+       top: 27em;
+    left: 26em;
+
+}
+    div.btnCenterReport2 {
+   position: relative;
+       top: 30em;
+    left: 11em;
+    margin-bottom: 8em;
+}
+    .topNav{
+        left:18em;
+            top: 12em;
+    }
+    p.paragraph{
+           font-size: 21px; 
+         margin-top: 1em;
+
+    }
+    h4.headFive{
+            font-size: 25px;
+    }
+    h2.stylingH{
+      font-size: 39px;
+    position: relative;
+    top: -0.2em;
+    left: 0em; }
+    
+    #reports .upgrade
+    {
+            top: -3em;
+    
+    left: 53.5%
+    }
+    div.dotHr.dotted
+    {
+            margin-left: 36em;
+    }
+   .heddingFour{
+           margin-right: 4em;
+        font-size: 27px;
+    margin-top: -1em;
+  margin-bottom: 0.5em;
+    }
+    .scrollbar{   
+         position: absolute;
+    right: 14em;
+    height: 20em;
+    }
+    #reports .classy {
+   
+    font-size: 20px;
+}
+    #reports h4.paint {
+        font-size: 26px;
+}
+    /*profile*/
+    button.btn.btn-lg.moodNav.profileSubmit
+    {
+        top: 7em;
+    }
+    
+    h2.profilePan
+    {
+            margin-bottom: 2em;
+    margin-top: 4em;
+    }
+    div.settingsFrogs
+    {
+            margin-top: -6em;
+    }
+    .how-it-works > .row {
+      margin-top: -3%;
+}
+    div.row.rowTransform{
+         margin-top: -17em;
+
+    }
+    div.row.testimonyRow {
+       margin-top: 3em;
+
+}
+    div#ProfileColumn1.col-sm-6.setting.settingSection2{
+           left: -3em; 
+    }
+    .how-it-works p {
+    font-weight: 600;
+    color: #333333;
+    font-size: 1em;
+    line-height: 1.2;
+    margin-top: 0.75em;
+}
+    .col-sm-6.TestimonyProfile{
+            width: 60%;
+    left: -5em;
+    }
+    
+  .TestimonyProfileData {
+    left: 53%;
+    bottom: 7em;
+}
+    div.row .rowTransform{
+            margin-top: 2em;
+    }
+    label.control-label.col-sm-1.Ageing {
+    position: relative;
+    top: -0em;
+    left: 1.7em;
+}
+    div.col-sm-6 .setting {
+    width: 46%;
+}
+    #profile.rightSetting
+    {
+            position: absolute;
+    left: 48%;
+    }
+    #profileAge.col-md-1
+    {
+            right: 14em;
+    }
+    #caretProfile{
+            margin-left: 5.5em;
+    }
+    .rightSetting {
+    position: absolute;
+       left: 49%;
+}
+    .col-md-3 {
+    width: 11%;
+}
+    .rowTransform {
+    padding-left: 22em;
+    padding-right: 19em;
+    padding-top: 4em;
+}
+    #profile.how-it-works > .row {
+    margin-top: -1%;
+}
+    
+    /*accounts invoices*/
+   
+    #invoices div.page31
+    {
+        position: relative;
+    margin-top: 4em;
+    top: -7em;
+    left: 3em;
+    }
+     #account div.text-center{
+        position: relative;
+     top: 16em;
+    }
+    tbody#ex3.scrollbar {
+    height: 17em;
+    margin-top: 0px;
+    width: 96%;
+    position: initial;
+}
+    div.topNav.abc {
+    left: 24%;
+            top: 16em;
+}
+     .page31 div.table-responsive
+    {
+        padding-left: 0em;
+    }
+    th.thDates {
+    width: 9.8em;
+}
+    th.thInvoices {
+    width: 10.3em;
+}
+    th.thAllocation {
+    text-align: center;
+    width: 5em;
+}
+    th.thAmount {
+    width: 7.09em;
+    text-align: center;
+}
+    table.table.table3{
+      padding-left: 9em;  
+    }
+    /*settings*/
+     #settings div.col-sm-6 .accSettingsCol1,
+    #settings div.col-sm-6 .accSettingsCol2 {
+    right: 2em;
+    top: 0em;
+    font-weight: bolder;
+    left: -1em;
+    width: 9em;
+    font-size: 20px;
+}
+    
+        table.table.table2 tr > td:nth-child(1) {
+    width: 10.8em;
+        padding-left: 1em;
+    padding-right: 1em;
+    font-size: larger;
+}
+    table.table.table2 tr > td:nth-child(2) {
+    width: 13.7em;
+   }
+    table.table.table2 tr > td:nth-child(3) {
+    width: 7.25em;
+    text-align: center;
+}
+    .form-horizontal .control-label {
+    font-size: 20px;
+    width: 42%;
+}
+    #settings div.col-sm-6.accSettings {
+    left: 7em;
+    font-weight: bolder;
+    left: -2%;
+}
+    h6.messageProfile{
+           font-size: 1em; 
+    }
+    .form-horizontal .form-group .dropdown button .caret {
+    margin-left: 9.5em;
+}
+    /*settings*/
+    .form-horizontal .form-group .dropdown button .caret {
+    margin-left: 7.5em;
+}
+    .settingsDataHeader {
+    color: #35BFD3;
+    font-weight: 700;
+    margin-bottom: 1em;
+   margin-top: -2em;
+    font-size: 3em;
+}
+    .form-controler {
+    font-size: 1.2em;
+    font-weight: 900;
+    width: 13em;
+        margin-bottom: 1.5em;
+      padding: 0.3em;
+}
+    .form-horizontal .form-group .dropdown button {
+   font-size: 17px;
+   }
+    /*faq's*/
+    .faqs {
+    padding-top: 9em;
+        margin-bottom: -9em;
+}
+    div.topNav.wxt.FAQ {
+        left: 22.5%;
+            top: 1em;
+}
+    .faqs > h2 {
+       font-size: 35px;
+}
+  h5.FAQHeader {
+       font-size: 20px;
+}  
+    /*faq's*/
+    .btn-circle {
+    width: 40px;
+    height: 40px;
+    padding: 6px 0;
+    border-radius: 26px;
+   font-size: 25px;
+   }
+    .sliderFaqs button.accordion{
+        font-size: 20px;
+    }
+    .sliderFaqs{
+            height: 22em;
+            top: 3em;
+            width: 50%;
+    }
+    /*get started 3*/
+    /*column1*/
+    .frogImageMoods h1{
+            left: 0.5em;
+    top: 3em;
+            font-size: 3.5em;
+    }
+   .slider {
+    left: 34%;
+    top: 13em;
+}
+    .photos{
+        width:75%;
+    }
+    img.change {
+  /*  width: 18%;*/
+}
+    .photosInner{
+         height: auto;
+    width: 650px;
+    }
+    .frogImageMoods{
+       top: 2em;
+    left:7%;
+    width: 25em; 
+        
+    }
+    img.left,img.right{
+            width: 40px;
+    }
+    .slider-control .right {
+
+    left: 20em;
+}
+    .slider-control {
+    
+    left: -14%;
+}
+    
+    /*column2*/
+    div.col-md-8.selective {
+    top: 6em;
+    left: 6.5em;
+}
+     .contentMood h2 {    font-size: 2.6em;
+    }
+    .contentMood .page1> p,
+    .contentMood .page2> p,
+    .contentMood .page3> p,
+    .contentMood .page4> p,
+    .contentMood .page5> p{
+        font-size: 1.5em;
+    }
+    .below .goal img{
+       
+    width: 137px;
+    height: 150px;
+    }
+    
+    .below  #mood{
+        font-size: 1.8em;
+    }
+    .contentMood .worksBtn .page-buttons {
+    margin-top: 4em;
+}
+    .contentMood .moodNav
+    {
+        width: 7em;
+    height: 2em;
+    text-align: center;
+    font-size: initial;
+    }
+#btm {
+    position: relative;
+    float: left;
+    color: #333;
+    font-size: x-large;
+    font-weight: 600;
+    font-style: italic;
+   left: -12em;
+    bottom: -1em;
+}
+    /*part3*/
+    .page3 .table,.page5 .table
+    {
+            width: 91%;
+    height: 17em;
+    }
+    .page3 .table>thead>tr>th,.page5 .table>thead>tr>th{
+        font-size: 2em;
+    }
+    .page3 .table>tbody>tr>td,.page5 .table>tbody>tr>td{
+        font-size: 1.4em;
+    }
+    #goalIndicator{
+            font-size: 1.5em;
+    }
+   .contentMood .page2 .login-btn {
+    left: 45%;
+}
+    /*risk profiling*/
+    .sliderRiskProfile button.accordion .col-sm-11{
+         /*   font-size: 1.2em;
+    font-weight: 700;*/
+    }
+    #riskHeight{
+            height: 15.5em;
+    }
+    .sliderRiskProfile button.accordion .col-sm-11{
+        font-size: 1.2em;
+    }
+    .sliderRiskProfile .riskProfiling #mood {
+    
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-top: 0.5em;
+}
+    .below > .goal {
+    float: left;
+    margin-right: 3em;
+    text-align: left;
+}
+    /*get started 3 ends*/
+  
+}
+
+
+@media only screen and (max-width:1280px) and (max-height:800px){
+        #invisible{
+    display: none;
+    }
+    div.col-lg-12 .socialIcons
+    {
+        left: 2em;
+    top: 0em;
+    } #pay2560,#signup2560,#page2560,#getStarted2560,#storyButton2560{
+        display:none;
+    }
+    
+    /*sprite*/
+    p#Rich {
+        top: 3em;
+    left: 0em;
+}
+    #buildHealthImg {
+        left: 5em;
+    top: 2em;
+}
+    #taxSavingsImg {
+        left: 3em;
+    bottom: -5em;
+}
+    p#taxSavings {
+       top: 4.2em;
+        left: 1em;
+}
+    p#Broke {
+        top: 1.5em;
+    left: 0em;
+}
+    p#Responsible {
+    position: relative;
+    left: -0.5em;
+   top: 0em;
+}
+    /*header*/
+    .navbar-right {
+    margin-right: -6.25em;
+    margin-top: 1em;
+    position: relative;
+    right: 7em;
+}
+    
+    ul#dropdownForLogOut.dropdown-menu {
+       left: 8em;
+    top: 0.5em;
+  }
+    .nameHeader {
+    width: initial;
+      left: -10em;
+    top: 0.5em;
+}
+    .ImageHeader {
+     left: 76%;
+            
+   }
+    #dropdownMenu1 {
+       right: 9.5em;
+
+}
+    .navbar .navbar-collapse {
+    margin-left: 4%;
+}
+    #searchBox[type=search] {
+  top: 10.2%;
+}
+    #smartGoalsImg {
+    left: 2em;
+    top: -2em;
+}
+    /*index*/
+    #indexFourColumns.row.indexColumn {
+    margin-top: 0em;
+}
+    .frogImage h1 {
+    top: 5.5em;
+    left: 0em;
+    font-size: 3em;
+}
+
+
+    .how-it-works .pagination {
+    margin-top: -2%;
+    left: 24em;
+        top: 3em;
+}
+    div.dotHr.dotsScriptStory {
+    margin-left: 8%;
+}
+    .why-us .dotHr {
+    margin-left: 8%;
+}
+    .why-us .content{
+       margin-top: 0em;
+}
+    div#indexLookingFor.row {
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+    #moodOfMonth {
+    bottom: 0.2em;
+    left: 7em;
+}
+    .frogImage {
+    position: absolute;
+    z-index: 1030;
+    top: 10%;
+    left: 45%;
+    width: 500px;
+    height: 300px;
+    margin-top: 0;
+    margin-left: -200px;
+    display: none;
+}
+    .menu {
+    left: 33.4em;
+}
+    #dotMenu {
+    left: 42.1em;
+}
+    #angle {
+    left: 44.6em;
+}
+    
+    /*social Icons*/
+  #SocialIconsList li, #SocialIconsList a {
+    width: 1.5202em;
+    height: 32.5px;
+    display: block;
+    background-repeat: no-repeat;
+}
+    
+    div.col-sm-6.col-md-3.emergency-funds,
+      div.col-sm-6.col-md-3.tax-savings,
+    div.col-sm-6.col-md-3.build-wealth,
+    div.col-sm-6.col-md-3.smart-goals,
+    div.col-sm-6.col-md-3.PAN,
+    div.col-sm-6.col-md-3.Package,
+    div.col-sm-6.col-md-3.investing,
+    div.col-sm-6.col-md-3.Withdraw
+    {
+            width: 25%;
+    }
+    div#indexFourColumns.row
+    {
+            position: relative;
+    left: 8%;
+    }
+   div#myCarousel.carousel.slide.text-center.carouselEdit {
+       position: relative;
+    width: 29em;
+    left: 30.5em;
+    top: 0em;
+      margin-bottom: -7.9em;
+}
+   a.right {
+    right: 28em;
+    position: absolute;
+    top: 53%;
+}
+    a.left {
+    position: absolute;
+    left: 29em;
+    top: 53%;
+}
+    .avatarTestimonial .name {
+    font-size: 17px;
+    font-weight: 700;
+}
+    .item h4 {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 0;
+}
+    #indexSignUpHide,#indexGetStartedHide,#indexScriptStoryHide,#indexPricingOptionHide{
+        display: none;
+    }
+    h2.indexHeadngLookingFor {
+    position: absolute;
+    left: 42.5%;
+    margin-top: 3%;
+}
+   /*faq's*/
+ div.dotHr.NaLDots {
+    margin-left: 24%;
+}
+    #ColumnsOfKnowUs{
+        display:none;
+    }
+    /*pricing*/
+    div.dotHr.dotPayButton {
+    margin-left: 20%;
+}
+    div.dotHr.howItWorksSignUp {
+    margin-top: -2.5em;
+    margin-left: 5em;
+}
+ .how-it-works {
+    margin-top: 8.5em;
+    }
+    .container{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    }
+    .pricingPanelRow{
+        padding-left: 12em;
+    padding-right: 12em;
+            margin-top: -2.5%;
+    margin-bottom: 0;
+    }
+    div.dotHr.dotPayButton{
+        margin-top: 1em;
+    }
+    .how-it-works h2{
+        font-size: 2.8em;
+    }
+    .how-it-works > h4{
+            font-size: 1.5em;
+    }
+    .how-it-works .content div > p{
+        font-size: large;
+    }
+    
+   .shrinkpara 
+    {    margin-left: 3.3em;
+    }
+    .h2hstyle {
+    margin-left: 2em;
+    }
+    .shrinkleft1 {
+    left: 6em;
+    }
+    .shrinkleft2 {
+    left: 2em;
+    }
+    .how-it-works .panel-heading h2{
+            font-size: 1.7em;
+    }
+    .how-it-works .panel-body ul li
+    {
+            font-size: large;
+    }
+    .how-it-works .panel-body{
+        height: 17em;
+    }
+   
+    button.btn.btn-lg.moodNav.pay{
+        font-size: x-large;
+    }
+    
+    
+    /*how it works*/
+    .frNow > .row{
+       margin-top: 5%;
+    }
+    .how-it-works > h4 {
+    font-size: 15px;
+}
+   div.row.howItWorksRow {
+    margin-top: 3%;
+           margin-bottom: 2em;
+}
+    .footerFrog h2:nth-child(1), .footerFrog h2:nth-child(2) {
+/*    top: 24.8em;*/
+       position: relative;
+    font-size: 3em;
+    bottom: -8em;
+    /* bottom: -34em; */
+}
+    .footerFrog h2:nth-child(1){
+            top: 3em;
+    left: 7em;
+    margin-bottom: -1.5em;
+        margin-top: -2em;
+
+    }
+    .footerFrog h2:nth-child(2){
+          top: 2.8em;
+    left: 17em;
+    }
+       .how-it-works .dotHr{
+        margin-left: 8%;
+    }
+    div.dotHr.howItWorksSignUp{
+    margin-top: 2.5em;
+    margin-bottom: 17em;
+
+}
+    button.btn.btn-lg.moodNav.signUp{
+        font-size: larger;
+    }
+    button.btn.btn-lg.moodNav.signUp {
+    font-size: larger;
+}
+    
+    /*knowus*/
+    div.container.content.classSectio2 {
+    margin-top: 2em;
+}
+   div.col-sm-3.KuWfC {
+    width: 27%;
+}
+    img.WFrogImg{
+              bottom: 50%;
+    }
+    h2.NameAndLogo {
+    padding-top: 4em;
+    padding-bottom: 0em;
+}
+    img.WInvstImg {
+bottom: -16.5%;
+    width: 6em;
+}
+    
+.content div > p.KUNLogoP {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    font-size: 21px;
+    line-height: 1.5em;
+}
+  .what-we-offer h2, .how-it-works h2, .know-us h2, .why-us > h2 {
+    font-size: 2.5em;
+}
+    .how-it-works h2{
+           margin-top: 1em;
+
+    }
+    .content div > p.KuWfC1Pad, .content div >p.KuWfC2Pad {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+    
+    div.dotHr .NaLDots{
+            width: 26%;
+    }
+    div.col-sm-3 .KuWfC{
+        width:26%;
+    }
+    
+    div.col-sm-3.KuWfC1, div.col-sm-3.KuWfC2 {
+    width: 25%;
+}
+    .container {
+    margin-top: 0em;
+    margin-bottom: 0em;
+          
+}
+    div.WhoWeAre {
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+    p.WhoWeAreP, .textBtwn {
+    font-size: 20px;
+}
+    .content div > p {
+    font-size: 1.35em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+    div.container.content.classSection2{
+        margin-right: 0em;
+    }
+    h6.InvestTeamP {
+    font-size: 22px;
+}
+    /*header*/
+    button.btn.btn-lg.moodNav.login {
+    width: 80px;
+    position: absolute;
+    left: -6em;
+    top: 0em;
+}
+  
+    /*footer*/
+   
+     .foot .row div {
+      text-align: left;
+    font-size: 1.25em;
+    width: auto;
+    padding-left: 1em;
+
+}
+    .navbar-nav>li {
+
+    right: 0.5em;
+}
+    .foot {
+        position: relative;
+    width: 88%;
+    bottom: -1em;
+    left: 0%;
+    height: 13em;
+
+}
+    div > p {
+    font-size: 19px;
+}
+    .foot p > a {
+    color: #333333;
+    font-weight: 700;
+    line-height: 0.6;
+    font-size: 18px;
+}
+   .footerFrog > img {
+    bottom: -4em;
+    position: relative;
+    left: 0;
+}
+    .col-lg-12 {
+    /* width: 178%; */
+    padding-left: 1em;
+}
+   .foot .row {
+    left: 1em;
+}
+/*
+   .foot .row:nth-child(2) {
+       margin-left: 3.68em;
+    left: 3em;
+}
+*/
+    div.footFixer {
+       top: 37.5em;
+    position: fixed;
+    width: 99%;
+
+}
+.newsletter > p {
+ 
+    top: 2em;
+    position: relative;
+    left: -8em;
+}
+
+    /*reports*/
+   div.btnCenterReport1 {
+    position: absolute;
+        top: 152%;
+    left: 41%;
+
+}
+    div.btnCenterReport2 {
+    position: absolute;
+        top: 157%;
+    left: 44%;
+}
+    #reports .upgrade {
+    top: -3.5em;
+    left: 54.5%;
+}
+    div.dotHr.dotted {
+    position: relative;
+       top: -3.5em;
+       left:36.5em;
+        margin-left: 1em;
+}
+    .heddingFour {
+    margin-right: -7em;
+    font-size: 27px;
+    margin-top: -3em;
+    margin-bottom: 0.5em;
+}
+    .scrollbar {
+    height: 20.5em;
+    position: relative;
+    left: -1em;
+}
+    .rowTransform {
+    padding-left: 23em;
+    padding-right: 24em;
+    padding-top: 4em;
+}
+    .col-sm-6.TestimonyProfile{
+            width: 60%;
+    left: -5em;
+    }
+   .TestimonyProfileData {
+    left: 53%;
+    bottom: 8em;
+}
+    div.col-sm-6 .setting {
+    width: 46%;
+}
+    .rightSetting
+    {
+            position: absolute;
+    left: 48%;
+    top: 44.5em;
+    }
+    input#calendar.form-controler {
+    margin-bottom: 1em;
+}
+    .col-md-3 {
+    width: 11%;
+}
+    /*accounts invoices*/
+    table.table.table2 tr > td:nth-child(2) {
+    width: 13.45em;
+    font-size: initial;
+}
+    table.table.table2 tr > td:nth-child(1) {
+    width: 11.7em;
+    font-size: initial;
+}
+    table.table.table2 tr > td:nth-child(3) {
+    width: 7.74em;
+}
+    th.thAmount {
+    width: 7.4em;
+    text-align: center;
+}
+    th.thAllocation {
+    text-align: center;
+    width: 5.8em;
+}
+    th.thInvoices {
+    width: 10em;
+}
+    th.thDates {
+    width: 8.95em;
+}
+
+    
+    #account div.text-center {
+    position: relative;
+    top: 17em;
+}
+   #invoices div.page31 {
+    position: relative;
+    margin-top: 4em;
+    top: -7em;
+    left: -1em;
+}
+    th.thAllocation {
+    text-align: center;
+    width: 6.3em;/*9*/
+}
+    th.thDates {
+       width: 9em;
+}
+    th.thInvoices
+    {
+        width:9.87em;
+    }
+    table.table.table2 tr > td:nth-child(1) {
+    width: 12em;
+    font-size: initial;
+}
+    .page31 .table>thead>tr>th {
+    font-size: initial;
+}
+    .page31 .table>tbody>tr>td:nth-child(4){
+            width: 6.7em;
+    }
+    table.table.table2 tr > td:nth-child(3) {
+    width: 8.8em;
+
+}
+    .page31 div.table-responsive{
+        padding-left: 0em;
+            position: relative;
+    left: 4em;
+    }
+    div.topNav.abc{
+        left:24%;
+            top: 17em;
+    }
+    /*Faq's*/
+    .sliderFaqs button.accordion .col-sm-11 {
+    font-size: 19px;
+}
+    .btn-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 26px;
+    padding: 6px 0;
+}
+    h5.FAQHeader {
+       font-size: 21px;
+}
+    
+    div.topNav.wxt.FAQ {
+       top: 0em;
+   }
+    div.topNav.wxt.FAQ {
+    z-index: 1030;
+    top: 1em;
+    left: 22.5%;
+}
+    .sliderFaqs {
+    position: relative;
+    left: 1em;
+    width: 47%;
+    top: 2em;
+    height: 18em;
+}
+    .sliderFaqs button.accordion .col-sm-11 {
+    font-size: 21px;
+}
+    /*profile*/
+     #ProfileColumn2.col-md-6.rightSetting.shiftProfile{
+      top:75em;
+    }
+    .how-it-works p {
+    font-weight: 600;
+    color: #333333;
+    font-size: 1em;
+    line-height: 1.2;
+    margin-top: -.02em;
+}
+    
+    div.dropdownMarital {
+    margin-top: 0.5em;
+}
+
+
+div#ProfileColumn1.col-sm-6.setting.settingSection2 {
+       right: 4em;
+    bottom: -2em;
+}
+    h2.profilePan
+    {
+            margin-top: 6em;
+    margin-bottom: 2em;
+    }
+    button.btn.btn-lg.moodNav.profileSubmit {
+    top: 9em;
+}
+    .form-controler {
+    font-size: 1.2em;
+    font-weight: 900;
+    width: 13em;
+    margin-bottom: 0.75em;
+    padding: 0.3em;
+}
+   
+    button.btn.btn-lg.moodNav.profileSubmit2{
+            width: 5em;
+    top: 12.5em;
+    position: relative;
+    left: -5em;
+    }
+    div#ProfileColumn1.col-sm-6.setting.colProfile {
+    left: -8%;
+       top: 2.5em;
+}
+    textarea#comment.form-controler.addressSection2 {
+   position: fixed;
+    left: 32.25%;
+    top: 96%;
+}
+    /*get started 4*/
+    /*column1*/
+    .frogImageMoods > img {
+      max-width: 94%;
+    width: 121%;
+    height: 23em;
+}
+    .frogImageMoods h1 {
+    left: 0.25em;
+    top: 3em;
+    font-size: 3em;
+    /* font-size: 2.5em; */
+}
+    img.left, img.right {
+    width: 35px;
+}
+    img.change {
+    width: 10%;
+}
+    .photos {
+    width: 65%;
+}
+    .slider {
+       left: 29%;
+    top: 6em;
+    }
+    .contentMood .page2 .login-btn {
+    left: 45%;
+            top: 2em;
+}
+    .slider-control .right {
+    left: 17em;
+    }
+    .slider-control {
+    position: relative;
+    top: -3.5em;
+    left: -12%;
+}
+    /*column2*/
+    div.col-md-8.selective{
+    top: 4em;
+    }
+    .below #mood {
+    font-size: 25px;
+}
+    .contentMood h2{
+        font-size: 1.9em;
+    }
+    .contentMood .page1> p, .contentMood .page2> p, .contentMood .page3> p, .contentMood .page4> p, .contentMood .page5> p {
+    font-size: 21px;
+}
+    .below .goal img {
+    width: 130px;
+    height: 130px;
+}
+    .frogImageMoods {
+       top: 0.5em;
+    left: 5%;
+    width: 25em;
+}
+    .contentMood .worksBtn .page-buttons {
+    margin-top: 2em;
+}
+    .contentMood .moodNav {
+    width: 6em;
+    height: 2em;
+    font-size: 15px;
+}
+    #btm{
+            font-size: 21px;
+    }
+    /*page3*/
+    #goalIndicator {
+    font-size: 1.4em;
+}
+    .page3 .table>thead>tr>th, .page5 .table>thead>tr>th {
+    font-size: 1.5em;
+}
+    .page3 .table>tbody>tr>td, .page5 .table>tbody>tr>td {
+    font-size: 1.2em;
+}
+    .page3 .table, .page5 .table {
+    width: 74%;
+    height: 14em;
+}
+    
+.below > .goal {
+    float: left;
+    margin-right: 3em;
+    text-align: left;
+}
+    /*get started 4 ends*/
+}
+
+
+@media only screen and (max-width:1280px) and (max-height:768px){
+    
+    #pay2560,#signup2560,#page2560,#getStarted2560,#storyButton2560{
+        display:none;
+    }
+    /*faq's*/
+    div.topNav.wxt.FAQ {
+    z-index: 1030;
+    top: 16em;
+    left: 25.5%;
+}
+    .sliderFaqs {
+    left: -1em;
+    height: 18em;
+        top:1em;
+}
+    /*index */
+    .frogImage h1 {
+    left: -0.2em;
+   }
+      #indexGetStartedHide1280{
+    display: none;}
+    .smart-goals {
+    top: 1em;
+}
+    div#indexLookingFor.row {
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+    .why-us .carousel-inner {
+    margin-top: 5%;
+    left: 1.5em;
+}
+    a.left {
+     top: 55%;
+}
+    a.right {
+    right: 28em;
+   }
+    .footerFrog > img {
+    bottom: 19%;
+    left: 44%;
+}
+    .navbar .navbar-collapse {
+    margin-left: 0%;
+}
+    #indexGetStartedHide{
+    
+    display: inline;
+    }/*index end*/
+    /*footer*/
+    .foot {
+    left: 0%;
+    height: 13em;
+}
+    .foot h4 > a {
+    font-size: 25px;
+}
+    .socialIcons, .newsletter {
+    left: 0em;
+}    /*footer ends*/
+    /*pricing starts*/
+    button.btn.btn-lg.moodNav.pay {
+    font-size: 16px;
+}
+    .how-it-works .pagination {
+    top: 18%;
+}
+
+/*pricing ends*/
+    /*header*/
+    #searchBox[type=search] {
+    top: 12.55%;
+}
+    nav hr {
+    width: 89%;
+    left: 0.5%;
+}/*header ends*/
+    /*know-us*/
+    #nameAndLogoDots1280{
+    display: inherit;
+    }
+    section .know-us {
+    padding-top: 9em;
+}
+    img.WFrogImg {
+    bottom: 47%;
+}
+    div.container.content.classSectio2 {
+    margin-top: 1em;
+}/*know-us ends*/
+    /*profile*/
+    .topNav {
+    left: 14em;
+    top: 12em;
+}/*profile*/
+    div.dotHr.dotHrProfile,div.dotHr.dottedBelowFrogs
+    {
+            position: relative;
+    left: -3em;
+    }
+
+img.WInvstImg {
+    bottom: 71%;
+    width: 6em;
+}
+    .rightSetting {
+    position: absolute;
+    left: 48%;
+    top: 14.5em;
+}
+div#profileAge.col-md-1 {
+    left: 1em;
+    top: 0.4em;
+}
+
+    /*profile ends*/
+    
+/*reports*/
+    div.dotHr.dotted {
+       top: -2.5em;
+  }
+    #reports .upgrade {
+    left: 52.5%;
+    top: -3em;
+}
+    .heddingFour {
+    font-size: 27px;
+    margin-top: -2em;
+    margin-bottom: 0.5em;
+}
+    #reports div.row.panelRow.scroll {
+    width: 75em;
+}
+    .scrollbar {
+    height: 19.5em;
+     width: 76em;
+}
+    .moodNav {
+    font-size: 1.05em;
+    top: 7em;
+}
+
+.topNav {
+    left: 21em;
+    top: 12em;
+}
+
+/*reports*/
+    /*account invoices*/
+    
+    tbody#ex3.scrollbar {
+    height: 9em;
+    margin-top: 0px;
+    width: 96%;
+    position: initial;
+}
+  th.thInvoices {
+    width: 9.87em;
+}
+    th.thAllocation {
+    text-align: center;
+    width: 6.3em;
+}
+    th.thAmount {
+    width: 7.4em;
+    text-align: center;
+}
+    #account div.text-center {
+    position: relative;
+    top: 15em;
+}
+    div.topNav.abc {
+    left: 29%;
+    top: 15em;
+}
+    table.table.table3 {
+    padding-left: 12em;
+}  /*account message*/
+    .form-horizontal .control-label {
+    font-size: 20px;
+    width: 54%;
+}
+    /*get started*/
+    .frogImageMoods {
+    top: 2em;
+    left: -7%;
+    width: 25em;
+}
+    .slider {
+    left: 18%;
+    top: 8em;
+}
+    .frogImageMoods > img {
+    max-width: 101%;
+    width: 121%;
+    height: 24em;
+}
+    div.col-md-8.selective {
+    top: 4em;
+    left: 1.5em;
+}
+}
+
+@media only screen and (max-width:1187px){
+    .yourMood {
+    margin-top: 20em;
+}
+    .menu {
+    left: 30.4em;
+}
+    #dotMenu {
+    left: 40.1em;
+}
+    #angle {
+    left: 42.6em;
+}
+    .what-we-offer h2, .how-it-works h2, .know-us h2, .why-us > h2 {
+    font-size: 1.85em;
+}
+    .what-we-offer h2 {
+       padding-top: 0.5em;
+}
+    .what-we-offer p, .how-it-works p {
+    font-size: 1.48em;
+}
+    .what-we-offer .dotHr {
+    margin-left: 2%;
+}
+    .how-it-works .dotHr {
+    margin-left: 9%;
+}
+    div.dotHr.dotsScriptStory {
+    margin-left: 5%;
+}
+    .how-home .row {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -1%;
+    margin-bottom: 4%;
+}
+    .content div > p {
+    font-size: 0.85em;
+ }
+    button.btn.btn-lg.moodNav.signUp {
+    font-size: 1em;
+}
+    .why-us .dotHr {
+       margin-left: 8%;
+}
+    div#myCarousel.carousel.slide.text-center.carouselEdit {
+    left: 25.5em;
+          margin-bottom: -11.9em;
+}
+    .footerFrog > img {
+    bottom: 3em;
+    left: 0%;
+    top: 4em;
+}
+    .foot h4 > a {
+    font-size: 21px;
+}
+    .shrinkleft1 {
+    left: -1em;
+}
+    .shrinkleft {
+    left: -2em;
+    padding-left: 0px;
+}
+    .shrinkleft2 {
+    left: -7em;
+}
+    .h2hstyle {
+    margin-left: 4em;
+}
+}
+@media only screen and (max-width:1024px) and (max-height:768px){
+  
+    .menu {
+    left: 22.4em;
+}
+    #dotMenu {
+    left: 32.1em;
+}
+    #angle {
+    left: 34.6em;
+}
+    #indexGetStartedHide768{
+        display: none;
+    }
+    #indexGetStartedHide1280,#indexGetStartedHide1400,#getStarted2560{
+        display: inherit;
+    }
+     .what-we-offer .dotHr {
+    margin-left: 12%;
+}
+    div.dotHr.dotsScriptStory {
+    margin-left: 14%;
+}
+    .how-it-works .dotHr {
+    margin-left: 22%;
+}
+    .content div > p {
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+}
+
+
+
+
+@media only screen and (max-width:768px)
+{ #invisible{
+            position: absolute;
+    top: 4em;
+    left: 11em;
+    display: none;
+    }
+    #pay2560,#signup2560,#page2560,#getStarted2560,#storyButton2560{
+        display:none;
+    }
+    /*sprite*/
+    #EmergencyFundsImg {
+    left: -5em;
+    top: -2em;
+}
+    p#Broke {
+      top: 1.52em;
+        left: -1.5em;
+}
+    .what-we-offer .emergency-funds > img {
+     margin-left: -3em;
+}
+    #taxSavingsImg {
+  left: -5em;
+    bottom: -4.5em;
+}
+    p#taxSavings {
+          left: -2.5em;
+    top: 5.8em;
+}
+    #buildHealthImg {
+       left: 0em;
+    top: -1em;
+}
+    p#Rich {
+             left: 0.5em;
+    top: 2.8em;
+    margin-top: -1em;
+}
+    #smartGoalsImg {
+    left: 0em;
+    top: -5em;
+}
+    p#Responsible {
+           left: 0em;
+    top: 0.5em;
+}
+    /*index*/
+    
+    button#indexGetStarted.btn.btn-lg.moodNav.getStarted {
+    width: 8em;
+}
+    button#indexScriptYourStory.btn.btn-lg.moodNav.story {
+    width: 11em;
+}
+    #indexGetStartedHide1280 {
+    display: inline;
+}
+    .why-us .carousel-inner {
+    margin-top: 0%;
+    left: -0.5em;
+}
+    .frogImage > img {
+    position: relative;
+    top: 14%;
+    max-width: 390px;
+    width: 56%;
+    height: auto;
+    cursor: pointer;
+}
+    .frogImage h1 {
+    top: 5.5em;
+    left: -0.2em;
+    font-size: 2em;
+}
+    .dotHr, .what-we-offer .dotHr {
+    margin-left: 10%;
+}
+    div.dotHr.dotsScriptStory {
+      margin-left:8%;
+}
+    .what-we-offer .build-wealth > img {
+    margin-top: 50%;
+}
+    .what-we-offer .smart-goals > img {
+    margin-left: 16%;
+       margin-top: -2em;
+}
+    .menu {
+    left: 14.4em;
+}
+    #moodOfMonth {
+    bottom: 1.2em;
+    left: 9em;
+}
+    
+    /*social Icons
+    */
+    
+      #fb{
+       left: 0px;
+    width: 25px;
+               }
+    #fb a:hover{
+  }
+ #gp{ 
+       left: 38px;
+    width: 25px;
+      background:url('../images/footerSprite.png')  -35px 0px;
+    }
+    #gp a:hover{
+      
+ background:url('../images/footerSprite.png') -35px -34.59px;
+    }
+
+    #linkdin{ 
+       left: 76px;
+    width: 25px;
+      background:url('../images/footerSprite.png') -70px 0px;
+    }
+     #linkdin a:hover{
+       
+ background:url('../images/footerSprite.png') -70px -35px;
+    }
+     #twitter{
+        left:114px;
+        width:25px;
+      background:url('../images/footerSprite.png')-105px 0;
+    }
+     #twitter a:hover{
+       
+background:url('../images/footerSprite.png')-105px -35px;
+    }
+    /*icons end*/
+    .yourMood {
+    margin-top: 16em;
+}
+
+     .how-it-works .pricing, .how-it-works .video-tour {
+    width: 10em;
+}
+    
+    #dotMenu {
+       left: 23.7em;
+  }
+    .what-we-offer h2{
+    font-size: 1.5em;
+}
+    .what-we-offer p {
+    font-size: 15px;
+}
+    #indexGetStartedHide768,#indexGetStartedHide1440{
+        display:none;
+    }
+    .how-home .row {
+    margin-left: -7%;
+    margin-right: -2%;
+    margin-top: 0%;
+       margin-bottom: 1%;
+}
+    .how-it-works .dotHr {
+    margin-left: 6%;
+}
+     #dots950 {
+    display: inherit;
+}
+    .how-it-works .pagination {
+      top: 2em;
+    left: 0%;
+    margin-left: 0em;
+}
+   div#setColumn.col-sm-3 {
+    width: 24%;
+    left: -2em;
+}
+    #angle {
+       left: 26.35em;
+   }
+    .avatarTestimonial .name {
+    font-size: 14px;
+    font-weight: 700;
+}
+    .item h4 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 0;
+}
+    div#myCarousel.carousel.slide.text-center.carouselEdit {
+    position: absolute;
+    width: 29em;
+    left: 12.5em;
+    top: 19em;
+}
+    a.left {
+    position: absolute;
+    left: 14em;
+    top: 56%;
+}
+    div#myCarousel.carousel.slide.text-center.carouselEdit {
+       position: relative;
+    width: 22em;
+    left: 16.5em;
+    top: 2em;
+ margin-bottom: -6.5em;
+
+}
+    a.right {
+    right: 14em;
+    position: absolute;
+    top: 56%;
+}
+    h2.indexHeadngLookingFor{
+           font-size: 26px;
+    left: 43%;
+    top: 27%;
+    }
+    /*pricing*/
+    
+    div#profileAge.col-md-1 {
+    left: 14em;
+    top: -1.5em;
+}
+    .how-it-works {
+    margin-top: 7.0em;
+}
+   .how-it-works h2 {
+    font-size: 1.8em;
+}
+    .how-it-works p{
+          margin-top: 0.5em;  
+    }
+   .shrinkpara {
+    margin-left: 6.3em;
+}
+    .shrinkleft1 {
+    left: -5em;
+}
+    .shrinkleft {
+    left: -10em;
+    padding-left: 0px;
+}
+    .shrinkleft2 {
+    left: -17em;
+}
+    .how-it-works .content div > p {
+    font-size: inherit;
+}
+    heading h2 {
+    font-size: 1.5em;
+}
+    .h2hstyle {
+    margin-left: 2.5em;
+}
+    .how-it-works .panel-body {
+        height: 14em;
+}
+    .pricingPanelRow{
+        padding-left: 1em;
+    padding-right: 1em;
+    }
+    .container {
+    margin-top: 1em;
+    margin-bottom: -1em;
+}
+    .how-it-works .panel-body ul li {
+    font-size:1em;
+}
+    div.dotHr.dotPayButton {
+    margin-top: 0em;
+}
+    button.btn.btn-lg.moodNav.pay {
+    font-size: small;
+}
+    div.dotHr.dotPayButton {
+    margin-left: 0%;
+}
+    /*how it works*/
+    .how-it-works .content div > p {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 15px;
+    margin-left: 5em;
+}
+    .frNow .pagination {
+       left: 0%;
+    top: 2em;
+}
+    .frNow > .row{
+            padding-left: 0.5em;
+    padding-right: 0.5em;
+    }
+    button.btn.btn-lg.moodNav.signUp {
+    font-size:12px;
+        width: 6em;
+}
+    #idSignUp{
+    display: none;
+    }
+    .how-it-works .panel-heading h2 {
+    font-size: 1.4em;
+}
+    .how-it-works p {
+    font-size: 0.9em;
+}
+    
+    div.row.howItWorksRow {
+    margin-top: 1.5%;
+        
+}
+    div.dotHr.howItWorksSignUp {
+  margin-top: -1.5em;
+    margin-left: 3em;
+    margin-bottom: 7em;
+
+}
+    div.container-fluid.how-it-works.frNow.text-center {
+       margin-bottom: -3em;
+    margin-top: 3em;
+}
+    
+    
+    /*know us*/
+    section .know-us {
+    padding-top: 8em;
+}
+
+
+  #nameAndLogoDots1280 {
+    display: inherit;
+}
+    h2.NameAndLogo{
+      padding-top: 3em;
+    padding-bottom: 0em
+}
+    #nameAndLogoDots{
+        display: none;
+    }
+    .know-us h2{
+            font-size: 1.9em;
+    }
+    .col-sm-6 {
+    width: 60%;
+}
+    p.WhoWeAreP, .textBtwn {
+    font-size: 12.85px;
+
+}
+    h6.InvestTeamP {
+    font-size: 12px;
+            margin-bottom: 1px;
+}
+    h4.swethaJain {
+    font-size: 18px;
+}
+    img.WFrogImg {
+       bottom: 42.84%;
+    width: 10%;
+    height: 14%;
+}
+   img.WInvstImg {
+    bottom: -3.51%;
+    width: 4em;
+    left: 25%;
+}
+    .content div > p{
+        font-size: 0.8em;
+    }
+      h2.headdingKnowUsColumn{
+            font-size: 1.5em;
+    }
+    .content div > p.KuWfC1Pad, .content div >p.KuWfC2Pad {
+    font-size: 15px;
+    line-height: 1.25em;
+}
+    #whyInvestory1366 {
+    display: inherit;
+}
+
+
+   
+    .content div > p.KUNLogoP {
+          font-size: 15px;
+    line-height: 1.5em;
+}
+    .moodNav {
+    font-size: 12px;
+        width: 6em;
+            background-color: #35BFD3;
+        color:white;
+}
+  div.dotHr.longDotUs {
+      margin-left: 10%;
+}
+    
+    /*header
+    */
+    button.btn.btn-lg.moodNav.login {
+     top: 2em;
+        left: -2em;
+}
+      .how-it-works h2 {
+    margin-top: 0.25em;
+          margin-bottom: -0.5em;
+}
+    .ImageHeader {
+     left: 76%;
+            top: 1em;
+   }
+    .navbar .navbar-nav {
+    margin-left: -2em;
+            margin-right: -1.5em;
+
+}
+    ul#dropdownForLogOut.dropdown-menu {
+    left: 0em;
+    top: 0.5em;
+}
+    #dropdownMenu1 {
+    right: 4.5em;
+}
+    .nameHeader {
+    width: initial;
+       left: -2em;
+    top: 1.5em;
+}
+    .navbar-nav {
+
+    margin: 0;
+    position: relative;
+ 
+
+}
+    .navbar-default .navbar-nav > li > a {
+    font-size:11.5px;
+            left: 2.15em;
+}
+    #searchBox[type=text] {
+    top: 8.8%;
+    left: 68.4%;
+}
+    nav hr {
+           width: 84%;
+    left: -0.5%;
+}
+     
+    
+    .moodGoals {
+    position: absolute;
+       left: 15em;
+}
+  
+    .moodGoals .btn{
+        width: 9em;
+    }
+    .navbar .navbar-collapse {
+    text-align: center;
+       margin-left: 0%;
+           margin-top: -1em;
+}
+    .btn .caret {
+    margin-left: 1.5em;
+}
+    /*footer*/
+    .footerFrog h2:nth-child(1), .footerFrog h2:nth-child(2) {
+    position: relative;
+    font-size: 3em;
+    top: 16.6em;
+    /* bottom: -34em; */
+}
+
+    .foot .row div {
+    text-align: left;
+    padding-left: 1em;
+        padding-right: 1em;
+}
+   .foot h4 > a {
+    font-size: 18px;
+}  
+ .col-sm-3 {
+    width: 19%;
+}
+    .col-sm-6 {
+    width: 60%;
+}
+    
+    div.dotHr.NaLDots{
+        margin-left: 19%;
+    }
+    div.col-sm-3.KuWfC{
+        width:29%;
+    }
+    .content div > p.KuWfC1Pad, .content div >p.KuWfC2Pad {
+    font-size: 12.5px;
+    line-height: 1.25em;
+}
+    div.col-sm-3.KuWfC {
+       width: 26%;
+}
+    div.col-sm-3.KuWfC1, div.col-sm-3.KuWfC2 {
+    width: 24%;
+}
+   div.row.KuWfRow{
+           margin-top: 1em;
+    }
+div.container.content.classSectio2 {
+    margin-top: 3em;
+}
+    .container{
+       margin-bottom: 0em; 
+            margin-top: 0.5em;
+    }
+    div.dotHr .longDotUs{
+        margin-left: 1em;
+    }
+    div .col-sm-3 .classSectio21{
+        
+    }
+    .content div > p {
+  
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+    div.WhoWeAre {
+    text-align: justify;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+    
+    div.col-lg-12.socialIcons, div.col-lg-12.newsletter {
+    left: 3em;
+}
+    .foot .row div:nth-child(3) p {
+    float: initial;
+    text-align: none;
+}
+    .foot p > a {
+    font-size: 13px;
+}
+    
+    h4{
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+    .foot .row{
+            left: 1em;
+    }
+    .foot p {
+    margin-bottom: 2%;
+}
+    div > p {
+    font-size: 18px;
+}
+    .footerFrog h2:nth-child(1) {
+    left: 28%;
+        font-size: 1.7em
+}
+    .footerFrog h2:nth-child(2) {
+    left: 58%;
+    font-size: 1.7em;
+}
+    #hidingPageDots{
+        display: none;
+    }
+    .foot h4 > a {
+    font-size: 19px;
+}
+    .foot .row div {
+    text-align: left;
+    font-size: smaller;
+    /* left: 0em; */
+}
+    .foot .row:nth-child(2) {
+    margin-left: 6em;
+}
+    div.col-lg-12.socialIcons, div.col-lg-12.newsletter {
+    left: 1em;
+}
+      
+    div.col-lg-12.socialIcons, div.col-lg-12.newsletter {
+    left: 3em;
+}
+    .foot .row div:nth-child(3) p {
+    float: initial;
+    text-align: none;
+}
+    .foot p > a {
+    font-size: 13px;
+}
+    
+    h4{
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+    .foot .row{
+            left: 1em;
+    }
+    .foot p {
+    margin-bottom: 2%;
+}
+    div > p {
+    font-size: 18px;
+}
+    .footerFrog h2:nth-child(1) {
+    left: 28%;
+        font-size: 1.7em
+}
+    .footerFrog h2:nth-child(2) {
+    left: 58%;
+    font-size: 1.7em;
+}
+    #hidingPageDots{
+        display: none;
+    }
+    .foot h4 > a {
+    font-size: 19px;
+}
+    .foot .row div {
+    text-align: left;
+    font-size: smaller;
+    /* left: 0em; */
+}
+    .foot .row:nth-child(2) {
+       margin-left: 0em;
+}
+    div.col-lg-12.socialIcons, div.col-lg-12.newsletter {
+    left: 1em;
+}
+   
+    #searchBox[type=search] {
+    top: 8.7%;
+    left: 68.4%;
+}
+    
+    
+ .footerFrog > img {
+  position: relative;
+ 
+    left: 0.5em;
+    z-index: 1030;
+    width: 134px;
+         top: 4em;
+}
+
+    .foot .row div:nth-child(3) p {
+   
+    text-align: left;
+}
+    .newsletter > p {
+    width: 11em;
+    position: absolute;
+        top: 3.4em;
+    left: 1em;
+}
+
+
+    
+    
+    
+    
+   .foot {
+
+    left: 1%;
+    height: 8em;
+}/*
+    .col-sm-12 {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    .socialIcons img {
+    width: 2em;
+    margin-right: 2%;
+}
+
+
+   .col-sm-12.row2 {
+    width: auto;
+    padding-left: 1em;
+    padding-right: 2em;
+    float: right;
+}
+   */ 
+    
+    
+
+
+    div.col-lg-12.socialIcons, div.col-lg-12.newsletter {
+    left: 3em;
+}
+    .foot .row div:nth-child(3) p {
+    float: initial;
+    text-align: none;
+}
+    .foot p > a {
+    font-size: 13px;
+}
+    
+    h4{
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+    .foot .row{
+     left: -1em;
+            top: 0em;
+            width: 60%;
+
+    }
+    .foot p {
+    margin-bottom: 2%;
+}
+    div > p {
+    font-size: 14px;
+}
+    .footerFrog h2:nth-child(1) {
+    left: 28%;
+        font-size: 1.7em;
+            top: 3em;
+}
+    .footerFrog h2:nth-child(2) {
+    left: 58%;
+    font-size: 1.7em;
+               top: 2.42em;
+}
+    .foot {
+    position: relative;
+    width: 93%;
+  }
+    #hidingPageDots{
+        display: none;
+    }
+    .foot h4 > a {
+    font-size: 17px;
+}
+    .foot .row div {
+       text-align: left;
+    font-size: smaller;
+        width: auto;
+       padding-left: 1.3em;
+    left: 1em;
+    padding-right: 1.3em;
+}
+    .foot .row:nth-child(2) {
+         text-align: left;
+    font-size: smaller;
+    width: auto;
+    padding-left: 1em;
+    left: 1em;
+    padding-right: 1em;
+}
+    div.col-lg-12.socialIcons
+    {
+            left: 1em;
+    top: 0.5em;
+    }
+    div.col-lg-12.newsletter {
+  left: 0em;
+    top: 3em;
+}
+   
+    
+    
+    #dots768{
+        display: none;
+    }
+    
+
+    
+
+    
+
+    
+
+
+
+
+    
+    
+    
+    /*reports*/
+   #reports {
+    margin-top: -1em;
+}
+    h2.stylingH {
+    font-size: 2em;
+    margin-top: -5px;
+    font-weight: bolder;
+    margin-bottom: 0.25em;
+}
+    .topNav {
+    left: 15%;
+            top: 9em;
+}
+    p.paragraph {
+    font-size: 16px;
+}
+    h4.headFive {
+    font-size: 18px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+    h2.stylingH {
+    font-size: 25px;
+}
+    #reports .upgrade {
+    top: -3em;
+    left: 53.5%;
+}
+    .heddingFour {
+    font-size: 20px;
+       margin-top: -2.5em;
+    margin-bottom: 0.2em;
+}
+   div.dotHr.dotted {
+   position: relative;
+    top: -1.75em;
+    left: 18em;
+
+
+}
+    #reports div.row.panelRow.scroll {
+    width: 51em;
+    margin-top: 0px;
+      padding-left: 0em;
+            padding-left: 2em;
+}
+    #reports h4.paint {
+    font-size: 15px;
+}
+    #reports .classy {
+        font-size: 12px;
+}
+    #reports div.panel-body.panelBodyCut {
+    padding: 5px;
+            height: 16em;
+}
+    #reports div#myProgress {
+    left: 3.5em;
+    width: 5em;
+}
+    .scrollbar {
+    height: 16.5em;
+       width: 52em;
+            top: 0em;
+
+}
+    div.btnCenterReport1 {
+      position: absolute;
+    top: 107%;
+    left: 35%;
+}
+    div.btnCenterReport2 {
+       position: absolute;
+    top: 113%;
+    left: 41%;
+}
+    /*profile*/
+    div#ProfileColumn1.col-sm-6.setting.settingSection2 {
+       right: 4em;
+       bottom: -31em;
+    left: 7em;
+}
+    #ProfileColumn2.col-md-6.rightSetting.shiftProfile {
+      top: 59em;
+}
+    button.btn.btn-lg.moodNav.profileSubmit {
+    top: -9em;
+}
+    h2.profilePan{
+            margin-top: 0.25em;
+    margin-bottom: 11.5em;
+    }
+button.btn.btn-lg.moodNav.profileSubmit2 {
+    width: 5em;
+    top: 1.5em;
+    position: relative;
+    left: 3em;
+}
+
+
+
+    div#ProfileColumn1.col-sm-6.setting.colProfile {
+    right: 4em;
+    bottom: 19em;
+        left:13%;
+    top: 31em;
+}
+    label.control-label.col-sm-1.Ageing {
+    position: relative;
+    top: -1.7em;
+    left: 13em;
+}
+    input#calendar.form-controler {
+    margin-bottom: 0em;
+}
+    textarea#comment.form-controler.addressSection2 {
+    position: fixed;
+    left: 24%;
+}
+.rightSetting {
+       top: 31em;    position: absolute;
+    left: 51%;
+}
+    .profileSubmit {
+    top: 22em;
+    left: 27em;
+}
+
+    #profileAge.col-md-1 {
+    right: -13em;
+    bottom: 4em;
+}
+  .profileSubmit{
+       top: 15em;
+    left: 27em; 
+    }
+    
+   .setting{
+        position: absolute;
+    left: 7em;
+    width: 20%;
+    }
+    .form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: -18px;
+            width: 55%;
+}
+
+    .rowFrogs
+{
+    width: 100%;
+    margin-top: 2em;
+    margin-left: 22em;
+}
+ .dotHrProfile
+    {
+        margin-left: -15em;
+           margin-top: -5em;
+    }
+    .rowFrogs {
+    width: 100%;
+    margin-top: 3em;
+    margin-left: 0em;
+}
+    
+    .frog4{
+            left: 35em;
+    bottom: 26em;
+
+    }
+    
+    .frog3{
+         left: 26em;
+      bottom: 17.9em;
+           
+    }
+    .frog2
+    {
+           left: 17em;
+        bottom: 9.9em;
+
+           
+    }
+    .frog1{
+                left: 8em;
+            top: -2em;
+    }
+    .dottedBelowFrogs
+    {
+/*
+        position: absolute;
+    top: 86%;
+    left: -7em;
+*/top: -26em;
+    }
+ .Ageing
+    {
+            margin-left: 1em;
+    left: 9.5em;
+    bottom: 2.5em
+    }
+    .Ageing1
+     {
+    left: 11em;
+    bottom: 2.3em;
+}
+    /*account settings*/
+    tbody#ex3.scrollbar {
+    height: 8em;
+    margin-top: 0px;
+    width: 96%;
+    position: initial;
+}
+    #account div.text-center {
+    position: relative;
+    top: 11em;
+}
+    .page31 div.table-responsive {
+    padding-left: 0em;
+    position: relative;
+    left: 8em;
+    margin-left: 0em;
+    width: 121%;
+}
+      .page31 .table>tbody>tr>td:nth-child(4) {
+    width: 6.97em;
+}
+    table.table.table2 tr > td:nth-child(3) {
+    width: 8.88em;
+}
+  
+  
+    table.table.table2 tr > td:nth-child(2)
+    {
+         width: 13.85em;
+    }
+      table.table.table2 tr > td:nth-child(1) {
+    width: 11.8em;
+   
+}
+    table.table.table2 tr > td:nth-child(1),
+    table.table.table2 tr > td:nth-child(2),table.table.table2 tr > td:nth-child(3),
+    table.table.table2 tr > td:nth-child(4){
+   
+    font-size: 13px;
+}
+    th.thDates {
+    width: 8.45em;
+}
+    .page31 .table>thead>tr>th {
+    font-size: 15px;
+}
+    th.thDates {
+    width: 8.55em;
+}
+    div.topNav.abc {
+    left: 20%;
+        top: 11em;
+}
+    table.table.table3 {
+    padding-left: 12em;
+}
+    /*settings*/
+    .settingsForm .col-sm-6.accSettings2 {
+    width: 39%;
+    padding: 0;
+    position: relative;
+    left: 2%;
+}
+    .settingsDataHeader {
+    
+   margin-top: -4em;
+    font-size: 2em;
+}
+    form-horizontal .control-label {
+    font-size: 15px;
+    width: 50%;
+}
+   .form-horizontal .control-label {
+    font-size: 15px;
+    width: 75%;
+padding-left:0em;
+}
+.Ageing
+    {
+        position: relative;
+    top: -2.5em;
+    left: 13em;
+    }
+    #profileAge
+    {
+           left: 6em;
+    top: -1em;
+    }
+    .form-controler{
+            margin-bottom: 1.2em;
+    }
+    .form-controler{
+        font-size: 12px;
+        width: 14em;
+            padding-left: 1em;
+    }
+    #settings div.col-sm-6 .accSettingsCol1, #settings div.col-sm-6 .accSettingsCol2 {
+    right: 2em;
+    top: 0em;
+    font-weight: bolder;
+    left: -1.5em;
+    width: 9em;
+    font-size: 15px;
+}
+    .form-horizontal .form-group .dropdown button {
+    font-size: 12px;
+}
+    h6.messageProfile {
+    font-size: 0.7em;
+            position: relative;
+   left: 10.2em;
+    margin-bottom: 0.5em;
+}
+    #settings div.col-sm-6.accSettings {
+
+    font-weight: bolder;
+    left: -12%;
+        width: 40%;
+
+}
+    .form-horizontal .form-group .dropdown .dropdown-menu {
+    left: 10em;
+    border: 1px solid #35BFD3;
+    top: 1.9em;
+}
+ ul.dropdown-menu .menu1{
+    left: 7em;
+    border: 1px solid #35BFD3;
+    top: 1.9em;
+}
+    .dotAboveNoCut{
+            margin-left: 21%;
+    }
+    /*faq's*/
+    .faqs {
+    padding-top: 7em;
+}
+    .faqs > h2 {
+    font-size: 25px;
+    margin-bottom: 0em;
+}
+    h5.FAQHeader {
+    font-size: 14px;
+}
+   div.topNav.wxt.FAQ {
+    z-index: 1030;
+    top: 12em;
+    left: 15.5%;
+ 
+}
+    .btn-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 22px;
+    padding: 3px 0;
+}
+    .sliderFaqs button.accordion .col-sm-11 {
+    font-size: 15px;
+}
+    .sliderFaqs {
+    position: relative;
+    left: 0em;
+    width: 62%;
+    top: 1em;
+    height: 10em;
+}
+    .sliderFaqs div.panel {
+    padding-left: 1em;
+    font-size: 10px;
+    margin-left: 4.5em;
+}
+    .buttonFaq{
+        width:7em;
+    }
+    
+    /*story*/
+    div.dotHr.dotHrProfile{
+    position: relative;
+    left: 2em;
+}
+    div.dotHr.dottedBelowFrogs {
+        left: -9em;
+    }
+   
+    #myStory .panel {
+    border: 1px solid #FFDE15;
+    border-radius: 10px;
+    background-color: #F2F5FB;
+    width: 64%;
+    position: relative;
+    left: 9em;
+    margin-top: 3em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+    .goalReport .goalReportData #yCircle, .froggie #yCircle {
+    width: 0.8em;
+    height: 0.8em;
+     
+}
+.TestimonyProfileData{
+            top: -7em;
+        
+    }
+    .colProfile{
+            bottom: 19em;
+    }
+
+    /*story dots*/
+.g1 {
+    top: -8em;
+    left: 0em;
+}
+    
+.g2 {
+       top: -3em;
+    left: 6.5em;
+}
+    .g3 {
+       top: -5em;
+    left: 3em;
+}
+   .g4 {
+    top: -6em;
+    left: 9em;
+}
+    .g5 {
+    top: -2em;
+    left: 19.5em;
+}
+   .g6 {
+    top: -2.5em;
+    left: 13em;
+}
+   .g7 {
+    top: -4em;
+    left: 17em;
+}
+    .g8 {
+        top: -5.5em;
+      right: 24em;
+
+}
+    .g9 {
+    top: -8em;
+    right: 21em;
+}
+    .g10 {
+    top: -3.5em;
+    right: 21em;
+}
+    .g11 {
+    top: -6.5em;
+    right: 15em;
+}
+    .g12 {
+       top: -9.5em;
+    right: 15em;
+}
+    .g13 {
+    top: -10.5em;
+    right: 11.5em;
+}
+    .g14 {
+    top: -7.5em;
+    right: 11em;
+}
+    .g15 {
+    top: -3em;
+    right: 14em;
+}
+    /*get started last*/
+    .moods {
+    margin-left: 0em;
+}
+    #riskHeight .accordion .btn-circle {
+    width: 28px;
+      height: 29px;
+}
+    .contentMood .page5> p {
+    font-size: 1em;
+    font-weight: 900;
+    margin-top: -9px;
+}
+    #moodPagination{
+        display: none;
+    }
+    /*column1*/
+    .frogImageMoods {
+    top: 2em;
+    left: -3%;
+    width: 25em;
+}
+    .frogImageMoods {
+    position: relative;
+    z-index: 1030;
+      top: -1em;
+    /* left: 7%; */
+    width: 252px;
+    height: 252px;
+    /* margin-top: 1em; */
+    /* margin-left: 2em; */
+    /* margin-bottom: 0.2em; */
+}
+   .frogImageMoods > img {
+        max-width: 96%;
+    width: 121%;
+    height: 16em;
+}
+    .frogImageMoods h1 {
+    left: 0.25em;
+    top: 3.5em;
+    font-size: 2em;
+    /* font-size: 2.5em; */
+}
+    img.left, img.right {
+    width: 35px;
+}
+    img.change {
+    width: 10%;
+}
+   .photos {
+    width: 27%;
+    position: relative;
+    left: -2.5em;
+}
+    .slider {
+        left: 10%;
+    top: -4em;
+}
+    .slider-control .right {
+    left: 13.5em;
+}
+    .slider-control {
+    position: relative;
+       left: -9%;
+            top: -3.5em;
+}
+    .contentMood .moodNav {
+    width: initial;
+    height: 2em;
+    font-size: 11px;
+}
+    .contentMood .worksBtn .page-buttons {
+    margin-top: -2em;
+}
+   #btm {
+    font-size: 13px;
+    left: -12em;
+    bottom: 0em;
+}
+    img.change {
+    width: 8%;
+}
+    img.left, img.right {
+    width: 25px;
+}
+    /*column2*/
+   div.col-md-8.selective {
+  top: -28em;
+    left: 21em;
+    width: 75%;
+}
+    .contentMood h2 {
+    font-size: 1.5em;
+}
+    .contentMood .page1> p, .contentMood .page2> p, .contentMood .page3> p, .contentMood .page4> p, .contentMood .page5> p {
+    font-size: 13px;
+}
+    .below .goal img {
+    width: 75px;
+    height: 75px;
+}
+    .below #mood {
+    font-size: 18px;
+}
+    #moodPagination{
+        display: none;
+    }
+    .page3 .table>thead>tr>th, .page5 .table>thead>tr>th {
+    font-size: 14px;
+}
+    .page3 .table>tbody>tr>td, .page5 .table>tbody>tr>td {
+    font-size: 15px;
+}
+    #goalIndicator {
+    font-size: 15px;
+}
+    .sliderRiskProfile button.accordion .col-sm-11 {
+    font-size: 14px;
+}
+    .sliderRiskProfile .riskProfiling #mood {
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 0.125em;
+}
+    #riskHeight {
+    height: 9.0em;
+}
+    .page3 .table, .page5 .table {
+    width: 74%;
+    height: 12em;
+}
+    /*get strated end*/
+    
+ div.footFixer {
+    top: 27em;
+    position: fixed;
+    width: 99%;
+}
+    div.selectiveFixer
+    {
+        position: fixed;
+    top: 36em;
+    width: 100%;
+    }
+    #IndicatorNew {
+    color: #FFDE15;
+    font-size: 0.992em;
+ 
+}
+    .PAN {
+    top: 4em;
+    position: relative;
+        left: 1em;
+}
+div.row.testimonyRow {
+    margin-top: -5em;
+}
+
+}
+@media only screen and (max-width:776px){
+    
+}
+@media only screen and (max-width:767px)
+{
+    #invisible{
+           position: absolute;
+/*    top: 2em;*/
+    display: inherit;
+            text-align: center;
+    }
+   
+}
+@media only screen and (max-height:575px){}
