@@ -163,7 +163,7 @@
                     
 							<input type="email" class="form-control" id="email" name="email" placeholder="Email"  ng-model="email" 
            ng-pattern="/^([0-9a-zA-Z]([-\.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/"
-        required / > 
+        required /> 
 <span ng-show="signUpForm.email.$touched && signUpForm.email.$invalid  "  >Email Invalid.</span> 
 
 					
@@ -201,7 +201,7 @@
                            <h2>Login</h2>
 						   
 <input type="email" class="form-control" id="email" name="email" placeholder="Email" ng-model="email" 
-ng-pattern="/^([0-9a-zA-Z]([-\.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/" required /> 
+ng-pattern="/^([0-9a-zA-Z]([-\.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/" required / > 
     <span ng-show="exampleForm.email.$touched && exampleForm.email.$invalid  "  >Email Invalid.</span>
     
                     
@@ -277,7 +277,7 @@ ng-pattern="/^([0-9a-zA-Z]([-\.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.
                                      
                                      <input  class="form-control Email" id="email"placeholder="" name="email" ng-model="email" 
            ng-pattern="/^([0-9a-zA-Z]([-\.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/"
-        required / >
+        required / autocomplete="off">
                                 <span ng-show="newsletterEmail.email.$touched && newsletterEmail.email.$invalid  "  >Email Invalid.</span> 
 
                                 
@@ -322,19 +322,6 @@ $("#signUp").modal("show");
 
 });
 </script>
-         
-       <script>
-       
-           
-           $('.modal').click(function(){
-     $('.modal, .inner').hide(); 
-});                                    
-$('.inner').click(function(e){
-   e.stopPropagation();
-});              
-​
-         
-         </script>
           
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-messages.min.js'></script>
         

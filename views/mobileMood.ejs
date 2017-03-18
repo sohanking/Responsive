@@ -14,7 +14,7 @@
 	
 
 </script>
-  <% include partials/headerMobile %>
+  <% include partials/headerMobile%>
 	<% if(!loggedIn) {%>
 	
 	
@@ -259,7 +259,7 @@
                  
                   
                   
-                       <div class="contentMood">
+                       <div class="contentMood" style="    border-bottom: 2px #35BFD3 dotted;">
                            <p id="Indicator">Goal Selection >
 						   
 						   <span id="goalSelected"></span>
@@ -269,10 +269,8 @@
 						   </p>
                          <% if(!scheme) { if(!abcd) {%>  
                            <div id="" class="page1">
-<!--
                         <h2>Please select your goal</h2>
                        <p>You can always add or change a goal after you have signed up</p>
--->
                        
               <div class="col-sm-12 ">
 				  <div class="below">
@@ -293,9 +291,10 @@
                     </div>
                  
                 </div>  
-                         <div class="worksBtn">
+                         <div class="worksBtn" style="    margin-top: 12%;">
            
-                <button type="" class="btn btn-lg moodNav next" > Next </button> 
+                <button type="" class="btn btn-lg moodNav next" style="    position: relative;
+    top: -1em;"> Next </button> 
                
             </div>  
                            </div>              
@@ -305,38 +304,40 @@
                    
     
                            
-                       </div> 
-                  <br>
-                       <br>
-                       <br>
-                               <div id="mobilePage2" class="page2">
+                    
+               
+                               <div id="" class="page2">
 <!--                        <h2>Education</h2>-->
 								   <br />
                        <p>I need INR<input class="blankInput"  name="amount" id="amount" placeholder="" type="number" max="7" value=""/>in<input class="blankInput" placeholder="" type="number" id="time" max="99" value=""/> (Years)</p>
-                    <div class="login-btn">
+                                   
+                                   <div class="buttonSetUp">
+                    <div class="login-btn" style="top:90%;">
                                  
                 <button type="button" id="go" class="btn btn-lg moodNav go" onclick="setProfile(0,1);" > Go </button> 
                
-                        
+                    <button type="" class="btn btn-lg moodNav next page3Sub" > Next </button>     
             </div>
-                                   
+                          </div>         
                       <br>             
                                    
-                   <div class="page3">
+                   <div class="page3" style="    margin-top: 12%;">
                                    <p>So, you need to invest INR <span id="invest"></span> Monthly</p>
                        <div class="row">
                            <div  class="col-12-sm">
                            
                            <!--table Equity-->
                         <table class="table">
-                                 <thead>
+                                 
+                             <thead>
                                      <tr>
                                       <th colspan="2">Equity</th>
-                                      
+                                     
                                      </tr>
                                 </thead>
                                  <tbody>
                                      <tr>
+                                        
                                          <td>Allocation percent</td>
                                       <td style="border-right: none;">Amount (&#x20B9;)</td>
                                         </tr>
@@ -385,6 +386,11 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                               
+                               <br/>
+                               <br/>
+                               <br/>
+                               <br/>
                                </div>
                        </div>    
 					    <p style="text-align: center;">* Risk Profile - Conservative</p>    
@@ -397,275 +403,160 @@
                                    <p id="invest">You need to invest INR <span id="invest2"></span> monthly in Conservative mode.</p>
                                 <!--<h2>Risk Profiling</h2>-->
                                <p style="font-weight: 900;">Risk profiling will help you choose right fund to invest in based on your comfort</p>
-<!--
-                                <div class="dotHr">
-                  
-                   <div id="moodPagination"></div>
-                                       <div id="moodPagination"></div>
-                   <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-           <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-               <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                                
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div ></div>
-                  <div ></div>
-                  <div ></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                              <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                                     <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                                         <div></div>
 
-                                   </div>
--->
+                                
                                <br/>
+                               <div class="row"><div class="col-md-12">
                                <div class="selectMode">
-                                              <div class="dotHr">
+                                             
                    <a href="#" class="tooltips"> 
-                  <button id="Conservative" type="" class="btn btn-lg moodNav" profile="c" onclick="setProfile(0,2)" > Conservative </button> 
-					              <span id="c">
-       
+                  <button id="Conservative" type="" class="btn btn-lg moodNav" profile="c"  > Conservative </button> 
+					         <br>  
+                       <div id="c">
+         <br>
         I am a low risk taker. When I hear the word Risk, I think of the danger it represents.
     
    
-    </span>
+    </div>
 												  </a>
-                    <div id="moodPagination"></div>
-                 <div id="moodPagination"></div> <div id="moodPagination"></div> <div id="moodPagination"></div>
-                 <div id="moodPagination"></div> <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>                     
-              <div ></div>
-                  <div ></div>   
-                <div ></div>                     
-                <div></div>
-                  <div></div>  
+                     <br/>
                               <a href="#" class="tooltips">                     
-							<button id="Moderate" type="" class="btn btn-lg moodNav"  profile="m" onclick="setProfile(1,2)" > Moderate </button> 
-								  <span id="m">
-       
+							<button id="Moderate" type="" class="btn btn-lg moodNav"  profile="m"  > Moderate </button>  <br>  
+								  <div id="m">
+         <br>
         I am an average risk taker. When I hear the word Risk, I think of the uncertainty it represents.
    
-    </span>
+    </div>
 												  </a>
-           <div id="moodPagination"></div>
-                   <div id="moodPagination"></div>
-                   <div id="moodPagination"></div>
-                   <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>                     
-              <div id="moodPagination"></div>
-                  <div ></div>   
-                <div ></div>                     
-                <div></div>
-                  <div></div>  
+            <br/>
                                             
                            <a href="#" class="tooltips">                        
-							<button id="Aggressive" type="" class="btn btn-lg moodNav" profile="a" onclick="setProfile(2,2)" > Aggressive </button> 
-							    <span id="a">
-       
+							<button id="Aggressive" type="" class="btn btn-lg moodNav" profile="a" onclick="setProfile(2,2)" > Aggressive </button>  <br>  
+							    <div id="a">
+         <br>
        I am a high risk taker. When I hear the word Risk, I think of the opportunity it represents.
    
-    </span>
+    </div>
 												  </a>
-              <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>
-                  <div id="moodPagination"></div>                     
-              <div id="moodPagination"></div>
-                  <div></div>   
-                <div></div>                     
-                <div></div>
-                  <div></div>  
+             <br/>
                                  
 						<a href="#" class="tooltips">   
-                            <button id="dontKnow" type="" profile="d" class="btn btn-lg moodNav ">I don't know</button>
-    <span id="d">
-       
+                            <button id="dontKnow" type="" profile="d" class="btn btn-lg moodNav ">I don't know</button> <br>  
+    <div id="d">
+       <br>
       Click to know your Risk Profile.
    
-    </span>
+    </div>
 												  </a>
 
-                                   </div>  
                               
-                                   
-                                   
+                       </div>        
+                       </div>   
                                </div>
                               
                                <div class="sub-page4">
                                 
-                           <div class="container sliderRiskProfile">
-							    
-            <div id="riskHeight">
+                           <div class=" sliderRiskProfile">
+						<div id="myCarousel" class="carousel slide text-center carouselEdit" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">	    
+       
                 
-             <button class="accordion">
+            
 				
-                 <div class="col-sm-1 btn btn-default btn-circle">1</div>
-                 <div class="col-sm-11"> <label for="Q1" id="1">Compared to others, how do you rate your willingness to take financial risks?</label>
-                 </div>
+                <div class="item active">
+                 <label for="Q1" id="1">  <p class="circleRisk">1</p>Compared to others, how do you rate your willingness to take financial risks?</label>
+                 
                 
-             </button>
+           
 <div class="riskProfiling">
      <p id="mood">  <input type="Radio" id="Q1" name="Q1" value="0"  checked>Low risk taker</p>
     <p id="mood"><input type="Radio" id="Q1" name="Q1" value="1" >Average risk taker</p>
     <p id="mood"> <input type="Radio" id="Q1" name="Q1"  value="2">High risk taker</p>
 </div>
+                    </div>
+                            
+                  <div class="item">
+                 <label for="Q2">  <p class="circleRisk">2</p>When you think of the word 'risk' in a financial context, which of the following words come to mind first?</label>
                 
-                             <button class="accordion">
-                 <div class="col-sm-1 btn btn-default btn-circle">2</div>
-                 <div class="col-sm-11"><label for="Q2">When you think of the word 'risk' in a financial context, which of the following words come to mind first?</label>
-                 </div>
                 
-             </button>
+       
 <div class="riskProfiling">
      <p id="mood"> <input type="Radio" id="Q2" name="Q2"  value="0" checked>Danger</p>
     <p id="mood"><input type="Radio" id="Q2" name="Q2"  value="1" >Uncertainty</p>
     <p id="mood"> <input type="Radio" id="Q2"  name="Q2" value="2">Opportunity</p>
 </div>
                 
-                                             <button class="accordion">
-                 <div class="col-sm-1 btn btn-default btn-circle">3</div>
-                 <div class="col-sm-11">  <label for="Q3">When faced with a major financial decision, are you most concerned about the possible losses or the possible gains?</label
-                 </div>
+                </div>
+                  <div class="item">
                 
-             </button>
+                <label for="Q3">   <p class="circleRisk">3</p>When faced with a major financial decision, are you most concerned about the possible losses or the possible gains?</label>
+             
+                
+           
 <div class="riskProfiling">
      <p id="mood"> <input type="Radio" id="Q3" name="Q3" value="0" checked>Always the possible losses</p>
     <p id="mood"><input type="Radio" id="Q3" name="Q3"  value="1" >Usually the possible losses</p>
     <p id="mood"> <input type="Radio" id="Q3" name="Q3"  value="2">Always the possible gains</p>
 </div>
                 
-                                                             <button class="accordion">
-                 <div class="col-sm-1 btn btn-default btn-circle">4</div>
-                 <div class="col-sm-11"><label for="Q4">4.Think of the average return you would expect to earn on an investment portfolio over a fixed deposit the next ten years.</label>
-                 </div>
+                                                             
+               </div>
+                  <div class="item">
+              <label for="Q4"><p class="circleRisk">4</p>4.Think of the average return you would expect to earn on an investment portfolio over a fixed deposit the next ten years.</label>
+                 
                 
-             </button>
+             
 <div class="riskProfiling">
      <p id="mood"><input type="Radio" id="Q4" name="Q4" value="0" checked>About the same rate as from bank fixed deposits</p>
     <p id="mood"><input type="Radio" id="Q4" name="Q4"  value="1" >About one and half time the rate from bank fixed deposits</p>
     <p id="mood"><input type="Radio" id="Q4" name="Q4"  value="2">About twice the rate from bank fixed deposits</p>
 </div>
                 
-                                                             <button class="accordion">
-                 <div class="col-sm-1 btn btn-default btn-circle">5</div>
-                 <div class="col-sm-11"><label for="Q5">Which of the following statement best describes your attitude about the next six month's performance of the investment?</label>
-                 </div>
+                     </div>
+                  <div class="item">                                      
+               
+               <label for="Q5"><p class="circleRisk">5</p>Which of the following statement best describes your attitude about the next six month's performance of the investment?</label>
+            
                 
-             </button>
+            
 <div class="riskProfiling">
      <p id="mood"><input type="Radio" id="Q5" name="Q5"  value="0" checked>I would have a concern with any sort of loss</p>
     <p id="mood"><input type="Radio" id="Q5" name="Q5"  value="1" >I'd get concerned if the loss was greater than 10%</p>
     <p id="mood"><input type="Radio" id="Q5" name="Q5"  value="2">I wouldn't worry about losses in that time frame</p>
-</div>                
+</div>  
+                       </div>
+                 
                                </div>  
                                
-<!--
-                                   <div class="login-btn">
-                                  
-             
-                        <button type="" class="btn btn-lg moodNav done " > Done </button>
-                      <button type="" class="btn btn-lg moodNav save " > Save </button>
+
+                               
                                    
                                </div>
-                               
--->
-                               
-                               
            
                                
                                
                                    </div>       
-                           
+<!--
+                            <a class="left  " href="#myCarousel" role="button" data-slide="prev" style="    position: fixed;
+    left: 5%;
+    top: auto;">
+      <img src="images/left.png">
+
+    <span class="sr-only">Previous</span>
+  </a>
+-->
+  <a class="right  "style="    position: fixed;
+    right: 5%;
+    top: initial;" href="#myCarousel" role="button" data-slide="next">
+<!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+            <img src="images/Right.png">
+    <span class="sr-only">Next</span>
+  </a> 
                       
                                                                         
-            <div class="worksBtn">
+            <div class="worksBtn" >
             
             <div class="login-btn text-center page-buttons">
                                  
@@ -774,35 +665,67 @@
     <thead>
       <tr>
   		
-        <th>Category</th>
-        <th>Allocation %</th>
-        <th>Amount (&#x20B9;)</th>
+       <th colspan="2" style="border-right: none;">Equity</th>
       </tr>
     </thead>
     <tbody>
         <tr>
+                                        
+                                         <td>Allocation percent</td>
+                                      <td style="border-right: none;">Amount (&#x20B9;)</td>
+                                        </tr>
+                                      
+        <tr>
   
-        <td>Equity</td>
+       
             <td id="eqPer1">25%</td>
-            <td id="eqAmt1">NA</td>
+            <td id="eqAmt1" style="border-right: none;">NA</td>
       </tr>
-      <tr>
-  
-       <td>Hybrid</td>
-            <td id="hybPer1">10% </td>
-           <td id="hybAmt1">NA</td>
-      </tr>
-      <tr>
-
-         <td>Debt</td>
-            <td id="debPer1">65%</td>
-              <td id="debAmt1">NA</td>
-      </tr>
-
-    </tbody>
-  </table>
+                            </tbody>
+                                                       </table>
+                                                       <br>
+      <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2" style="border-right: none;">Hybrid</th>
+                                    
+                                    </tr>
+                                </thead>
+                               <tbody>
+                                   <tr>
+                                    <td>Allocation percent</td>
+                                        <td style="border-right: none;">Amount (&#x20B9;)</td>
+                                   </tr>
+                                    <tr>
+                                        <td id="hybPer1">10% </td>
+                                        <td id="hybAmt1" style="border-right: none;">NA</td>
+                                    </tr>
+                               </tbody>
+                               </table>                                             
+                                                       
+    <br>
+<table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2" style="border-right: none;">Dept</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        <td>Allocation percent</td>
+                                            <td style="border-right: none;">Amount (&#x20B9;)</td></tr>
+                                        <tr>
+                                            <td id="debPer1">65%</td>
+                                            <td id="debAmt1" style="border-right: none;">NA</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 													   
-
+<br/>
+                                                       <br/>
+                                                       <br/>
+                                                       <br/>
 													   
                        </div>
                            <div class="dotHr"> 
@@ -1421,74 +1344,17 @@
             </div>
              </div>
    
+            </div>
+         </div>
         
-                       </div>
          
              
         </div>
 <!--    </section>-->
  
             </div>
-        
-<!--
-  <footer>
-        <div class="footerFrog">
-         
-         
-           
-             <img src="images/Footer_frog.png" />
-           
-         </div>
-        <div class="container foot">
-         
-      
-          
-                <h4><a href="#">T & C</a></h4>
-                <p><a href="#">Privacy</a></p>
-                <p><a href="#">Policies</a></p>
-                
-                
-           
-            <div class="col-sm-12">
-                
-                <h4><a href="#">Careers</a></h4>
-               
-                 
-                
-            </div>
-                     <div class=" col-sm-12">
-                
-                         <h4><a href="#">Media</a></h4>
-                
-                
-                
-            </div>
-                     <div class="col-sm-12">
-                
-                         <h4><a href="#">Contact Us</a></h4>   
-                
-            </div>
-                          <div class="col-lg-12 ">
-            
-              <a href="https://www.facebook.com/">  <img id="fb" src="images/social/fb.png" alt="SocialIcons"> </a>
-                <a href="https://twitter.com/"> <img id="twitter" src="images/social/twitter.png" alt="SocialIcons"></a>
-                <a href="https://www.linkedin.com/"> <img id="linkdin" src="images/social/linkdin.png" alt="SocialIcons"></a>
-                <a href="https://plus.google.com"> <img id="gp" src="images/social/gp.png" alt="SocialIcons"></a>
-                 <img src="images/social/msg.png" alt="SocialIcons">
-            </div>
-                 <br>        
-            <div class="newsletter">
-            
-                <p class="SubscribeToNewsletter" data-toggle="modal" data-target="#EmailForm">Subscribe to our newsletter</p>
-            </div>
-            
-            </div>
-       
-   
-       
-       </footer>  
--->
-          
+
+         <% include partials/footerMobile %>    
 <!--Custom Js links -->
        <script>
         
@@ -1975,6 +1841,10 @@ $("#myPanModal").modal("show");
 	
 });
 </script>
-			 
+			 <script>
+    $('.carousel').carousel({
+    interval: false
+});
+    </script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 
 <!--The fixed header of the page    -->
     <header>
+        
+        
      <div class="headerBackground">  
         <nav class="navbar navbar-default mod-nav" data-spy="affix" >
             <div class="container-fluid">
@@ -15,7 +17,7 @@
       </button>
       <a class="" href="#">
         <img class="img-responsive" id="investory" src="images/investoryLogo.png" alt="" />
-                    <img class="img-responsive logo-icon" src="images/logoIcon.png" alt="" />
+<!--                    <img class="img-responsive logo-icon" src="images/logoIcon.png" alt="" />-->
 </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -23,33 +25,28 @@
       
         <li class="dropdown">
          
-        <li><a href="#EmailForm" >Edit Profile</a></li>
+        <li><a href="#loginModal" >Edit Profile</a></li>
           <br>
-        <li><a href="#">Setting</a></li>
+        <li><a href="/Settings">Setting</a></li>
           <br>
           
-        <li><a href="#">My Profile</a></li>
-           <li><a href="#">My Story</a></li>
-           <li><a href="#">My Moods</a></li>
+        <li><a href="/Profile">My Profile</a></li>
+           <li><a href="/myStory">My Story</a></li>
+           <li><a href="">My Moods</a></li>
            <li><a href="#">My Goals</a></li>
     
           <br>
-           <li><a href="#">Know Us</a></li>
-           <li><a href="#">Pricing</a></li>
-           <li><a href="#">Get Started</a></li>
-           <li><a href="#">FAQs</a></li>
+           <li><a href="/KnowUs">Know Us</a></li>
+           <li><a href="/Pricing">Pricing</a></li>
+           <li><a href="/GoalSelection">Get Started</a></li>
+           <li><a href="/FAQs">FAQs</a></li>
            <li><a href="#">Blog</a></li>
           <br>
           <li><a href="#"  data-target="#loginModal"  data-toggle="modal" >Login</a>
            <li><a href="/logout">Logout</a></li>
           </li>
       </ul>
-<!--
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
--->
+
     </div>
   </div>
 </nav></div>
@@ -90,9 +87,7 @@
                             <button type="button" class="btn btn-lg facebook" onclick="auth('facebook')" >Sign through Facebook</button>
                             <button type="button" class="btn btn-lg google" onclick="auth('google')" >Sign through Google+</button>
                              <p><em>By clicking Sign Up you agree to the <a href="#">terms and conditions</a></em></p>   
-                     				<% if (smessage.length > 0) { %>
-<div class="alert alert-danger"><%= smessage %></div>
-<% } %>       
+                     				
                      
             </div>
                 
@@ -131,9 +126,7 @@ ng-pattern="/^([0-9a-zA-Z]([-\.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.
                                 
                             
                  </form>   
-				<% if (lmessage.length > 0) { %>
-<div class="alert alert-danger"><%= lmessage %></div>
-<% } %>
+				
              </div></div>
                 
       </div>
@@ -220,21 +213,7 @@ ng-pattern="/^([0-9a-zA-Z]([-\.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.
             </div>
   
 	</div>		
-			<script>
-$(document).ready(function(){
-   
-   <% if (lmessage.length > 0) { %>
-	
-$("#loginModal").modal("show");
-<% } %>
-	
-	   <% if (smessage.length > 0) { %>
-	
-$("#signUp").modal("show");
-<% } %>
-
-});
-</script>
+			
           
 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-messages.min.js'></script>
         

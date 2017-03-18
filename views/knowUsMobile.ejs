@@ -6,54 +6,7 @@
             <link rel="stylesheet" href="stylesheets/creativemobile.css">
 </head>
 <body>
- <nav class="navbar navbar-inverse  mobileHeader" >
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="" href="#">
-        <img class="img-responsive" id="investory" src="images/investoryLogo.png" alt="" />
-                    <img class="img-responsive logo-icon" src="images/logoIcon.png" alt="" />
-</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-      
-        <li class="dropdown">
-         
-        <li><a href="#">Edit Profile</a></li>
-          <br>
-        <li><a href="#">Setting</a></li>
-          <br>
-          
-        <li><a href="#">My Profile</a></li>
-           <li><a href="#">My Story</a></li>
-           <li><a href="#">My Moods</a></li>
-           <li><a href="#">My Goals</a></li>
-    
-          <br>
-           <li><a href="#">Know Us</a></li>
-           <li><a href="#">Pricing</a></li>
-           <li><a href="#">Get Started</a></li>
-           <li><a href="#">FAQs</a></li>
-           <li><a href="#">Blog</a></li>
-          <br>
-           <li><a href="/logout">Logout</a></li>
-          </li>
-      </ul>
-<!--
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
--->
-    </div>
-  </div>
-</nav>
-  
+ <% include partials/headerMobile%>  
     
 
 	 
@@ -61,11 +14,12 @@
      <div class="container-fluid know-us " >
         
       
-         <div class="full" style="overflow-y:scroll;">
-
+<!--         <div class="full" style="">-->
+<div class="knowUs1 " style="    border-bottom: 2px #35BFD3 dotted;"> 
           <h2>Name and Logo</h2>
     
           
+<!--
        
          <div class="dotHr" style="  ">
 
@@ -122,6 +76,7 @@
       
   </div>
          
+-->
          
          
          
@@ -134,10 +89,10 @@
                           <div class="row ">
                           
                              
-                              <div class="col-sm-12">
+                              <div class="col-sm-12" style=" padding-bottom: 11px;border-bottom: 2px #35BFD3 dotted">
              
                                   <p >
-                                     <p style="text-align:center;"> Our name is inspired by two words- invest and story.
+                                     <p style="text-align:center;;"> Our name is inspired by two words- invest and story.
                                   Here we help you write your financial story with honest investement advice. Our brand mascot is "Tory" the frog.</p>
                                     </p>
                                   
@@ -150,6 +105,7 @@
                       </div>
             </div>
          
+<!--
               <div class="dotHr" style="">
          
 
@@ -259,10 +215,12 @@
   
   </div>
          
+-->
          
          
           <h2 style="padding: 1em;    padding-bottom: 0.2em;" class="">Why a frog?</h2>
            
+<!--
          
         <div class="dotHr" style="">
          
@@ -326,6 +284,7 @@
   
   </div>
           
+-->
          <!-- line below WHy a frog End-->
          
          <br>
@@ -347,6 +306,14 @@
                  prosperity. The money toad or fortune
               frog is through to have been the personal 
           pet of the Chinese god of wealth.
+                     
+                     
+                     <br>
+                     <br>
+                     As a power animal, the frog serves to remind a person of the ever changing nature of his life and the support that can be found during times of change.
+Because the frog has the ability to go from water to earth, it is believed that as a power animal the frog contains the magic and properties of both elements.
+
+So lets get to know Tory better, shall we?
            
                  </p>
              
@@ -358,7 +325,8 @@
          </div><!--end of container content-End of why frog para-->
     <br>
    
-   <div class="dotHr longDotUs" style=""><!-- Get Started-->
+<!--
+   <div class="dotHr longDotUs" style=""> 
        
                   <div></div>
                   <div></div>
@@ -373,12 +341,16 @@
                   <div></div>
                   <div></div>
                   <div></div>
+-->
        
                
-       
-      <button type="" data-toggle="modal" data-target="#signUp" class="btn btn-lg moodNav pull-left getStarted" style="    width: 8em;" > Get Started</button>
-              
+       <u>
+      <button type="" data-toggle="modal" data-target="#signUp" class="btn btn-lg moodNav pull-left getStarted" style="  width: 8em;
+    position: relative;
+    top: -1em;" > Get Started</button>
+              </u>
                      
+<!--
           <div></div>
                   <div></div>
                   <div></div>
@@ -394,17 +366,24 @@
                   <div></div>
        
          </div>
+-->
                   </div><!-- Get Started End-->
-    </div>      
+<!--    </div>      -->
 <!--       </section>section1   -->
  
-  <br>
+    
+    
+    
+  <br>  <br>
 <!--  <section id="section2"  class="mod-singular-section" >-->
- <div class="container-fluid know-us  text-center mod-singular-section" style="margin-top: 0.5em">
+    
+    <div class="knowUs2" style="border-bottom: 1px #35BFD3 dotted">
+     <div class="know-us  text-center mod-singular-section" style="margin-top: 0.5em">
      
          <h2 style="" class="WSHeader">Why choose Investory</h2>
            
                     
+<!--
           <div class="dotHr" style="">
          
 
@@ -467,6 +446,7 @@
   
   </div>
           
+-->
      <br>
         <div class="container content"><!--start of why Invest Story-->
             
@@ -490,7 +470,7 @@
              </div><!--end of collum1-->
               
               
-             <div class="col-sm-12"  stle="">
+             <div class="col-sm-12"  style=" padding-bottom: 11px;border-bottom: 2px #35BFD3 dotted">
                  
                  <p  class="KuWfC2Pad" >
                All our advisors are highly qualified and 
@@ -514,6 +494,7 @@
      
      
        
+<!--
               <div class="dotHr" style="">
          
 
@@ -576,8 +557,9 @@
   
   </div>
      
+-->
      <!-- Get Started End--><!--Line below why InvestoryParagrapy Ends-->
-      <div class="container-fluid why-us know text-center">
+      <div class=" why-us know text-center">
             
           <div class="container content classSectio2">
                 
@@ -615,6 +597,7 @@
         </div>
           </div>  
            
+<!--
           <div class="dotHr" style="">
          
 
@@ -677,19 +660,21 @@
   
   </div>
         
+-->
           
           
           <!-- Get Started End-->
     </div>
-    </div><!--container investoryends-->
+    </div></div><!--container investoryends-->
 <!--</section> section2 ends-->
 
  <!--<section id="section3"  class="mod-singular-section">-->
-          
+   <div class="knowUs3">
      <div class="container-fluid know-us text-center mod-singular-section">
     
-      <h2 style="padding-top: 20px;padding-bottom:0px;" class="">Who are we</h2>
+      <h2 style="padding-top: 20px;    border-top: 2px #35BFD3 dotted;" class="">Who are we</h2>
     
+<!--
          <div class="dotHr" style="">
          
 
@@ -752,6 +737,7 @@
   
   </div>
  
+-->
          <!--line below who we are ends-->
          
          
@@ -765,10 +751,11 @@
     Standards Board, India. We are also a SEBI Registered financial advisory.
             IMMPL manages assets of over Rs.750 Crores and run a risk cover of Rs.300
         Crores while advising 500+ clients from across India and the world including
-           <div class="textBtwn"> the US, UK, Middle East and South East Asia.</div> </p>
+           <b> the US, UK, Middle East and South East Asia.</b> </p>
          </div>
              
              
+<!--
                     <div class="dotHr" style="">
          
 
@@ -830,18 +817,17 @@
       
   
   </div>
+       
+-->
+       
      <br>
         </div>
-    <!--</section>-->
-     
-<!--
-      <section id="section4"  class="mod-singular-section" >
-      
--->
+   
      <div class="container-fluid   text-center mod-singular-section" style="margin-top: 0.5em">
         
          <div class="container-fluid know-us text-center lastKnowUs">
-          <h2 style="padding-top: 15px;padding-bottom:0px;" class="">Investory Team</h2>
+          <h2 style="padding-top: 15px;padding-bottom:0px;border-bottom: 2px #35BFD3 dotted;" class="">Investory Team</h2>
+<!--
            <div class="dotHr" style="">
          
 
@@ -905,22 +891,27 @@
   </div>    
               
              
+-->
              <!--line above Team-->
         <br>
              <br>
         
           <div class="avatarTestimonial avtarEdit">
-                    <img src="images/avatar.png" alt="Person" width="96" height="96" class="avtarSiaze" style="position:absolute;    height: 70px;
-                    width: 70px;"> 
+                    <img src="images/avatar.png" alt="Person" width="96" height="96" class="avtarSiaze" style="position: relative;
+    height: initial;
+    width: 21%;
+    left: initial;
+    right: initial;"> 
             
                         </div>             
                  <h4 class="swethaJain" style="font-weight:900;">Swetha Jain - <i>COO</i></h4>    
         
            
-    <div class="InvestTeam" style="" >
+    <div class="InvestTeam" style="    padding-bottom: 11px;border-bottom: 2px #35BFD3 dotted;" >
          
          <h6 class="InvestTeamP" style="">A BBM graduate and a CFP to boot, Swetha brings her excellentmanagement skills to the table and is an integral part of our think tank. Shespearheads "The Investory"initiative which aims to make financial advicemore accessible and fun.</h6>
          </div>
+<!--
                <div class="dotHr" style="">
          
 
@@ -982,10 +973,11 @@
       
   
   </div>
+-->
 
             
         </div><!--container-fluid knowus text-centercontainer ends-->
-        
+        <% include partials/footerMobile %>  
       
     <!--</section>section4-->
 
@@ -994,6 +986,7 @@
       
 
         </div>   
+    </div>
 </div>
 </div>
 

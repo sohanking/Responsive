@@ -759,7 +759,8 @@ Payment.findOne({email:req.session.userEmail},function(err, datapaid ){
     if(mobile){
       res.render('howItWorksMobile.ejs',{
  
-  });   
+  }); }
+        else    {
             
 	    res.render('mood', {
 			data: Assetlist,
@@ -1147,7 +1148,32 @@ Payment.findOne({email:req.session.userEmail},function(err, datapaid ){
 				Asset.find({}, function(err, Assetlist){
 		if(Assetlist.length > 1){
 					 
-	    res.render('mood', {
+	    mobile = req.useragent["isMobile"]     
+  if(mobile){
+        res.render("mobileMood.ejs",{
+             data: Assetlist, 
+		  user : req.user,
+		  selectorDisplay: "show",
+	  	loggedIn: loginStatus,
+		firslist :  false,
+		  smessage: req.flash('signupMessage'),
+		lmessage: req.flash('loginMessage'),
+	  	  footerDisplay: "hide",
+		  panMessage: panMsg,
+	  footerData1: "Blog",
+	  footerData2: "FAQs",
+		scheme:false,
+		paid : false,
+						  abcd: false,
+						  assetFromDb: false,
+						   showPage5: "hide",
+	  hideAll: "show"
+        });
+    }
+    
+  
+            else
+            {res.render('mood', {
 			data: Assetlist,
 			user : req.user,
                 firslist :  false,
@@ -1164,7 +1190,7 @@ Payment.findOne({email:req.session.userEmail},function(err, datapaid ){
 			paid : paymentStatus,
 			assetFromDb: false,
 			  showPage5: "show"
-            });
+            });}
 		}
 			 });
 		
@@ -1530,7 +1556,12 @@ app.get('/YourStory',isLoggedIn, function(req, res){
 	
 	loginStatus = checkLoginStatus(req);
 
-	
+	     mobile = req.useragent["isMobile"]
+    if(mobile){
+      res.render('yourStoryMobile.ejs',{
+  	 
+  });
+    }else{
   res.render('yourStory.ejs',{
 	  
 	  user : req.user,
@@ -1543,7 +1574,8 @@ app.get('/YourStory',isLoggedIn, function(req, res){
 	  footerData1: "Blog",
 	  footerData2: "FAQs"
   });
-});
+    }
+    });
 
 app.get('/profile',isLoggedIn, function(req, res){
 	currentPage = req.session.activePage = "/profile";
@@ -1558,8 +1590,12 @@ app.get('/profile',isLoggedIn, function(req, res){
 			throw err;
 		
 		if(profileData.length >= 1){
-			
-			res.render('yourStory.ejs',{
+			  mobile = req.useragent["isMobile"]
+        if(mobile){
+      res.render('profileMobile.ejs',{
+  	 
+  });
+    }else{res.render('yourStory.ejs',{
 	  
 	  	user : req.user ,
 				profile: profileData[0],
@@ -1574,7 +1610,7 @@ app.get('/profile',isLoggedIn, function(req, res){
 	  footerData1: "Blog",
 	  footerData2: "FAQs"
   });
-			
+        }
 		}
 		
 	});
@@ -1632,6 +1668,13 @@ app.get('/myStory',isLoggedIn, function(req, res){
 	currentPage = req.session.activePage = "/myStory";
 	
 	loginStatus = checkLoginStatus(req);
+    
+    
+     mobile = req.useragent["isMobile"]
+    if(mobile){
+      res.render('yourStoryMobile.ejs')
+    }
+    else{
   res.render('yourStory.ejs',{
 	  
 	  user : req.user ,
@@ -1644,6 +1687,7 @@ app.get('/myStory',isLoggedIn, function(req, res){
 	  footerData1: "Blog",
 	  footerData2: "FAQs"
   });
+    }
 });
 
 app.get('/reports',isLoggedIn, function(req, res){
@@ -1653,16 +1697,8 @@ app.get('/reports',isLoggedIn, function(req, res){
     
      mobile = req.useragent["isMobile"]
     if(mobile){
-      res.render('faqMobile.ejs',{
-//	  	  selectorDisplay: "show",
-//	  smessage: req.flash('signupMessage'),
-//		lmessage: req.flash('loginMessage'),
-//	  	loggedIn: loginStatus,
-//	  user : req.user ,
-//	  	  footerDisplay: "show",
-//	  footerData1: "Blog",
-//	  footerData2: "FAQs"
-	  
+      res.render('reportsMobile.ejs',{
+  	 
   });
     }else{
     
@@ -1688,7 +1724,12 @@ app.get('/Accounts',isLoggedIn, function(req, res){
 	
 	loginStatus = checkLoginStatus(req);
 	
-  res.render('yourStory.ejs',{
+      mobile = req.useragent["isMobile"]
+    if(mobile){
+      res.render('accountsMobile.ejs',{
+  	 
+  });
+    }else{ res.render('yourStory.ejs',{
 	  
 	  user : req.user ,
 	  	  selectorDisplay: "show",
@@ -1701,6 +1742,7 @@ app.get('/Accounts',isLoggedIn, function(req, res){
 	  footerData1: "Blog",
 	  footerData2: "FAQs"
   });
+         }
 });
 
 app.get('/Invoices',isLoggedIn, function(req, res){
@@ -1708,7 +1750,12 @@ app.get('/Invoices',isLoggedIn, function(req, res){
 	currentPage = req.session.activePage = "/Invoices";
 	
 	loginStatus = checkLoginStatus(req);
-	
+	     mobile = req.useragent["isMobile"]
+    if(mobile){
+      res.render('myInvoicesMobile.ejs',{
+  	 
+  });
+    }else{
   res.render('yourStory.ejs',{
 	  
 	  user : req.user ,
@@ -1722,6 +1769,7 @@ app.get('/Invoices',isLoggedIn, function(req, res){
 	  footerData1: "Blog",
 	  footerData2: "FAQs"
   });
+    }
 });
 
 app.get('/Settings',isLoggedIn, function(req, res){
@@ -1729,6 +1777,12 @@ app.get('/Settings',isLoggedIn, function(req, res){
 	currentPage = req.session.activePage = "/Settings";
 	
 	loginStatus = checkLoginStatus(req);
+         mobile = req.useragent["isMobile"]
+    if(mobile){
+      res.render('settingsMobile.ejs',{
+  	 
+  });
+    }else{
   res.render('yourStory.ejs',{
 	  
 	  user : req.user ,
@@ -1743,6 +1797,7 @@ app.get('/Settings',isLoggedIn, function(req, res){
 	  footerData1: "Blog",
 	  footerData2: "FAQs"
   });
+    }
 });
 
 

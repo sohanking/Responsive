@@ -7,55 +7,7 @@
 </head>
 <body>
 
-<div class="" style="">
-    <nav class="navbar navbar-inverse  mobileHeader" >
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="" href="#">
-        <img class="img-responsive" id="investory" src="images/investoryLogo.png" alt="" />
-                    <img class="img-responsive logo-icon" src="images/logoIcon.png" alt="" />
-</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-      
-        <li class="dropdown">
-         
-        <li><a href="#">Edit Profile</a></li>
-          <br>
-        <li><a href="#">Setting</a></li>
-          <br>
-          
-        <li><a href="#">My Profile</a></li>
-           <li><a href="#">My Story</a></li>
-           <li><a href="#">My Moods</a></li>
-           <li><a href="#">My Goals</a></li>
-    
-          <br>
-           <li><a href="#">Know Us</a></li>
-           <li><a href="#">Pricing</a></li>
-           <li><a href="#">Get Started</a></li>
-           <li><a href="#">FAQs</a></li>
-           <li><a href="#">Blog</a></li>
-          <br>
-           <li><a href="/logout">Logout</a></li>
-          </li>
-      </ul>
-<!--
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
--->
-    </div>
-  </div>
-</nav></div>
- 
+ <% include partials/headerMobile%>
   <div class="wrapper" style="overflow-y:scroll;overflow-x:hidden;">
 	  <div class="main">
           
@@ -455,26 +407,26 @@
 
         
         
-                    <div class="row howItWorksRow" style="">
-                <div class="column PAN" style="top:2em">
+                    <div class="row howItWorksRow" style="    border-bottom: 2px #35BFD3 dotted;">
+                <div class="column-sm-4 " style="top:2em">
                    
                     <img src="images/frog_pan.png" alt="Sign up with PAN number" width="65%" style="top:0"><br>
                     <p  style="top:2.5em">Sign up with <br />PAN number</p>
                 </div>
                 
-                <div class="column Package" >
+                <div class="column-sm-4 " >
                    
                     <img src="images/frog_jump.png" alt="Choose a Package" width="65%"><br>
                     <p style="margin-left: 2.8em;">Choose a <br />Package</p>
                 </div>
                 
-                <div class="column investing" style="top:1.5em">
+                <div class="column-sm-4 " style="top:1.5em">
                     
                     <img src="images/frog_coin.png" alt="Start investing" width="70%"><br>
                     <p>Start <br /> investing</p>
                 </div>
                 
-                <div class="column Withdraw" style="top:3em">
+                <div class="column-sm-4" style="top:3em">
                     
                     <img src="images/frog_note.png" alt="Withdraw anytime" width="90%" style="left:0; top: 0.5em"><br>
                     <p>Withdraw <br /> anytime</p>
@@ -482,6 +434,7 @@
                         
             </div>
         
+<!--
 <div class="dotHr howItWorksSignUp"  style="">
          
 
@@ -581,10 +534,12 @@
                   <div id="dotsvisible1440"></div>
                   <div id="dotsvisible1440"></div>
                   <div id="dotsvisible1440"></div>
+-->
          
          
-         <button type="" data-toggle="modal" data-target="#signUp" class="btn btn-lg moodNav signUp" style="float: left;" > Sign Up</button> 
-               <div id="dotsvisible1440"></div>
+         <button type="" data-toggle="modal" data-target="#signUp" class="btn btn-lg moodNav signUp" style="float: left; width:initial;" > Sign Up</button> 
+<!--
+               
                   <div id="dotsvisible1440"></div>
                   <div id="dotsvisible1440"></div>
                   <div id="dotsvisible1440"></div>
@@ -687,7 +642,8 @@
                  
          </div>
             
-        </div>
+-->
+        </div> <% include partials/footerMobile %> 
         
 <!--    </section>-->
 
