@@ -21,9 +21,8 @@ body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
 }
 
 .logo-icon, .logo-icon-blue {
+    left: 113px;
     position: absolute;
-       left: 8em;
-    top: 0.52em;
 }
 
 div.navbar.navbar-inverse.mobileHeader{
@@ -41,8 +40,9 @@ div.navbar.navbar-inverse.mobileHeader{
 }
 .navbar .navbar-collapse {
     text-align: center;
-    margin-left: 0em;
+    margin-left: 0;
     border: none;
+    margin-right: 0;
 }
 .navbar .navbar-nav {
     display: block;
@@ -96,17 +96,20 @@ div.index2{
     height: auto;
 }
 .yourMood > h1 {
-     font-size: medium;
+     font-size: large;
 }
 .yourMood > h4 {
-font-size: smaller;
+font-size: medium;
 }
 .yourMood > p {
-        font-size: xx-small;
+        font-size: small;
   }
 .yourMood {
 margin-top:auto;
-    transform: translateY(350%);
+    top: 35%;
+    position: relative;
+    transform: translateY(-50%);
+    top: 35%;
 }
 
 /*frog image*/
@@ -255,12 +258,12 @@ p.WhoWeAreP
     left: 0em;
     margin: auto;
 }
-div#myCarousel.carousel.slide.text-center.carouselEdit {
+/*div#myCarousel.carousel.slide.text-center.carouselEdit {
    position: relative;
     width: 85%;
     left: 0em;
     margin: auto;
-}
+}*/
 a.left {
     position: relative;
     left: -41%;
@@ -312,9 +315,9 @@ div.mobileWhatWeOffer{
     width:100%;
     height:100%
 }
-button#indexScriptYourStory.btn.btn-lg.moodNav.story {
+/*button#indexScriptYourStory.btn.btn-lg.moodNav.story {
     width: 53%;
-}
+}*/
 /*index section3*/
 .PAN {
     top: 0%;
@@ -384,21 +387,20 @@ a#index4.left,a#index4.right
     border-radius: 50%;
 }
 
-div.index4{
+/*div.index4{
            height: 91%;
-}
-div.index3
+}*/
+/*div.index3
 {
            height: 155%;
     border-bottom: 3px #35BFD3 dotted;
 
-}
+}*/
 .footerFrog > img {
     position: relative;
     bottom: 0;
     left: 0;
     z-index: 1030;
-    width: 45%;
 }
 
 .slider {
@@ -1037,7 +1039,7 @@ h3.myInvoicesHeadding{
 }
 
 img#investory.img-responsive{
-    max-width: 67%;
+    width: 178px;
 }
 .froggie {
     width: initial;
@@ -1237,7 +1239,7 @@ div.avatarTestimonial.avtarEdit {
 }
 
 .foot {
-    padding-top: 25%;
+    padding-top: 25px;
 }
 
 div.buttonSetUp{
@@ -1288,4 +1290,67 @@ div.footerFrog{
     margin-left: auto;
     display: none;
     right: initial;
+}
+
+/*navbar*/
+.navbar-default {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.mobileHeader {
+    border: 0;
+}
+.mobileHeader .navbar-header {
+    float: none;
+}
+.mobileHeader .navbar-nav>li {
+    float: none;
+    position: relative;
+    display: block;
+}
+.mobileHeader .navbar-toggle {
+    margin-right: 5px;
+    margin-top: 6px;
+}
+
+.mobileHeader .navbar-default {
+    background: #fff;
+}
+
+.moodNav {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar-default {
+   background-color: #fff;
+}
+
+.mobileHeader .collapse {
+    display: none!important;
+}
+
+.mobileHeader .collapse.in {
+    display: block!important;
+}
+
+.mobileHeader .navbar-toggle {
+    display: block;
+    float: right;
+    margin-top: 15px;
+}
+
+.mobileHeader .logoImage {
+    display: block;
+    position: relative;
+    margin: 15px;
+    float: left;
+}
+
+/*Carousel*/
+.carousel-inner .item img {
+    margin: 0 0 5px!important;
+}
+.carousel-inner .item p {
+    font-size: 20px!important;
 }

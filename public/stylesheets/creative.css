@@ -73,6 +73,11 @@ li {
     line-height:1.2;
 }
 
+/* Genric Classes */
+.inline-block {
+    display: inline-block;
+}
+
 /*
 input {
     border: none;
@@ -265,10 +270,8 @@ text-decoration: underline;
 /*background-color: #ffffff;*/
     background-color: rgba(242, 245, 251, 0);
     border-color: rgba(242, 245, 251, 0);
-    border-radius: 0px;
-    padding-top: 0.5%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
+    /*border-radius: 0px;*/
+    padding: 15px 5px 0;
     z-index: 999999;
 }
 
@@ -281,10 +284,7 @@ text-decoration: underline;
 }
 
 .navbar .navbar-collapse {
-    
     text-align: center;
-  
-	    margin-left: 24%;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -301,7 +301,7 @@ text-decoration: underline;
     color: #333333;
     font-size: 1em;
     font-weight: 700;
-    margin-right: 1.2em;
+    margin: 0em .6em;
 }
 
 .navbar-right {
@@ -678,15 +678,6 @@ margin-top: 0.7em;
 {
     
    position: relative;
-}
-
-.how-it-works .dotHr,
-.why-us .dotHr,
-.what-we-offer .dotHr,
-.know-us .dotHr{
-
-    margin-left: 8%;
-    
 }
 
 .how-it-works .pricing,
@@ -1125,9 +1116,9 @@ float: left;
 
 .carousel {
     
-    width: 50%;
-    overflow-x: hidden;
-    left: 25%;
+    /*width: 50%;*/
+    /*overflow-x: hidden;*/
+    /*left: 25%;*/
 }
 
 /*
@@ -1164,44 +1155,25 @@ Bottom menu dots and arrow down
         -webkit-transform: rotate(180deg);
     }
 }
-
-
- 
-#moodOfMonth {
-   
-    position: absolute;
-    bottom: 2em;
-    left: 9.5em;
-    width: 100px;
-	cursor: pointer;
-}
-
-.avatar #angle{
-
-
- 
-    
-}
-
-
-
 #angle {
     position: fixed;
-        left: 27.4em;
     bottom: 1em;
     width: 28px;
     height: 12px;
     z-index: 99999;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
 
 #dotMenu {
     position: fixed;
-    bottom: 2.5em;
-     left: 24.7em;
+    bottom: 4.88em;
     width: 100px;
     z-index: 99999;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .dot {
@@ -1220,8 +1192,7 @@ Bottom menu dots and arrow down
    
     position: fixed;
     bottom: 0em;
-    left: 15em;
-     z-index: 6;
+    z-index: 6;
 }
 
 #active {
@@ -1231,12 +1202,14 @@ Bottom menu dots and arrow down
 }
 
 #moodOfMonth {
-    
     color: #333333;
     font-weight: 600;
-    padding: 0%;
-    margin: 0%;
-    margin-bottom: 2.5em;
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    width: 100px;
+    cursor: pointer;
+    transform: translateX(-50%);
 }
 
 /*
@@ -1245,10 +1218,11 @@ Feeling Text Circlural Navigation Menu
 
 
 .feelingCircularMenu {
-
     position: absolute;
-    bottom: 0em;
-    left: -0.5em;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .feelingCircularMenu ul {
@@ -1287,14 +1261,14 @@ Feeling Text Circlural Navigation Menu
 .feelingCircularMenu ul li:nth-child(1) {
     
     bottom: 2.7em;
-    left: 1.8em; 
+    left: 1.2em; 
 }
 
 
 .feelingCircularMenu ul li:nth-child(2) {
    
     bottom: 6em;
-    left: 3.8em;
+    left: 3.2em;
 }
 
 .feelingCircularMenu ul li:nth-child(3) {
@@ -1312,13 +1286,13 @@ Feeling Text Circlural Navigation Menu
 .feelingCircularMenu ul li:nth-child(5) {
     
     bottom: 6em;
-    left: 21em;
+    left: 20.8em;
 }
 
 .feelingCircularMenu ul li:nth-child(6) {
     
     bottom: 2.7em;
-    left: 23em;
+    left: 22.2em;
 }
 
 /*Frog Image*/
@@ -1676,7 +1650,7 @@ img.change {
     background-color: #ffffff;/*#F2F5FB;*/
     color:#35BFD3;
  border: 1px #35BFD3 solid;
-     width: 8%;
+     /*width: 8%;*/
 text-align:center;
        font-size: 1em;
         padding-top: 2px;
@@ -2283,11 +2257,11 @@ p.SubscribeToNewsletter:hover{
 */
 
 
-div#myCarousel.carousel.slide.text-center.carouselEdit {
+/*div#myCarousel.carousel.slide.text-center.carouselEdit {
     position: absolute;
     width: 25em;
     left: 36em;
-}
+}*/
 
 a.left {
     position: absolute;
@@ -2880,11 +2854,6 @@ h2.WSHeader{
 /*Responsive mobile First Design*/
 
 @media only screen and (min-width: 769px) {
-
-	.navbar .navbar-collapse {
-
-	    margin-left: 9.3%;
-}
 	
 
 .what-we-offer,
@@ -2913,26 +2882,6 @@ h2.WSHeader{
 	.yourMood {
     
     margin-top: 16em;
-       
-}
-	
-	#dotMenu {
-    
-
-    left: 45em;
-  
-}
-	
-	#angle{
-
-    left: 47.6em;
-
-    
-}
-	.menu {
-   
-    left: 35.4em;
-    
 }
 	
 }
@@ -3044,12 +2993,13 @@ h2.indexHeadngLookingFor
 
 
 div.dotHr.dotsScriptStory{
-        margin-left: 1%;
+    display: inline-block;
+
 }
 
- button#indexScriptYourStory.btn.btn-lg.moodNav.story{
+ /*button#indexScriptYourStory.btn.btn-lg.moodNav.story{
          width: 11%;
-    }
+    }*/
 .rowFrogs
 {
     width: 100%;
@@ -3143,4 +3093,59 @@ section#section4 .dotMenu
     -moz-animation-play-state: paused;
     -o-animation-play-state: paused;
      animation-play-state: paused;
+}
+
+/* Center Menu */
+.menu {
+    width: 363px;
+    height: 152px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.menu svg {
+    left: 15px;
+    position: absolute;
+}
+
+/* Footer */
+.indexFoooter {
+    padding: 0 50px;
+}
+.dotHr {
+    display: inline-block;
+    overflow: hidden;
+}
+.FAQs, .videoTour {
+    position: static!important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.FAQs {
+    float: right;
+}
+.videoTour {
+    float: left;
+}
+.foot h4 {
+    text-align: center;
+}
+.foot .socialIcons{
+    padding: 0 30px;
+}
+.footerFrog .frogReports {
+    position: relative;
+}
+.dotHr.NaLDots {
+    margin: 0 auto!important;
+}
+
+/* Know Us Page*/
+.whyAFrogContainer {
+    position: relative;
+}
+
+.whyInvtContainer {
+    position: relative;
+    
 }

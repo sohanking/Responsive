@@ -101,28 +101,16 @@ div.container-fluid.how-it-works.frNow.text-center {
        position: relative;
     top: 44%;
 }
-    div.dotHr.dotsScriptStory {
-    margin-left: 9%;
-}
      .why-us {
     margin-top: 7%;
 }
     .yourMood {
     margin-top: 28em;
 }
-    #dotMenu {
-    left: 48em;
-}
   
     .frogImage {
        left: 45%;
     }
-    #angle {
-    left: 50.27em;
-}
-       .menu {
-    left: 38.4em;
-} 
 
     /*index*/
       /*header*/
@@ -141,13 +129,6 @@ div.container-fluid.how-it-works.frNow.text-center {
     ul#dropdownForLogOut.dropdown-menu {
      left: 8em;
   }
-    .navbar .navbar-collapse {
-/*    margin-left: 5%;5.73%;*/
-            margin-left: 5.25%;
-              margin-top: 2em;
-/*    background-color: #ffffff;*/
-
-}
     #searchBox[type=search] {
           width: 30px;
     height: 30px;
@@ -189,11 +170,6 @@ div.container-fluid.how-it-works.frNow.text-center {
     margin-bottom: 5%;
     margin-top: 10em;
 }
-    h2.indexHeadngLookingFor {
-    position: absolute;
-    left: 41.5%;
-    margin-top: 3%;
-}
 /*
    div#myCarousel.carousel.slide.text-center.carouselEdit {
        position: relative;
@@ -206,7 +182,6 @@ div.container-fluid.how-it-works.frNow.text-center {
 div#myCarousel.carousel.slide.text-center.carouselEdit {
     position: relative;
     width: 34em;
-    left: -21em;
     top: 3em;
     margin-bottom: -4em;
 }
@@ -331,11 +306,6 @@ div#myCarousel.carousel.slide.text-center.carouselEdit {
     margin-top: 10.5em;
 }
     /*header*/
-   button.btn.btn-lg.moodNav.login {
-    width: 80px;
-    position: absolute;
-    left: 91%;
-}
     .ImageHeader {
        top: 3em;
    }
@@ -975,10 +945,7 @@ table.table.table2 tr > td:nth-child(2) {
     .what-we-offer p {
        font-size: 1.29em;
     margin-bottom: 1%;
-}
-    #angle {
-    left: 50.327em;
-}    
+}  
     .frogImage > img {
     position: relative;
     top: 13%;
@@ -1005,11 +972,6 @@ table.table.table2 tr > td:nth-child(2) {
     .moodNav {
     font-size: 1.15em;
 }
-    h2.indexHeadngLookingFor {
-    position: absolute;
-    left: 43.5%;
-    margin-top: 0%;
-}
     div#indexLookingFor.row {
     margin-left: 9%;
     margin-right: 9%;
@@ -1033,32 +995,11 @@ table.table.table2 tr > td:nth-child(2) {
  .why-us .dotHr, .know-us .dotHr {
     margin-left: 10.25%;
 }
-    
-    .how-it-works .dotHr {
-    margin-left: 8.25%;
-}
-    div.dotHr.dotsScriptStory {
-    margin-left: 10%;
-}
-.what-we-offer .dotHr {
-    margin-left: 8.5%;
-}
-    h2.indexHeadngLookingFor
-    {
-            padding: 0em;
-    top: 43%;
-    left: 46%;
-    }
     .know-us .dotHr {
     margin-left: 6.5%;
 }
   .why-us .dotHr {
     margin-left: 8.25%;
-}
-    div#myCarousel.carousel.slide.text-center.carouselEdit {
-    left: 34em;
-    top: -1em;
-
 }
     #indexFourColumns.row.indexColumn {
     margin-top: 0em;
@@ -1385,28 +1326,16 @@ div.container-fluid.how-it-works.frNow.text-center {
        position: relative;
     top: 44%;
 }
-    div.dotHr.dotsScriptStory {
-    margin-left: 9%;
-}
      .why-us {
     margin-top: 7%;
 }
     .yourMood {
     margin-top: 28em;
 }
-    #dotMenu {
-    left: 48em;
-}
   
     .frogImage {
        left: 45%;
     }
-    #angle {
-    left: 50.27em;
-}
-       .menu {
-    left: 38.4em;
-} 
 
     /*index*/
       /*header*/
@@ -1425,13 +1354,6 @@ div.container-fluid.how-it-works.frNow.text-center {
     ul#dropdownForLogOut.dropdown-menu {
      left: 8em;
   }
-    .navbar .navbar-collapse {
-/*    margin-left: 5%;5.73%;*/
-            margin-left: 5.25%;
-              margin-top: 2em;
-/*    background-color: #ffffff;*/
-
-}
     #searchBox[type=search] {
           width: 30px;
     height: 30px;
@@ -1474,11 +1396,6 @@ div.container-fluid.how-it-works.frNow.text-center {
     margin-bottom: 5%;
     margin-top: 10em;
 }
-    h2.indexHeadngLookingFor {
-    position: absolute;
-    left: 41.5%;
-     margin-top: -6%;
-}
 /*
    div#myCarousel.carousel.slide.text-center.carouselEdit {
        position: relative;
@@ -1488,13 +1405,6 @@ div.container-fluid.how-it-works.frNow.text-center {
            margin-bottom: -3em;
 }
 */
-div#myCarousel.carousel.slide.text-center.carouselEdit {
-    position: relative;
-    width: 34em;
-    left: -21em;
-    top: 3em;
-    margin-bottom: -4em;
-}
 .item h4 {
     font-size: 1.45em;
     font-weight: 700;
@@ -1616,11 +1526,6 @@ div#myCarousel.carousel.slide.text-center.carouselEdit {
     margin-top: 10.5em;
 }
     /*header*/
-   button.btn.btn-lg.moodNav.login {
-    width: 80px;
-    position: absolute;
-    left: 91%;
-}
     .ImageHeader {
        top: 3em;
    }
@@ -2230,9 +2135,6 @@ left: -11%;
     /*footers*/
     div.indexFoooter
     {
-    width: 100%;
-         position: fixed;
-    top: 352%;
     }
       
 
@@ -2344,17 +2246,10 @@ p#Responsible
         top: 0.75em;
     }
 
-div.dotHr.dotsScriptStory{
-        margin-left: 9%;
-}
     .what-we-offer{
     margin-top: 7%;
 }
     /*header*/
-    .navbar .navbar-nav {
-       margin-right: -5em;
-    margin-top: 1em;
-    margin-left: -4em;
 }
     nav hr {
           width: 91%;
@@ -2379,24 +2274,10 @@ div.dotHr.dotsScriptStory{
     .navbar-nav>li {
     float: left;
     left: 0.5em;
-}
-    .menu {
-    left: 36.4em;
-}
-    #dotMenu {
-    left: 46em;
-}
-    #angle {
-    left: 48.6em;
 }/*header*/
      .nameHeader {
     left: -10em;
              top: 2em;
-}
-    .navbar .navbar-collapse {
-    margin-left:0.3%;
-       margin-top: -1em;
-/*    background-color: #ffffff;*/
 }
     .smart-goals {
     top: -14px;
@@ -2418,8 +2299,8 @@ div.dotHr.dotsScriptStory{
         display:inline;
     }
    .why-us .carousel-inner {
-margin-top: 10%;
-    left: 0.5em;
+        margin-top: 60px;
+        left: 0.5em;
 }
     .frogImage {
     left: 47%;
@@ -2446,8 +2327,6 @@ margin-top: 10%;
    
     .what-we-offer h2{
           font-size: 25px;
-    left: 47%;
-    top: 13em;
     }
     .what-we-offer p {
     margin-top: 0.75em;
@@ -2467,14 +2346,6 @@ margin-top: 10%;
     margin-right: 9%;
     margin-bottom: 1%;
     margin-top: 1em;
-}
-    div#myCarousel.carousel.slide.text-center.carouselEdit {
-       margin-bottom: 3em;
-    position: relative;
-    width: 27em;
-    left: 35em;
-    top: -1em;
-    margin-top: 0em;
 }
     #indexFourColumns.row.indexColumn {
     margin-top: -0.5em;
@@ -2604,14 +2475,12 @@ margin-top: 10%;
         
 }
     .foot{
-       position: relative;
-    height: 9em;
-    width: 86%;
-    right: 0%;
-       left: 0%;
-/*            margin-top: 6em;*/
-            margin-top: -2em;
-
+        position: relative;
+        height: 9em;
+        width: 100%;
+        right: 0%;
+        left: 0%;
+        margin-top: -2em;
     }
  .socialIcons,.newsletter
     {
@@ -2642,7 +2511,7 @@ margin-top: 10%;
 
     }
 */.footerFrog h2:nth-child(2) {
-    left: 28em;
+    left: 22em;
     top:1.65em;
     position: relative;
     width: 4em;
@@ -2784,7 +2653,7 @@ margin-top: 10%;
     margin-top: 1em;
 }
     h2.NameAndLogo {
-              padding-top: 3.25em;
+              padding-top: 4.25em;
 /*    padding-top: 0.5em;*/
     padding-bottom: 0em;
 }
@@ -2837,14 +2706,13 @@ margin-top: 10%;
 /*        25px;*/
 }
     img.WFrogImg {
-    bottom: 43.5%;
+    bottom: 0%;
     width: 6em;
     height: 6em;
 }
     img.WInvstImg {
-/*    bottom: 71.05%;*/
-      /* bottom: 71.05%; */
-    bottom: -19.995%;
+        bottom: 0;
+        left: 34%
 }
     /*reports*/
     p.paragraph {
@@ -3113,11 +2981,8 @@ div.topNav.abc{
 }
     .frogImageMoods h1 {
     font-family: mermaid;
-    position: absolute;
     text-align: center;
     vertical-align: top;
-    top: 3em;
-    left: 0.5em;
     color: white;
     font-weight: 900;
     font-size: 2.5em;
@@ -3430,15 +3295,6 @@ div.topNav.abc{
      #getStarted2560,#indexGetStartedHide1280,#dots950{
         display: none;
     }
-    h2.indexHeadngLookingFor {
-    position: absolute;
-    left: 41.5%;
-    margin-top: 3%;
-}
-    .how-it-works .dotHr,.what-we-offer .dotHr{
-               margin-left: 8%;
-
-    }
     .frogImage > img {
        position: relative;
     top: 32%;
@@ -3454,22 +3310,6 @@ div.topNav.abc{
 }
     .yourMood {
     margin-top: 27em;
-}
-    #dotMenu {
-    left: 42em;
-}
-    #angle {
-    left: 44.6em;
-}
-    .menu {
-    left: 32.4em;
-}
-    #moodOfMonth {
-       bottom: 0.2em;
-    left: 8em;
-  }
-    div.dotHr.dotsScriptStory {
-    margin-left: 8%;
 }
 .why-us .dotHr {
     margin-left: 3%;
@@ -3519,12 +3359,10 @@ div.col-sm-6.col-md-3.emergency-funds,
     div#indexFourColumns.row
     {
             position: relative;
-    left: 8em;
     }
    div#myCarousel.carousel.slide.text-center.carouselEdit {
       position: relative;
-    width: 37em;
-    left: 27.5em;
+    width: 100%;
     top: 1em;
     margin-bottom: -13em;
 }
@@ -3644,7 +3482,6 @@ div.col-sm-6.col-md-3.emergency-funds,
     }
     .how-it-works .pagination{
             margin-top: 3%;
-    margin-left: -48em;
     }
     div.row.howItWorksRow {
            margin-top: 0%;
@@ -3724,10 +3561,6 @@ div.col-sm-6.col-md-3.emergency-funds,
     .navbar-default .navbar-nav > li > a{
             font-size: 1.2em;
     }
-    .navbar .navbar-collapse{
-            margin-left:4.2%;
-            margin-top: 2em;
-    }
     /*footer header*/
     div.col-lg-12.socialIcons{
              top: 0em;
@@ -3763,11 +3596,11 @@ div.col-sm-6.col-md-3.emergency-funds,
     width: 5em;
     }
     .footerFrog h2:nth-child(1) {
-       left: 7em;
-    position: relative;
-    font-size: 3em;
-    bottom: -3em;
-    width: 6em;
+        left: 2em;
+        position: relative;
+        font-size: 3em;
+        bottom: -3em;
+        width: 6em;
 }
     .moodGoals {
     left: 32.8%;
@@ -3865,10 +3698,6 @@ top: 1em;
 }
     div.col-sm-3.KuWfC1, div.col-sm-3.KuWfC2 {
     width: 25%;
-}
-
-    .col-sm-3 {
-    width: 21%;
 }
     .col-sm-6 {
     width: 60%;
@@ -4391,9 +4220,6 @@ bottom: -4em;
        right: 9.5em;
 
 }
-    .navbar .navbar-collapse {
-    margin-left: 4%;
-}
     #searchBox[type=search] {
   top: 10.2%;
 }
@@ -4417,9 +4243,6 @@ bottom: -4em;
     left: 24em;
         top: 3em;
 }
-    div.dotHr.dotsScriptStory {
-    margin-left: 8%;
-}
     .why-us .dotHr {
     margin-left: 8%;
 }
@@ -4432,10 +4255,6 @@ bottom: -4em;
     margin-top: 9%;
     margin-bottom: 5%;
 }
-    #moodOfMonth {
-    bottom: 0.2em;
-    left: 7em;
-}
     .frogImage {
     position: absolute;
     z-index: 1030;
@@ -4446,20 +4265,6 @@ bottom: -4em;
     margin-top: 0;
     margin-left: -200px;
     display: none;
-}
-/*
-    .menu {
-    left: 33.4em;
-}
-*/
-    .menu {
-    left: 32.4em;
-}
-    #dotMenu {
-    left: 42.1em;
-}
-    #angle {
-    left: 44.6em;
 }
     
     /*social Icons*/
@@ -4704,13 +4509,6 @@ bottom: -16.5%;
     h6.InvestTeamP {
     font-size: 22px;
 }
-    /*header*/
-    button.btn.btn-lg.moodNav.login {
-    width: 80px;
-    position: absolute;
-    left: -6em;
-    top: 0em;
-}
   
     /*footer*/
    
@@ -4741,11 +4539,6 @@ bottom: -16.5%;
     font-weight: 700;
     line-height: 0.6;
     font-size: 18px;
-}
-   .footerFrog > img {
-    bottom: -4em;
-    position: relative;
-    left: 0;
 }
     .col-lg-12 {
     /* width: 178%; */
@@ -5130,13 +4923,6 @@ div#ProfileColumn1.col-sm-6.setting.settingSection2 {
     a.right {
     right: 28em;
    }
-    .footerFrog > img {
-    bottom: 19%;
-    left: 44%;
-}
-    .navbar .navbar-collapse {
-    margin-left: 0%;
-}
     #indexGetStartedHide{
     
     display: inline;
@@ -5231,7 +5017,6 @@ div#profileAge.col-md-1 {
 }
     .moodNav {
     font-size: 1.05em;
-    top: 7em;
 }
 
 .topNav {
@@ -5296,10 +5081,6 @@ div#profileAge.col-md-1 {
 }
 
 @media only screen and (max-width:1280px) and (max-height:657px){
-    .navbar .navbar-collapse {
-    margin-left: 0%;
-    margin-top: auto;
-}
     .what-we-offer h2, .how-it-works h2, .know-us h2, .why-us > h2 {
     font-size: 2.5em;
     margin-top: auto;
@@ -5362,15 +5143,6 @@ div#profileAge.col-md-1 {
     .yourMood {
     margin-top: 20em;
 }
-    .menu {
-    left: 30.4em;
-}
-    #dotMenu {
-    left: 40.1em;
-}
-    #angle {
-    left: 42.6em;
-}
     .what-we-offer h2, .how-it-works h2, .know-us h2, .why-us > h2 {
     font-size: 1.85em;
 }
@@ -5380,14 +5152,8 @@ div#profileAge.col-md-1 {
     .what-we-offer p, .how-it-works p {
     font-size: 1.48em;
 }
-    .what-we-offer .dotHr {
-    margin-left: 2%;
-}
     .how-it-works .dotHr {
     margin-left: 9%;
-}
-    div.dotHr.dotsScriptStory {
-    margin-left: 5%;
 }
     .how-home .row {
     margin-left: 5%;
@@ -5405,13 +5171,11 @@ div#profileAge.col-md-1 {
        margin-left: 8%;
 }
     div#myCarousel.carousel.slide.text-center.carouselEdit {
-    left: 25.5em;
           margin-bottom: -11.9em;
 }
     .footerFrog > img {
     bottom: 3em;
-    left: 0%;
-    top: 4em;
+    top: 2.5em;
 }
     .foot h4 > a {
     font-size: 21px;
@@ -5431,31 +5195,13 @@ div#profileAge.col-md-1 {
 }
 }
 @media only screen and (max-width:1024px) and (max-height:768px){
-  
-    .menu {
-    left: 22.4em;
-}
-    #dotMenu {
-    left: 32.1em;
-}
-    #angle {
-    left: 34.6em;
-}
+
     #indexGetStartedHide768{
         display: none;
     }
     #indexGetStartedHide1280,#indexGetStartedHide1400,#getStarted2560{
         display: inherit;
     }
-     .what-we-offer .dotHr {
-    margin-left: 12%;
-}
-    div.dotHr.dotsScriptStory {
-    margin-left: 14%;
-}
-    .how-it-works .dotHr {
-    margin-left: 22%;
-}
     .content div > p {
     font-size: 1.2em;
     padding-left: 1em;
@@ -5544,22 +5290,12 @@ div#profileAge.col-md-1 {
     .dotHr, .what-we-offer .dotHr {
     margin-left: 10%;
 }
-    div.dotHr.dotsScriptStory {
-      margin-left:8%;
-}
     .what-we-offer .build-wealth > img {
     margin-top: 50%;
 }
     .what-we-offer .smart-goals > img {
     margin-left: 16%;
        margin-top: -2em;
-}
-    .menu {
-    left: 14.4em;
-}
-    #moodOfMonth {
-    bottom: 1.2em;
-    left: 9em;
 }
     
     /*social Icons
@@ -5607,10 +5343,6 @@ background:url('../images/footerSprite.png')-105px -35px;
      .how-it-works .pricing, .how-it-works .video-tour {
     width: 10em;
 }
-    
-    #dotMenu {
-       left: 23.7em;
-  }
     .what-we-offer h2{
     font-size: 1.5em;
 }
@@ -5641,9 +5373,6 @@ background:url('../images/footerSprite.png')-105px -35px;
     width: 24%;
     left: -2em;
 }
-    #angle {
-       left: 26.35em;
-   }
     .avatarTestimonial .name {
     font-size: 14px;
     font-weight: 700;
@@ -5920,11 +5649,6 @@ background:url('../images/footerSprite.png')-105px -35px;
     .moodGoals .btn{
         width: 9em;
     }
-    .navbar .navbar-collapse {
-    text-align: center;
-       margin-left: 0%;
-           margin-top: -1em;
-}
     .btn .caret {
     margin-left: 1.5em;
 }
