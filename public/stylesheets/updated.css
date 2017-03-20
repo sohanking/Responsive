@@ -5,10 +5,6 @@ How it works
 */
 
 
-.how-it-works {
-    
-margin-top: 7.5em;
-}
 .how-it-works .panel {
     border: 2px solid #35BFD3; 
     border-radius:10px;
@@ -1253,15 +1249,15 @@ button.btn.btn-sm.moodNav.signUp.gaveUp1{
 
 /*added*/
 div.btnCenterReport1{
-        position: absolute;
-    top: 137%;
+    position: absolute;
+    bottom: 50px;
     left: 41%;
 }
 /*added*/
 div.btnCenterReport2{
-        position: absolute;
-    top: 143%;
+    position: absolute;
     left: 44%;
+    bottom: 0;
 }
 
 #report h4.paint{
@@ -1347,11 +1343,6 @@ width: 6em;
     line-height: 1.5em;
     padding: 0px 0px;
     font-weight: bolder;
-}
-img.WFrogImg {
-    position: absolute;
-       bottom: 47%;
-    left: 59%;
 }
 
 
@@ -1550,12 +1541,6 @@ h6.messageProfile {
 Footer
 -----------------------------------------------------------------------------------------
 */
-.footerFrog h2:nth-child(1) {
-    
- 
-    left: 34%;
-}
-
 
 
 .chhh .footerFrog h2{
@@ -1575,11 +1560,9 @@ td.aba{
 }
 #reports .upgrade{
     position: relative;
-    top: -3.5em;
-    left: 1em;
-
-
-   
+    left: 45%;
+    margin-top: 12px;
+    left: 45%;
 }
 
 #reports td.corrupt{

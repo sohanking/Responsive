@@ -39,39 +39,27 @@
                              <button type=""  id=""  class="btn btn-lg moodNav login" data-toggle="modal" data-target="#loginModal" > Login</button> 
                         <% } else {%>
                         <div id="" class="row avatar">
-                            <div class="col-sm-8 nameHeader"><p class="name"><%= user.local.name %></p>
+                            <div class="nameHeader"><p class="name"><%= user.local.name %></p>
                             <p class="role">The Egg</p>
+                        </div>
+                        <div class="ImageHeader"><img src="images/avatar.png" alt="Person" width="96" height="96">
+                        <!--header dropdown-->
+                             <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="">
+                                    <span class=""></span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="dropdownForLogOut">
+                                    <li><a href="/myStory">My Story</a></li>
+                                    <li><a href="/reports">Reports</a></li>
+                                    <li><a href="/Profile">Edit Profile</a></li>
+                                    <li><a href="/invoices">Account</a></li>
+                                    <li><a href="#">Message</a></li>
+                                    <li><a href="/Settings">Settings</a></li>
+                                    <li><a href="/logout">Log Out</a></li>
+                                </ul>
                             </div>
-                            
-                            <div class="col-sm-4 ImageHeader"><img src="images/avatar.png" alt="Person" width="96" height="96"> 
-							
-							<!--header dropdown-->
-                             
-                                <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
-   style="">
-    <span class=""></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="dropdownForLogOut">
-    <li><a href="/myStory">My Story</a></li>
-     <li><a href="/reports">Reports</a></li>
-      <li><a href="/Profile">Edit Profile</a></li>
-      
-      <li><a href="/invoices">Account</a></li>
-      <li><a href="#">Message</a></li>
-    <li><a href="/Settings">Settings</a></li>
-    <li><a href="/logout">Log Out</a></li>
-  </ul>
-</div>
-
-                                <!--header dropdown ends-->
-							
-							
-						
-							
-							</div>
-                            
-                        </div>  
+                        <!--header dropdown ends-->
+					    </div>
 						<% } %>
                     </ul>
                                        <div id="<%= selectorDisplay %>" class="moodGoals">

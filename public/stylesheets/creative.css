@@ -106,8 +106,7 @@ Header of the index.html
 
 /*Investory Logo*/
 .logo {
-    
-    position: absolute;
+    /* position: absolute; */
 }
 
 /*Logo without the yellow icon*/
@@ -120,10 +119,9 @@ Header of the index.html
 /*The yellow icon in the logo*/
 .logo-icon,
 .logo-icon-blue{
-    
     position: absolute;
-    left: 8em;
-    top: 0.6em;
+    left: 132px;
+    top: 22px;
 }
 
 .logo-icon-blue {
@@ -155,14 +153,16 @@ Header of the index.html
 /*.logo a.tooltips:hover {text-decoration:none;} */
 .logo a.tooltips span {
     z-index:10;
-    display:none; 
+    display:none;
     padding:14px 16px;
     margin-top:1em;
-    margin-left:-49%;
+    /* margin-left:-49%; */
     width:32em;
     line-height:18px;
     padding-right: 5px;
-	cursor: pointer;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
 }
 /*
 .logo a.tooltips:hover span{
@@ -276,11 +276,9 @@ text-decoration: underline;
 }
 
 .navbar .navbar-nav {
-    
     display: inline-block;
     float: none;
     vertical-align: top;
-     
 }
 
 .navbar .navbar-collapse {
@@ -299,7 +297,7 @@ text-decoration: underline;
 .navbar-default .navbar-nav > li > a {
     
     color: #333333;
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: 700;
     margin: 0em .6em;
 }
@@ -356,9 +354,8 @@ text-decoration: underline;
 
 
 .avatar{
-    
+    position: relative;
     padding: 0;
-    height: 3em;
     width: auto;
     margin-top: -0.8em;
 }
@@ -369,10 +366,9 @@ text-decoration: underline;
 }
 
 .avatar img {
-    
     padding: 0;
-/*    float: right;*/
-    margin: 0;
+    float: right;
+    margin-left: 10px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -395,7 +391,7 @@ text-decoration: underline;
 }
 
 .avatar .role {
-    
+    margin-right: 30px;
     font-size: 0.9em;
     font-weight: 600;
     font-style: italic;  
@@ -498,9 +494,9 @@ What we offer
 
 
 .what-we-offer .row, .how-home .row {
-    margin-left: 14%;
-    margin-right: 14%;
-    margin-top: 4%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 6%;
     margin-bottom: 4%;
 }
 
@@ -574,17 +570,12 @@ How it works
 }
 
 .how-it-works .pagination {
-  position: relative;
-/*    position: absolute;*/
-    left: 26%;
-    padding: 0;
-    margin: 0;  
-    margin-top: 1%;
-}
-
-.frNow .pagination {
-	
-	    left: 29%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  margin: 0;
+  margin-top: 1%;
 }
 
 .how-it-works .pagination>li>a { 
@@ -780,23 +771,7 @@ section .know-us {
 }
 
 .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 160px;
-    padding: 5px 0;
-   margin: 0;
-    font-size: 14px;
-    text-align: left;
-    list-style: none;
-    background-color:#ffffff;/* #F2F5FB;*/
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #333333;
-    border-radius: 8px;
+    top: 45px;
 }
 
 .dropdown-menu>li>a {
@@ -856,19 +831,18 @@ p, h1, h2, h3, div, button, a, li {
 }
 
 .Withdraw img {
-    
-/*
+    /*
        position: relative;
     left: -2.5em;
     top: -0.5em;
 */
-        position: relative;
+    position: relative;
     /* left: -3.5em; */
     /* top: -0.5em; */
-    left: -1.025em;
+    /* left: -1.025em; */
+    em; */
     top: -0.48em;
     top: -0.5em;
-    /* left: 0em; */
 }
 }
 
@@ -950,7 +924,7 @@ p, h1, h2, h3, div, button, a, li {
 
 .faqs {
     
-       padding-top: 6em;
+       padding-top: 120px;
 }
 
 .faqs > h2 {
@@ -1053,11 +1027,6 @@ float: left;
     
     background-image: none;
     color: #35BFD3;
-}
-
-.why-us .carousel-inner {
-    
-    margin-top: 3%;
 }
 
 .item h4 {
@@ -1169,11 +1138,11 @@ Bottom menu dots and arrow down
 
 #dotMenu {
     position: fixed;
-    bottom: 4.88em;
+    bottom: 25px;
     width: 100px;
     z-index: 99999;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-48%);
 }
 
 .dot {
@@ -1205,7 +1174,7 @@ Bottom menu dots and arrow down
     color: #333333;
     font-weight: 600;
     position: absolute;
-    bottom: 2em;
+    bottom: 35px;
     left: 50%;
     width: 100px;
     cursor: pointer;
@@ -1800,10 +1769,9 @@ text-align:center;
 }
 
 .contentMood .page2 .login-btn {
- 
-        position: absolute;
-    top: 15%;
-       left: 37%;
+    position: absolute;
+    top: 30px!important;
+    left: 300px;
     
 }
 
@@ -1969,44 +1937,14 @@ Footer
 .foot {
     
     background-color: #35BFD3;
-/*
-    position: absolute;
-    bottom: 0;
-    left: 7%;
-*/
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-top-left-radius: 8px;
      border-top-right-radius: 8px;
 }
 
-.footerFrog > img{
-    
-    position: absolute;
-       bottom: 13.5%;
-    left: 42%;
-    z-index: 1030;
-   
-    
-}
-
 .footerFrog h2 {
-/*
-        position: absolute;
-    bottom: -182%;
-*/
-/*
-    position: fixed;
-    bottom: -12em;
-*/
-
-     border-bottom: 2px dotted #333333;
-    font-weight: 900;
-    font-size: 2em;
     cursor: pointer;
-	color: #333333;
 }
 
 .footerFrog h2:hover {
@@ -2015,47 +1953,16 @@ Footer
 	border-bottom: 2px dotted #35BFD3;
 }
 
-.footerFrog h2:nth-child(1) {
-    
- 
-    left: 34%;
-}
-
-.footerFrog h2:nth-child(2) {
-    
- 
-    left: 58%;
-}
-
-
-
-.foot .row {
-    
-    width: 35%;
-    float: left;  
-}
-
 .foot .row:nth-child(2) {
     
     margin-left: 26em;
     
 }
-
-.foot .row div:nth-child(3) h4,
-.foot .row div:nth-child(3) p {
-    
-    text-align: left;
-    
-}
-
-
-
 .foot h4 > a {
     
     color: #F2F5FB;
-    font-weight: 600;
-
-
+    font-weight: 700;
+    font-size: 22px;
 } 
 
 .socialIcons img {
@@ -2832,7 +2739,7 @@ img.avtarSize{
 
 img.WFrogImg{
     position: absolute;
-    bottom: 44.2%;
+    bottom: 0;
     left: 59%;
 }
 h2.WFrogHead{
@@ -2841,8 +2748,8 @@ h2.WFrogHead{
     padding-bottom: 0em;
 }
 img.WInvstImg{
-        position: absolute;
-    bottom: 70.5%;
+    position: absolute;
+    bottom: 0;
     left: 30%;
 }
 h2.WSHeader{
@@ -2880,8 +2787,7 @@ h2.WSHeader{
 }
 	
 	.yourMood {
-    
-    margin-top: 16em;
+    margin-top: 22em;
 }
 	
 }
@@ -2896,44 +2802,27 @@ h2.WSHeader{
     border: 0px;
     background-repeat: no-repeat;
     position: absolute;
-
     color: red;
-    bottom: 1.25em;
-        right: 11.75em;
-        border: none;
-    outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-ul#dropdownForLogOut.dropdown-menu{
-     position: absolute;
-    left: 7em;
-    top: 0.5em;
-    font-size: 15px;
-    right: -3em;
-    width: 2em;
-}
-
-.ImageHeader{
-    background-repeat: no-repeat;
-   /*position: absolute;
-     color: red;
-    bottom: 0em;*/
-	position: fixed;
-    color: red;
-    top: 1em;
-    right: -12.2em;
+    bottom: 12px;
+    right: 54px;
     border: none;
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+.ImageHeader{
+    background-repeat: no-repeat;
+    color: red;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 	z-index: 9999;
+    float: right;
 }
  .nameHeader{
        width: initial;
-    left: -4em; 
-	     top: 0.5em;
+       position: relative;
+       float: left;
 }
 
 /*dropdown logout Ends*/
@@ -2962,7 +2851,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .profileSubmit{
     position: relative;
     left:47%;
-	    top: 2em;
 }
 /*added during responsiveness*/
 div.dotHr.NaLDots{
@@ -2974,7 +2862,7 @@ div.dotHr.NaLDots{
 }
 
 div.dotHr.dotPayButton{
-     margin-left: 22%;
+     width: 100%
 }
 div.row.howItWorksRow
 {
@@ -2987,8 +2875,9 @@ div.dotHr.howItWorksSignUp{
 h2.indexHeadngLookingFor
 {
         position: absolute;
-   left: 43.5%;
-    margin-top: 3%;
+        left: 50%;
+        margin-top: 3%;
+        transform: translateX(-50%);
 }
 
 
@@ -3006,10 +2895,6 @@ div.dotHr.dotsScriptStory{
     margin-top: 2em;
     margin-left: 22em;
 }
-textarea#comment.form-controler.addressSection2{
-        position: fixed;
-       left: 35%;
-}
 
 textarea#comment.form-controler.addressSection3
 {
@@ -3023,12 +2908,9 @@ h2.NameAndLogo{
 }
 */
 .rowTransform{
-    padding-left: 27em;
-    padding-right: 30em;
-    padding-top: 4em;
-}
-div.dropdownMarital{
-    margin-top:-1em;
+    padding-left: 20em;
+    padding-right: 20em;
+    padding-top: 2em;
 }
 
 div.row.testimonyRow{
@@ -3109,29 +2991,49 @@ section#section4 .dotMenu
 
 /* Footer */
 .indexFoooter {
-    padding: 0 50px;
+        padding: 0 50px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        bottom: 0;
 }
 .dotHr {
     display: inline-block;
     overflow: hidden;
 }
-.FAQs, .videoTour {
-    position: static!important;
-    margin-left: 10px;
-    margin-right: 10px;
+.footerFrog.frogReports {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    z-index: 1;
+    top: 8px;
 }
-
+.videoTour, .FAQs {
+    font-size: 2em;
+    border-bottom: 2px dotted;
+    position: absolute!important;
+    left: 50%;
+    top: 18px;
+    width: 65px;
+    margin: 0;
+    color: rgb(51, 51, 51)!important;
+    font-size: 30px!important;
+}
 .FAQs {
-    float: right;
+    transform: translateX(calc(-50% - 100px));
 }
 .videoTour {
-    float: left;
+    transform: translateX(calc(-50% + 100px));
 }
-.foot h4 {
-    text-align: center;
+.foot left h4 {
+    text-align: left;
+}
+.foot right h4 {
+    text-align: right;
 }
 .foot .socialIcons{
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 .footerFrog .frogReports {
     position: relative;
@@ -3140,12 +3042,92 @@ section#section4 .dotMenu
     margin: 0 auto!important;
 }
 
-/* Know Us Page*/
+/* Know Us Page */
 .whyAFrogContainer {
     position: relative;
 }
 
 .whyInvtContainer {
     position: relative;
-    
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: static;
+}
+
+/* Footer */
+.foot .left h4 {
+    text-align: right;
+}
+
+.foot .right h4, .foot .right p {
+    text-align: left;
+}
+
+#invisible {
+    display: none;
+}
+
+.footerFrog.frogReports img {
+    position: relative;
+    top: 25px;
+}
+
+footer {
+    font-size: 18px;
+}
+
+.carouselWrapper {
+    position: relative;
+}
+
+.carouselWrapper .left, .carouselWrapper .right {
+    position: absolute;
+    top: 60%;
+    transform: translateX(-50%);
+} 
+
+.carouselWrapper .left {
+    left: 20%;
+}
+
+.carouselWrapper .right {
+    right: 20%;
+}
+
+/* Know Us Page*/
+.know-us.text-center.mod-singular-section {
+    margin-top: 120px;
+}
+
+/* Pricing Page */
+.how-it-works {
+    margin-top: 140px;
+}
+
+.contentMood .page {
+    position: relative;
+}
+
+.selectMode {
+    float: left;
+}
+
+/* FAQs */
+.faqFooter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Profile Page*/
+.container-fluid.how-it-works.contentEdit {
+    margin-top: 0;
+}
+
+/* Accounts Page */
+.onepage-wrapper #account {
+    margin-top: 120px;
 }
