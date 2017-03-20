@@ -757,7 +757,7 @@ Payment.findOne({email:req.session.userEmail},function(err, datapaid ){
 			console.log(req.session.panMessage);
          		 mobile = req.useragent["isMobile"]
     if(mobile){
-      res.render('howItWorksMobile.ejs',{
+      res.render('moodMobile.ejs',{
  
   }); }
         else    {
@@ -1017,11 +1017,29 @@ Payment.findOne({email:req.session.userEmail},function(err, datapaid ){
 	Portfolio.find({email:mailId},function(err, AssetAgain){
 		Asset.find({}, function(err, Assetlist){
 		if(Assetlist.length > 1){
-//				 mobile = req.useragent["isMobile"]
-//    if(mobile){
-//      res.render('howItWorksMobile.ejs',{
-// 
-//  });else{
+				 mobile = req.useragent["isMobile"]
+    if(mobile){
+      res.render('mobileMood.ejs',{
+ data: Assetlist,
+			user : req.user,
+                firslist :  docs,
+        amtre:schemecamnteq,
+        amtrh:schemecamnthy,
+        amtrd:schemecamntde,
+			smessage: req.flash('signupMessage'),
+		lmessage: req.flash('loginMessage'),
+			 selectorDisplay: "show",
+	  	loggedIn: loginStatus,
+	  	  footerDisplay: "hide",
+	  footerData1: "Blog",
+	  footerData2: "FAQs",
+			scheme:showScheme,
+			panMessage:panMsg,
+			abcd: testMe,
+			paid : paymentStatus,
+			assetFromDb: AssetAgain[0],
+			  showPage5: "show"
+  });}else{
 	    res.render('mood', {
 			data: Assetlist,
 			user : req.user,
@@ -1042,7 +1060,7 @@ Payment.findOne({email:req.session.userEmail},function(err, datapaid ){
 			paid : paymentStatus,
 			assetFromDb: AssetAgain[0],
 			  showPage5: "show"
-            });
+            });}
         }
 		
 			 });

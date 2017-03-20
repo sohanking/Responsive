@@ -8,6 +8,8 @@ How it works
 .how-it-works .panel {
     border: 2px solid #35BFD3; 
     border-radius:10px;
+        width: initial;
+    height: 22em;
 
 }
 
@@ -423,6 +425,7 @@ background-color:#35BFD3;
 }
 .shrinkleft1{
         left: 9em;
+   
 
 }
 
@@ -439,21 +442,27 @@ background-color:#35BFD3;
     padding-left: 1.18em;
     padding-right: 1.5em;
     padding-bottom: 0px;
-    width: 14.6em;
+  width: initial;
+    margin-left:auto;
+/*
+        width: 14.3;
     margin-left:5.3em;
    
+*/
 }
 
 
 .rowclass{
     
-       width:70.125em;;
-
+/*       width:70.125em;;*/
+width:auto;
 }
 
 .h2hstyle{
     
-margin-left: 2em;
+/*margin-left: 2em;*/
+        margin-left: auto;
+
 }
 
 .how-it-works .panel-body {
@@ -1347,7 +1356,7 @@ width: 6em;
 
 
 div.row.KuWfRow {
-    margin-top: 2em;
+     margin-top: -1em;
 }
 .content div > p.KuWfC1Pad {
     margin-top: 6px;

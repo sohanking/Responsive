@@ -2,6 +2,32 @@ body{
         height: 100%;
         overflow-y: auto;
 }
+.navbar-default {
+       margin: auto;
+    padding: initial;
+}
+
+.how-it-works {
+    margin-top: 21%;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #333333;
+    font-size: 1em;
+    font-weight: 700;
+    margin-right: 1.2em;
+    text-align: left;
+}
+
+.modal-content {
+    padding-left: initial;
+    padding-right: initial;
+    padding-bottom: 3em;
+    border: 1px solid #35BFD3;
+    box-shadow: none;
+    background-color: #ffffff;
+}
 .frogIndex
 {
         position: relative;
@@ -17,12 +43,13 @@ body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
     position: inherit;
 }
 .container-fluid {
-       height: 100%;
+       height: auto;
 }
 
 .logo-icon, .logo-icon-blue {
-    left: 113px;
     position: absolute;
+       left: 8em;
+    top: 0.52em;
 }
 
 div.navbar.navbar-inverse.mobileHeader{
@@ -40,15 +67,15 @@ div.navbar.navbar-inverse.mobileHeader{
 }
 .navbar .navbar-collapse {
     text-align: center;
-    margin-left: 0;
+    margin-left: 0em;
     border: none;
-    margin-right: 0;
+        width: 50%;
 }
 .navbar .navbar-nav {
     display: block;
     float: none;
     vertical-align: top;
-}
+background-color: white;}
 .navbar-inverse .navbar-nav>li>a {
     color: #333333;
     font-weight: 800;
@@ -96,20 +123,18 @@ div.index2{
     height: auto;
 }
 .yourMood > h1 {
-     font-size: large;
+     font-size: medium;
 }
 .yourMood > h4 {
-font-size: medium;
+font-size: smaller;
 }
 .yourMood > p {
-        font-size: small;
+        font-size: xx-small;
   }
 .yourMood {
-margin-top:auto;
-    top: 35%;
-    position: relative;
-    transform: translateY(-50%);
-    top: 35%;
+          margin-top: 63%;
+        margin-bottom: 50%;
+/*    transform: translateY(350%);*/
 }
 
 /*frog image*/
@@ -190,9 +215,11 @@ button.btn.btn-lg.moodNav.getStarted{
 }
 div.photosParent {
 
+/*
     left: 0%;
     right: 0%;
         position: relative;
+*/
 /*     top: 69%;*/
 
 }
@@ -200,7 +227,7 @@ div.photosParent {
 
 /*know us page*/
 .knowUs1{
-    
+       margin-top: 25%; 
 }
 .know-us h2 {
        font-weight: 600;
@@ -258,12 +285,12 @@ p.WhoWeAreP
     left: 0em;
     margin: auto;
 }
-/*div#myCarousel.carousel.slide.text-center.carouselEdit {
+div#myCarousel.carousel.slide.text-center.carouselEdit {
    position: relative;
     width: 85%;
     left: 0em;
     margin: auto;
-}*/
+}
 a.left {
     position: relative;
     left: -41%;
@@ -315,9 +342,9 @@ div.mobileWhatWeOffer{
     width:100%;
     height:100%
 }
-/*button#indexScriptYourStory.btn.btn-lg.moodNav.story {
+button#indexScriptYourStory.btn.btn-lg.moodNav.story {
     width: 53%;
-}*/
+}
 /*index section3*/
 .PAN {
     top: 0%;
@@ -387,51 +414,53 @@ a#index4.left,a#index4.right
     border-radius: 50%;
 }
 
-/*div.index4{
-           height: 91%;
-}*/
-/*div.index3
+div.index4{
+          height: initial;
+}
+div.index3
 {
-           height: 155%;
+                   height: initial;
     border-bottom: 3px #35BFD3 dotted;
 
-}*/
+}
 .footerFrog > img {
     position: relative;
     bottom: 0;
     left: 0;
     z-index: 1030;
+    width: 45%;
 }
 
-.slider {
 /*
-    position: relative;
-    left: 15%;
-   top: inherit;
-    right: 15%;
-*/
+.slider {
+
     position: relative;
     left: 15%;
     top: inherit;
     right: 15%;
     left: 15%;
     right: 15%;
-/*    margin: auto;*/
+
 }
+*/
 img.change {
         width: 12%;
 }
+/*
 .photos {
-/*        width: 17em;*/
+
        width: 71%;
-/*    width:51%;*/
+
     overflow: hidden;
 }
+*/
 div.rowIndexSlider
 {
+/*
         position: relative;
 
     top:11em;
+*/
     
 /*
         position: fixed;
@@ -469,12 +498,16 @@ div.row.howItWorksRow {
 a#pricingCarousel.left{
        position: relative;
     left: -46%;
-    top: -3em; 
+      right: -46%;
+    position: relative;
+    top: -5em; 
 }
 a#pricingCarousel.right {
     right: -46%;
     position: relative;
-    top: -3em;
+        right: -46%;
+    position: relative;
+    top: -5em;
 }
 
 .pricingPanelRow {
@@ -993,9 +1026,9 @@ table.table.table2 tr > td:nth-child(1) {
     box-shadow: none;
 }
 h6.messageProfile {
-    width: 15em;
-    margin-top: 0px;
-    margin-bottom: 0.65em;
+      width: initial;
+    margin-top: auto;
+    margin-bottom: auto;
     font-weight: 800;
 }
 .settingsForm .col-sm-6.accSettings2 {
@@ -1039,7 +1072,7 @@ h3.myInvoicesHeadding{
 }
 
 img#investory.img-responsive{
-    width: 178px;
+      max-width: 60%;
 }
 .froggie {
     width: initial;
@@ -1197,7 +1230,7 @@ button.btn.btn-lg.moodNav.profileSubmit2{
 
 .sliderFaqs div.panel.show {
     opacity: 1;
-    max-height: 500px;
+    max-height: initial;
 }
 
 .btn-circle {
@@ -1213,8 +1246,7 @@ button.btn.btn-lg.moodNav.profileSubmit2{
     font-size: 1.2em;
       background-color: #ffffff;
 }
-.faqs {
-    padding-top: initial;
+.faqs {padding-top:25%;
 }
 button.accordion.btn-lg.investementbutton
 {
@@ -1239,7 +1271,7 @@ div.avatarTestimonial.avtarEdit {
 }
 
 .foot {
-    padding-top: 25px;
+    padding-top: 25%;
 }
 
 div.buttonSetUp{
@@ -1291,66 +1323,48 @@ div.footerFrog{
     display: none;
     right: initial;
 }
+.slider-control {
+    position: relative;
+    /* top: -4em; */
+    left: -11%;
+    display: none;
+}
 
-/*navbar*/
-.navbar-default {
-    border: 0;
-    margin: 0;
+
+/*trial get started*/
+.slider {/*404*/
+    position: relative;
+    left: 15%;
+    top: inherit;
+    right: 15%;
+    left: 2%;
+    right: 15%;
+    /* margin: auto; */
+}
+.photos {/*422*/
+    /* width: 17em; */
+    width: 100%;
+    /* width: 51%; */
+    overflow: hidden;
+}
+.photosInner {/*added*/
+    height: initial;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.settingsForm .col-sm-6.accSettings2 {
+    width: initial;
     padding: 0;
-}
-.mobileHeader {
-    border: 0;
-}
-.mobileHeader .navbar-header {
-    float: none;
-}
-.mobileHeader .navbar-nav>li {
-    float: none;
     position: relative;
-    display: block;
+    left: 0%;
 }
-.mobileHeader .navbar-toggle {
-    margin-right: 5px;
-    margin-top: 6px;
+h3.settingsDataHeader
+{
+        padding-top: 17%;
 }
-
-.mobileHeader .navbar-default {
-    background: #fff;
-}
-
-.moodNav {
-    left: 50%;
-    transform: translateX(-50%);
-}
-.navbar-default {
-   background-color: #fff;
-}
-
-.mobileHeader .collapse {
-    display: none!important;
-}
-
-.mobileHeader .collapse.in {
-    display: block!important;
-}
-
-.mobileHeader .navbar-toggle {
-    display: block;
-    float: right;
-    margin-top: 15px;
-}
-
-.mobileHeader .logoImage {
-    display: block;
-    position: relative;
-    margin: 15px;
-    float: left;
-}
-
-/*Carousel*/
-.carousel-inner .item img {
-    margin: 0 0 5px!important;
-}
-.carousel-inner .item p {
-    font-size: 20px!important;
+div.page1
+{
+/*        margin-top: 25%;*/
 }
