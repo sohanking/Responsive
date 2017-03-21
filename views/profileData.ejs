@@ -10,12 +10,10 @@
 
            
            <div class="text">
-           <div class="container-fluid">
+           <div class="">
                <div class="row testimonyRow">
                    <div class="col-sm-6 TestimonyProfile" >
-                        <div >
-                                <img src="images/avatar.png" border="20" width="96"  height="96"  style="margin-left:72%;     border-radius: 50%;">
-                       </div> 
+                                <img src="images/avatar.png" border="20" width="96"  height="96"  style="float: right; border-radius: 50%;">
                    </div> 
 				   <% var monthNames = [
     "January", "February", "March",
@@ -23,7 +21,7 @@
     "August", "September", "October",
     "November", "December"
     ];%>
-                     <div class="col-sm-6 TestimonyProfileData" style="text-align:left;    margin-left: -4em;">
+                     <div class="col-sm-6 TestimonyProfileData" style="text-align:left;">
                                     <h4 class="meme"  style="font-size:bolder;"><%= user.local.name %></h4>
                                     <h4 class="mem" style="">
 						 <% if(profile.dob) {%>
@@ -167,26 +165,17 @@
 
                 <div class="container frogSection">
                <div class="row rowFrogs" style="">
-                
-                <div class="col-md-4 froggie  frog1">
+                   <div class="frogsWrapper">
+                    <img src="images/animHow/3%20GOALS.png" alt="The Egg">
                    
-                    <img src="images/animHow/3%20GOALS.png" alt="The Egg"><br>
-                
-                </div>
-                   <div class="col-md-4 froggie frog2">
+                    <img src="images/animHow/5%20GOALS.png" alt="Tadpole">
                    
-                    <img src="images/animHow/5%20GOALS.png" alt="Tadpole"><br>
-        
-                </div>
-                   <div class="col-md-4 froggie frog3">
+                    <img src="images/animHow/10%20GOALS.png" alt="Froglet">
+                  
                    
-                    <img src="images/animHow/10%20GOALS.png" alt="Froglet"><br>
-                  <div id="yCircle" ></div>
-                </div>
-                   <div class="col-md-4 froggie frog4">
-                   
-                    <img src="images/animHow/15%20GOALS%20BLACK.png" alt="Frog"><br>
-                 
+                    <img src="images/animHow/15%20GOALS%20BLACK.png" alt="Frog">
+                 </div>
+                 <div id="yCircle" ></div>
                 </div>
                 
           
@@ -326,9 +315,9 @@
        
 
                                
-             <div class="container-fluid how-it-works contentEdit">
+             <div class="container how-it-works contentEdit">
                                     
-                 <div class="row rowTransform" style="">
+                 <div class="row" style="">
                           <br>
                      <br>
                      <br>
@@ -336,118 +325,60 @@
                      <br>
                      <form name="profileInformation" class="form-horizontal" action="/profile" method="post">
                                                      
-                         <div id="ProfileColumn1"  class="col-sm-6  setting colProfile">
-                                                         
-                             <div class="form-group">
-                                                               
-                                 <label class="control-label  col-sm-2 colo"style="width: 5em;" >Name:</label>
-                                                                        
-                                 <div class="col-md-3">
-                                  <input type="text" class="form-controler" name="username" id="username" value="<%= user.local.name %>" /> 
-                                                                    
-                                 </div>
-                                            <br>
-                                                            </div>     
+                        <div id="ProfileColumn1"  class="col-sm-6  setting colProfile">
+                        <div style="width: 280px; float: right;">
+                            <div class="form-group">
+                                <label class="control-label">Name:</label>
+                                <input type="text" class="form-controler" name="username" id="username" value="<%= user.local.name %>" /> 
+                            </div>
                                
-                               
-                                <div class="form-group">
-                                    <label class="control-label  col-sm-2 colo" style="width: 5em;">Mobile:</label>
-                                           <div class="col-md-3">
-                                       <input type="number" class="form-controler" name="mnumber" id="mnumber" value="<%= user.local.mobile %>">
-                                             
-                                                </div>
-                                           <br>
-                                                            </div>
-                               
-                               
-                               
-                                       
-                  <div class="form-group">
-                                          <div class="dropdown">
-                     <label class="control-label  col-sm-2 colo" for="text" style="width: 5em;" >Gender:</label>
-                                                                               
-                                              
-                 <div class="col-md-3 collum">
+                            <div class="form-group">
+                                <label class="control-label">Mobile:</label>
+                                <input type="number" class="form-controler" name="mnumber" id="mnumber" value="<%= user.local.mobile %>">
+                            </div>                                   
+                            
+                            <div class="form-group">
+                                <div class="dropdown">
+                                    <label class="control-label" for="text">Gender:</label>
                   				   <% var Gender = [
     "Man", "Woman"
     ];%>                                                                      
-                 <select class="form-controler edit selectGender" id="gender" name="gender"  ><span class="caretNext caretNext1 caret "></span>
+                                    <select class="form-controler edit selectGender" id="gender" name="gender"  ><span class="caretNext caretNext1 caret "></span>
 					<% Gender.forEach( function( sex ){ %>
 					
-					 <option valuw="<%= sex%>" <% if(profile.gender == sex) {%> selected="selected"<%}%> >
+					                    <option valuw="<%= sex%>" <% if(profile.gender == sex) {%> selected="selected"<%}%> >
 						 <%= sex%>
-					 </option>
+					                    </option>
 					 <% });%>
-                            </select>
-                                              
-                                                                                                 
-                             </div>
-                                            <br>
-                                  
-                             
-                                                                   
-                         </div>        
-                                                                
-                                              
-                                              </div>     
-                               
-                               
-                                                               
-                                              
-                        <div class="form-group">
-                                                                   
-                                                  
-                            <label class="control-label  col-sm-2 colo" style="width: 5em;" >Address:</label>
-                                                                            
-                                                
-                            <div class="col-md-3">
-                                                                               
-                                            
-                                     <textarea  class="form-controler addressSection2" rows="6" id="comment" type="text"  name="address" ng-model="address" ng-minlength="20"
-                                ng-maxlength="200"              
-                                           required/><%= profile.address %></textarea>  
-                            <span ng-show="profileInformation.address.$touched && profileInformation.address.$invalid "  style="    position: absolute;
-    top: 8em;" >Address is required.</span>   
-                                                  
+                                    </select>                               
+                                </div>        
                             </div>
-                                           
-                            <br>
-                                                                
-                          
-                                           
-                    </div>     
-                                                         
-                                                                                      
-                                                                
-                                         
-                      </div>
-                          
-                           
+                            <div class="form-group">
+                                <label class="control-label" >Address:</label>
+                                <textarea  class="form-controler addressSection2" rows="6" id="comment" type="text"  name="address" ng-model="address" ng-minlength="20" ng-maxlength="200" required/><%= profile.address %></textarea>
+                                <span ng-show="profileInformation.address.$touched && profileInformation.address.$invalid "  style="    position: absolute;
+    top: 8em;" >Address is required.</span>
+                            </div>
+                        </div>
+                    </div>
                                                       
                       <div id="ProfileColumn2"  class="col-md-6 rightSetting">
                           
-                                                            
+                          <div style="width: 280px; float: left">                                  
                           <div class="form-group Up">
                                                                    
-                              <label class="control-label  col-sm-2 weSetting" style="padding-right:3.5em;width:8.3em;">Email:</label>
-                                                                        
-                              <div class="col-md-3">
+                              <label class="control-label">Email:</label>
                                                                            
-                                  <input type="email" class="form-controler" name="email" id="email" value=" <%= user.local.email %> "  > 
-                                 
-
-                                                                        
-                              </div>
-                                            <br>
+                                  <input type="email" class="form-controler" name="email" id="email" value=" <%= user.local.email %> "  >
                                                                 
                           </div> 
                                                             
                                                             
               <div class="form-group Up">
-                                                                        
-                              <label class="control-label  col-sm-2 " style="padding-right:3.8em;width:8.3em;">DOB:</label>
+                               <div style="float: left; margin-top: 14px">                                          
+                              <label class="control-label">DOB:</label>
                                                                            
-                              <div class="col-md-3" >
+                              
                                     <% var monthDates = [
     "01", "02", "03",
     "04", "05", "06", "07",
@@ -461,10 +392,10 @@
 								  style="    width: 7.87em;    margin-top: -0.25em;"  name="calendar" class="form-controler" > 
                                                                           
                               </div>
-                                                                      
-                              <label class="control-label  col-sm-1 Ageing"style="">Age:</label>
+                                                                   
+                              <label class="control-label Ageing"style="width: 22px; line-height: 1px">Age:</label>
                                                                              
-                              <div class="col-md-1 " id="profileAge" style=""  maxvalue="2">
+                              <div id="profileAge" style=""  maxvalue="2">
                                                                                 
                                   <input type="number" id="age" value="<%= profile.age %>" name="age" class="form-controler Ageing1"
                                          style="margin-bottom: -1em; ;width: 2.35em;margin-left: 0.2em;    margin-top: -2em;"  ng-model="Age" ng-minlength="2" ng-maxlength="2" required/>
@@ -481,12 +412,7 @@
                                                                         
                               <div class="dropdownMarital"style="">
                                                                            
-                                  <label class="control-label  col-sm-2 weSetting" for="text" style="width:8.3em;">Marital Status:</label>
-                                                                                
-                  <div class="col-md-3 collum">
-                                    
-
-                                      
+                                  <label class="control-label">Marital Status:</label>
                             <% var MaritailStatus = [
     "Single", "Married","Divorced"
     ];%>                                                                      
@@ -497,11 +423,7 @@
 						 <%= status%>
 					 </option>
 					 <% });%>
-                            </select>           
-                                    
-                                                                                
-                                  </div>
-                                                <br>
+                            </select>
                                   
                                                                     
                               </div>        
@@ -511,17 +433,11 @@
                                                                     
                           <div class="form-group Up">
                                                                         
-                              <label class="control-label  col-sm-2 weSetting"style="padding-right:3.8em;width:8.3em;"  >PAN:</label>
-                                                                            
-                              <div class="col-md-3">
-                                                                                
+                              <label class="control-label"  >PAN:</label>                 
                                   <input type="text" value="<%= profile.pan %>" class="form-controler" name="pan" id="pan"
                                          ng-model="PanNumber" ng-pattern=
            "/^[\+]?[(]?[a-zA-Z]{5}[)]?[-\s\.]?[0-9]{4}[-\s\.]?[a-zA-z]{1}$/"
            required/>  <span ng-show="profileInformation.pan.$touched && profileInformation.pan.$invalid "  >invalid PAN.</span> 
-                                                                            
-                              </div>
-                                                <br>
                                                                         
                           </div>
                                
@@ -535,29 +451,18 @@
                                                                     
                        <div class="form-group Up">
                                                                    
-                              <label class="control-label  col-sm-2 weSetting" style="padding-right:3.5em;width:8.3em;">City:</label>
-                                                                        
-                              <div class="col-md-3">
-                                                                           
+                              <label class="control-label">City:</label>           
                                   <input type="text" class="form-controler" id="city" name="city" value="<%= profile.city %>"   ng-model="userCity" required/> 
-                                      <span ng-show="profileInformation.city.$touched && profileInformation.city.$invalid"  >City is required.</span>                                      
-                              </div>
-                                            <br>
-                                                                
+                                      <span ng-show="profileInformation.city.$touched && profileInformation.city.$invalid"  >City is required.</span>                  
                           </div> 
                      <div class="form-group Up">
                                                                   
-                                   <label class="control-label  col-sm-2 weSetting"style="    width: 8.25em;" for="pwd">Pincode:</label>
-                                                                                
-                                                  <div class="col-md-3">
+                                   <label class="control-label" for="pwd">Pincode:</label>
                                                                                     
                                     <input type="number" value="<%= profile.pincode %>" name="pincode" id="pincode" class="form-controler" ng-model="PinCode" ng-pattern=
            "/^[\+]?[(]?[1-9]{1}[)]?[-\s\.]?[0-9]{5}$/"
            required/ > 
-                         <span ng-show="profileInformation.pincode.$touched && profileInformation.pincode.$invalid "  >Pincode is required.</span>                                                       
-                                                  </div>
-                                            <br>
-                                                                
+                         <span ng-show="profileInformation.pincode.$touched && profileInformation.pincode.$invalid "  >Pincode is required.</span>      
                                               </div>
                                                      
                                                 
@@ -565,11 +470,12 @@
 
                                             
                                                          </div>
-                     <button type="submit" class="btn btn-lg moodNav profileSubmit" ng-disabled="profileInformation.$invalid" >Submit </button>
+                                                         </div>
+                     <button type="submit" class="btn btn-lg moodNav profileSubmit" ng-disabled="profileInformation.$invalid" style="margin-top: 25px" >Submit </button>
                                                          </form>
                  <br>
                  
-                           <h2 class="profilePan"style="">Pan Details</h2>   
+                           <h2 class="profilePan"style="position: relative; top: 90px;">Pan Details</h2>   
                 </div>
 
     
@@ -578,67 +484,42 @@
 
 <!--             <section id="section22">-->
        
-             <div class="container-fluid how-it-works contentEdit">
+             <div class="container how-it-works contentEdit">
                                      
-                 <div class="row rowTransform" style="">
+                 <div class="row" style="">
                                         
                      <form name="panDetails"class="form-horizontal" action="/profile" method="post">
                                                      
                          <div id="ProfileColumn1" class="col-sm-6  setting settingSection2">
-                                                         
+                         <div style="float: right; width: 280px">
                              <div class="form-group">
                                                                
-                                 <label class="control-label  col-sm-2 colo"style="width: 5em;" >Name:</label>
-                                                                        
-                                 <div class="col-md-3">
-                                  <input type="text" class="form-controler" name="username" id="username" value="" > 
-                                                                        
-                                 </div>
-                                            <br>
-                                                            </div>     
+                                 <label class="control-label" >Name:</label>
+                                  <input type="text" class="form-controler" name="username" id="username" value="" > </div>     
                                
                          
 							 
-							 <div class="form-group">
+							    <div class="form-group">
                                                                    
                                                   
-                            		<label class="control-label  col-sm-2 colo" style="width: 5em;" >Address:</label>
-                                                                            
-                                                
-									<div class="col-md-3">
+                            		<label class="control-label" >Address:</label>
                                
                                         <textarea class="form-controler addressSection3" rows="3" id="comment" type="text" value="" name="address" id="address" required/></textarea>                                        <span ng-show="profileInformation.address.$touched && profileInformation.address.$invalid"  >Address is required.</span>                                       
-                                                  
-                            		</div>
-                                           
-                            		<br>
-                                                                
+                                                                   
                           
                                            
                     </div>     
                                                          
                                <div class="form-group">
                                                                
-                                 <label class="control-label  col-sm-2 colo"style="width: 5em;" >City:</label>
-                                                                        
-                                 <div class="col-md-3">
+                                 <label class="control-label">City:</label>
                                   <input type="text" class="form-controler" value=""> 
-                                                                        
-                                 </div>
-                                            <br>
                                                             </div>     
                                
                                            <div class="form-group ">
                                                                   
-                                                  <label class="control-label  col-sm-2 colo"style="width: 5.05em;" for="pwd">Pincode:</label>
-                                                                                
-                                                  <div class="col-md-3">
-                                                                                    
+                                                  <label class="control-label" for="pwd">Pincode:</label>    
                                                       <input type="number" name="pincode" id="pincode" class="form-controler" > 
-                                                                               
-                                                  </div>
-                                            <br>
-                                                                
                                               </div>
                                                                      
                                             
@@ -646,9 +527,9 @@
                       </div>
                           
                            
-                                                      
+                        </div>                            
                       <div  id="ProfileColumn2" class="col-md-6 rightSetting shiftProfile">
-                          
+                    <div style="float: left; width: 280px;">  
                                                             
                                               
                                                             
@@ -661,9 +542,7 @@
                                                                         
                             
                                                                            
-                                  <label class="control-label  col-sm-2 weSetting" for="text" style="width:8.3em;">KYC Compliant:</label>
-                                                                                
-                  <div class="col-md-3 ">
+                                  <label class="control-label for="text"">KYC Compliant:</label>
                                     
                                          <select class="form-controler edit " ><span class="caretNext caretNext1 caret "></span>
 											 <option  >Pending</option>
@@ -677,64 +556,30 @@
                                       
                                     
                                                                                 
-                                  </div>
-                                                <br>
-                                  
-                                                                    
-                             
-                                                              
-                          </div>     
-                         
-                                                                    
-                                       <br>               
+                                  </div>         
                                <div class="form-group Up">
                                                                    
-                              <label class="control-label  col-sm-2 weSetting " style="width:8.3em;">Document1</label>
-                                                                        
-                              <div class="col-md-3 ">
+                              <label class="control-label" style="">Document1</label>
                                                                            
                           <input type="file" class="" name="somename" size="chars">
                  
                                                                         
-                              </div>
-                                            <br>
-                                                                
-                          </div> 
-                                                      <br>          
+                              </div>        
                                                              
                                                            
                                <div class="form-group Up">
                                                                    
-                              <label class="control-label  col-sm-2 weSetting " style="width:8.3em;">Document2</label>
-                                                                        
-                              <div class="col-md-3 ">
-                                                                           
+                              <label class="control-label">Document2</label>               
                           <input type="file" class="" name="somename" size="chars">
                  
                                                                         
-                              </div>
-                                            <br>
-                                                                
-                          </div> 
-                                                      <br>           
+                              </div>        
                                                            
                              <div class="form-group Up">
                                                                    
-                              <label class="control-label  col-sm-2 weSetting " style="width:8.3em;">Document3</label>
-                                                                        
-                              <div class="col-md-3 ">
+                              <label class="control-label">Document3</label>
                                                                            
                           <input type="file" class="" name="somename" size="chars">
-                 
-                                                                        
-                              </div>
-                                            <br>                                
-                                                                                        
-                                                                    
-                        
-                         
-                                                            
-        
                           
                                            
                                                 
@@ -742,15 +587,22 @@
 
                                             
                                                          </div>
-                                        <button type="submit" class="btn btn-lg moodNav profileSubmit2" ng-disabled="" >Submit </button>
+                                                         </div>
+                                        
                                                          </form>
                 </div>
 
-
+<button type="submit" style="margin-top: 35px; float: none" class="btn btn-lg moodNav profileSubmit2" ng-disabled="">Submit </button>
                  </body>
 <div class="profileFooter">
         	 <% include partials/footer %></div>
 <!--    </section>-->
     
-
+<script>
+    $(document).ready(function() {
+        $(".main.onepage-wrapper").css({
+            "height": "initial"
+        });
+    });
+</script>
          

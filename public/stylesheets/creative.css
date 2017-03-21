@@ -125,8 +125,7 @@ Header of the index.html
 }
 
 .logo-icon-blue {
-    
-  left: 0em;
+    left: 2em;
     opacity: 0;
 }
 
@@ -496,7 +495,7 @@ What we offer
 .what-we-offer .row, .how-home .row {
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 6%;
+    margin-top: 10%;
     margin-bottom: 4%;
 }
 
@@ -517,7 +516,7 @@ What we offer
 
 .what-we-offer .build-wealth > img {
 	
-	    margin-top: 30%;
+	    margin-top: 25px;
 }
    
 .what-we-offer .build-wealth > p {
@@ -527,7 +526,7 @@ What we offer
 
 .what-we-offer .tax-savings > img {
 	
-	    margin-top: 15%;
+	    margin-top: 10px;
 }
    
 .what-we-offer .tax-savings > p {
@@ -537,7 +536,7 @@ What we offer
 
 .what-we-offer .emergency-funds > img {
 	
-	    margin-top: 15%;
+	    margin-top: 10px;
 	
 }
    
@@ -1985,7 +1984,7 @@ Footer
 	 text-align: left;
 }
 .foot p {
-    
+    margin-top: 0px!important;
     margin-bottom: 2%;
 }
 
@@ -2862,7 +2861,10 @@ div.dotHr.NaLDots{
 }
 
 div.dotHr.dotPayButton{
-     width: 100%
+     left: 50%;
+     width: 1190px;
+     transform: translateX(-50%);
+     position: absolute;
 }
 div.row.howItWorksRow
 {
@@ -2876,7 +2878,7 @@ h2.indexHeadngLookingFor
 {
         position: absolute;
         left: 50%;
-        margin-top: 3%;
+        margin-top: 30px;
         transform: translateX(-50%);
 }
 
@@ -2884,16 +2886,6 @@ h2.indexHeadngLookingFor
 div.dotHr.dotsScriptStory{
     display: inline-block;
 
-}
-
- /*button#indexScriptYourStory.btn.btn-lg.moodNav.story{
-         width: 11%;
-    }*/
-.rowFrogs
-{
-    width: 100%;
-    margin-top: 2em;
-    margin-left: 22em;
 }
 
 textarea#comment.form-controler.addressSection3
@@ -2912,10 +2904,6 @@ h2.NameAndLogo{
     padding-right: 20em;
     padding-top: 2em;
 }
-
-div.row.testimonyRow{
-     margin-top: 9em;   
-}
 th.thDates{
        width: 8em;
 }
@@ -2933,7 +2921,10 @@ th.thAmount{
 }
 
 div.topNav.abc{
-      left: 30%;  
+    position: static;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 536px;
 }
 .tableAccounts{
     width: 78.2%;
@@ -3025,6 +3016,10 @@ section#section4 .dotMenu
 }
 .videoTour {
     transform: translateX(calc(-50% + 100px));
+}
+.pricingFooter .videoTour {
+    width: 160px;
+    transform: translateX(calc(-50% + 150px));
 }
 .foot left h4 {
     text-align: left;
@@ -3130,4 +3125,29 @@ footer {
 /* Accounts Page */
 .onepage-wrapper #account {
     margin-top: 120px;
+}
+
+.accountsPage .topNav1 {
+    overflow: hidden;
+    width: 614px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.accountsPage .circleClass {
+    margin-top: 12em!important;
+
+}
+
+.accountsPage #account {
+    position: relative;
+}
+
+/* Profile Page */
+
+.rowFrogs .frogsWrapper > img {
+    display: inline-block;
+    padding: 0 50px;
 }

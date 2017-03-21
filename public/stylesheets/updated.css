@@ -492,6 +492,8 @@ margin-left: 2em;
     text-align: left;
     color: #35BFD3;
     font-weight: 900;
+    width: 90px;
+    vertical-align: top;
 }
 
 .form-horizontal .form-group {
@@ -584,10 +586,9 @@ margin-left: 2em;
 }
 
 .page31 div.table-responsive{
-        margin-left: 21.7em;
-    padding-left: 6em;
-    padding-right: 3.75em;
-    margin-top: 1em;
+    margin: 0 auto;
+    padding: 0;
+    width: 596px;
     
 }
 
@@ -617,7 +618,7 @@ margin-left: 2em;
    border:1px solid #35BFD3; 
 
     border-collapse: separate;
-    width: 64%;
+    width: 100%;
    
      content: fixed;
 }
@@ -687,13 +688,11 @@ margin-left: 2em;
 
 
 .scrollbar{
-    width:520px;
-    height:150px;
+    text-align:justify;
+    height:17.4em;/*added*/
     overflow:auto;
-    text-align:justify;    
-    margin-top:0px;
-    margin-left:0px;
-    float:left;
+    overflow-x: hidden;
+    margin-top: 0em;
      }  
 
 
@@ -965,15 +964,6 @@ button.btn.btn-sm.moodNav.signUp.gaveUp1{
     
 }
 
-
-.scrollbar{
-    width:70em;
-  height:15em;
-    overflow:auto;
-    overflow-x: hidden;
-    margin-top: 0em;
-     }
-
 #reports div.panel-body.panelBodyCut{
     padding:5px;
         height: 16em;
@@ -988,7 +978,6 @@ button.btn.btn-sm.moodNav.signUp.gaveUp1{
 
 #reports
 {
-    margin-left: 36px;
     margin-bottom: 14px
 }
 #reports .classy{
@@ -1008,8 +997,8 @@ button.btn.btn-sm.moodNav.signUp.gaveUp1{
 
 
 #reports div.row.panelRow.scroll{
-   
-    width:90em;margin-top:0px;height:1em;
+    margin-top:0px;
+    height:1em;
 }
 #reports div.text-center{
     height:2.5em;
@@ -1036,7 +1025,6 @@ input[type=date]::-webkit-inner-spin-button {
 }
 #profile .dotHr div {
     position: relative;
-    left: 28%;
 }
 
 #profile .froggie #yCircle {
@@ -1086,7 +1074,6 @@ body.panelBodyCut{
 
 #reports
 {
-    margin-left: 36px;
     margin-bottom: 14px
 }
 #report .classy{
@@ -1196,15 +1183,6 @@ button.btn.btn-sm.moodNav.signUp.gaveUp1{
     
 }
 
-
-.scrollbar{
-    width:77em;
-  height:17.4em;/*added*/
-    overflow:auto;
-    overflow-x: hidden;
-    margin-top: 0em;
-     }
-
 #reports div.panel-body.panelBodyCut{
     padding:5px;
         height: 17em;
@@ -1219,7 +1197,6 @@ button.btn.btn-sm.moodNav.signUp.gaveUp1{
 
 #reports
 {
-    margin-left: 36px;
     margin-bottom: 14px
 }
 #reports .classy{
@@ -1239,8 +1216,8 @@ button.btn.btn-sm.moodNav.signUp.gaveUp1{
 
 
 #reports div.row.panelRow.scroll{
-   
-    width:76em;margin-top:0px;height:1em;    padding-left: 16em;
+    margin-top:0px;
+    height:1em;
 }
 #reports div.text-center{
     height:2.5em;
@@ -1270,9 +1247,8 @@ div.btnCenterReport2{
   
 }
 
-#reports
-{ margin-top: 3em;
-    margin-left: 36px;
+#reports{
+    margin-top: 2em;
     margin-bottom: 14px
 }
 #report .classy{
@@ -1328,6 +1304,7 @@ width: 6em;
 
 #reports div.text-center {
     align-content: center;
+    position: relative;
 }
 
 
@@ -1559,10 +1536,10 @@ td.aba{
     padding-right: 3.75em;
 }
 #reports .upgrade{
-    position: relative;
-    left: 45%;
-    margin-top: 12px;
-    left: 45%;
+    position: absolute;
+    margin-top: 3px;
+    TOP: 0;
+
 }
 
 #reports td.corrupt{
