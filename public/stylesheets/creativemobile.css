@@ -434,6 +434,11 @@ a#index4.left,a#index4.right
 }
 .rowIndexSlider .photosInner {
     height: 60px;
+
+}
+.rowIndexSlider .photosInner {
+    position: relative;
+    z-index: 999;
 }
 img.change {
         width: 12%;
@@ -1455,4 +1460,13 @@ index3 img {
 
 .row.howItWorksRow > div {
     margin-bottom: 30px;
+}
+
+#yourMoodP .mood > img {
+    display: none;
+}
+#yourMoodP .mood > img.active {
+    display: block;
+    width: 100%;
+    padding-top: 25px;
 }
