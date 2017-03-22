@@ -113,8 +113,8 @@
 	
 	
 	  <div class="modal fade" id="myPanModal" role="dialog">
-              <div class="modal-dialog modal-sm" style="     width: 512px;
-    margin-left: 36em;">
+              <div class="modal-dialog modal-sm" style="     width: auto;
+    margin-left: auto;">
                  <!-- Modal content-->
                   <div class="modal-content PAN">
                         <div class="modal-body "  style="">
@@ -206,7 +206,7 @@
 <!--    <section id="section1">-->
         
  
-     <div class="container-fluid moods text-center">
+     <div class="container-fluid moods text-center" style="    height: initial;">
           
            
         <div class="container" style=" ">
@@ -218,7 +218,7 @@
              <div class="col-md-4">
                  
                  
-                 <div class="row slider">
+                 <div class="row slider" style="padding-top:30%;">
             
             
                      <div class="photos">
@@ -243,11 +243,6 @@
                          
                  
                      </div>
-                     <div class="slider-control">
-                         <img class="left" src="images/leftArrow.png" alt="Home view" >
-                        <img class="right" src="images/rightArrow.png" alt="Home view" >  
-                        
-                     </div>
                           
                     
                  </div>
@@ -255,12 +250,12 @@
                  
             </div>
                 
-                   <div class="col-md-8 ">
+                   <div class="col-md-8 "style="">
                  
                   
                   
                        <div class="contentMood" style="    border-bottom: 2px #35BFD3 dotted;">
-                           <p id="Indicator">Goal Selection >
+                           <p id="Indicator" style="margin-top:auto;">Goal Selection >
 						   
 						   <span id="goalSelected"></span>
 							<span id="rpText">> Risk Profiling ></span>	
@@ -457,7 +452,7 @@
                                <div class="sub-page4">
                                 
                            <div class=" sliderRiskProfile">
-						<div id="myCarousel" class="carousel slide text-center carouselEdit" data-ride="carousel">
+						<div id="myCarousel" class="carousel slide text-center carouselEdit" data-ride="carousel" style="    width: initial;">
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">	    
@@ -547,11 +542,11 @@
     <span class="sr-only">Previous</span>
   </a>
 -->
-  <a class="right  "style="    position: fixed;
-    right: 5%;
+  <a class="right  "style=" position: relative;
     top: initial;" href="#myCarousel" role="button" data-slide="next">
 <!--    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
-            <img src="images/Right.png">
+            <img src="images/Right.png" style="width: 5%;
+    height: 15%;">
     <span class="sr-only">Next</span>
   </a> 
                       
@@ -560,24 +555,12 @@
             
             <div class="login-btn text-center page-buttons">
                                  
-                <button type="" class="btn btn-lg moodNav done " onclick="myScore();"> Done </button>
+                <button type="" class="btn btn-lg moodNav done " onclick="myScore();" style="position:relative;top:-1em;"> Done </button>
             </div>
             
-           <div class="login-btn text-center page-buttons">
-                          <div></div>
-                                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                <!--<button type="" class="btn btn-lg moodNav save " > Save </button>-->
-               
-            </div>
-			
-                       <div class="login-btn text-center page-buttons">
+         
+
+        <!--               <div class="login-btn text-center page-buttons">
                           <div></div>
                   <div></div>
                   <div></div>
@@ -590,7 +573,9 @@
                   <div></div>
                   <div></div>
                   <div></div>
-                  <div></div> <div></div> <div></div>
+                  <div></div>
+<div></div> 
+<div></div>
                   <div></div>
                   <div></div>
                   <div></div>
@@ -647,6 +632,7 @@
             
                
             </div>
+-->
         </div>
                            
                            
@@ -728,7 +714,7 @@
                                                        <br/>
 													   
                        </div>
-                           <div class="dotHr"> 
+                           
                                <div class="login-btn">
                         <% if(loggedIn && !scheme && paid){ %>
 	<form action="/GoalSelection" method="post">
@@ -766,92 +752,7 @@
 								  <% } %>
                 
                            </div>
-                               
-                            <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-							   
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                                   <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                                   <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                 
-                            </div>
+                            
                            </div>
 								
 								   <% }else {%>
@@ -896,7 +797,7 @@
 
 													   
                        </div>
-                           <div class="dotHr"> 
+                          <!-- <div class="dotHr"> -->
                                <div class="login-btn">
                         <% if(loggedIn && !scheme && paid){ %>
 	<form action="/GoalSelection" method="post">
@@ -934,6 +835,7 @@
 								  <% } %>
                            </div>
                                
+<!--
                             <div id="moodPagination"></div>
                                <div id="moodPagination"></div>
                             <div id="moodPagination"></div>
@@ -1019,6 +921,7 @@
                                <div></div>
                  
                             </div>
+-->
                            </div>
 <%} } else { %>
 								 <p id="IndicatorNew">Goal Selection >
@@ -1034,13 +937,10 @@
 										    <div class="dotHr"> 
                                <div class="login-btn">
                         
-<button type="" data-toggle="modal" data-target="#myPanModal" class="btn btn-lg moodNav go" style="float: right;margin-top: 0.8em;margin-right: 29em;"> Invest </button> 
+<button type="" data-toggle="modal" data-target="#myPanModal" class="btn btn-lg moodNav go" style=""> Invest </button> 
 								   <form action="/GoalSelectionRefresh" method="get">
 									   <input type="text" id="restart" name="restart" value="true" hidden>
-								       <button type="submit" class="btn btn-lg moodNav go" style="    float: right;
-    margin-top: 0.8em;
-        margin-right: -15em;
-    width: 15%;
+								       <button type="submit" class="btn btn-lg moodNav go" style="    width: initial;
 "> Start Fresh </button> 
 									   </form>
 				

@@ -11,18 +11,21 @@ body{
 nav.navbar.navbar-inverse.mobileHeader
 {
 /*    position: fixed;*/
-    width: 100%;    
+    width: 100%;   
+    margin-bottom: 0;
 }
 body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
     position: inherit;
 }
 .container-fluid {
-       height: 100%;
+       min-height: 100%;
 }
 
 .logo-icon, .logo-icon-blue {
-    left: 113px;
+    left: 90px;
     position: absolute;
+    top: 8px;
+    width: 17px;
 }
 
 div.navbar.navbar-inverse.mobileHeader{
@@ -34,6 +37,8 @@ div.navbar.navbar-inverse.mobileHeader{
 }
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #333333;
+    height: 3px;
+    border-radius: 3px;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: #ffffff;
@@ -88,12 +93,13 @@ img.change {
 }
 */
 div.yourMoodParent{
-
-          width: 100%; 
-          height: 81%;
+    position: relative;
+    width: 100%;
+    height: calc(100% - 65px);
+    margin-top: 65px;
 }
 div.index2{
-    height: auto;
+    height: calc(100% - 65px);
 }
 .yourMood > h1 {
      font-size: large;
@@ -169,9 +175,12 @@ h2.indexheader,h2.whatWeOffer,h2.indexheader3
 
 
 }
-h2.indexheader
-{    border-top: 3px #35BFD3 dotted;
-    font-size: 1.5em;
+h2.indexheader {
+    border-top: 3px #35BFD3 dotted;
+    font-size: 1.6em;
+    margin: 0;
+    padding: 25px 0 15px;
+
 }
 
 h2.indexheader3
@@ -189,12 +198,10 @@ button.btn.btn-lg.moodNav.getStarted{
     width: auto;
 }
 div.photosParent {
-
     left: 0%;
     right: 0%;
-        position: relative;
-/*     top: 69%;*/
-
+    position: absolute;
+    bottom: 50px;
 }
 
 
@@ -274,9 +281,22 @@ a.right {
     position: relative;
        top: -8em;
 }
+.slider-control{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+.slider-control .left {
+    float: Left;
+    position: static;
+}
+
 .slider-control .right {
-    position: relative;
-    left: 65%;
+    float: right;
+    position: static;
 }
 
 #Responsible,p#Changing Season,#Broke,#Rich,#Loved,#Nerdy,#Responsible,#Social
@@ -349,13 +369,12 @@ a#index4.left,a#index4.right
     top: -6em;
 }
  div.carousel-inner {
-      position: relative;
-/*    width: 48%;*/
-         width: 100%;
+    position: relative;
+    width: calc(100% - 70px);
     font-weight: bolder;
     margin: auto;
     overflow: hidden;
-         height: 12em;
+    height: 12em;
 }
  div#index4 div.carousel-inner {
       position: relative;
@@ -403,20 +422,18 @@ a#index4.left,a#index4.right
     z-index: 1030;
 }
 
-.slider {
-/*
+.rowIndexSlider .slider {
     position: relative;
-    left: 15%;
-   top: inherit;
-    right: 15%;
-*/
-    position: relative;
-    left: 15%;
     top: inherit;
-    right: 15%;
-    left: 15%;
-    right: 15%;
-/*    margin: auto;*/
+    left: 0;
+}
+.rowIndexSlider .photos {
+    height: 60px;
+    width: 225px;
+    margin: 0 auto;
+}
+.rowIndexSlider .photosInner {
+    height: 60px;
 }
 img.change {
         width: 12%;
@@ -426,19 +443,6 @@ img.change {
        width: 71%;
 /*    width:51%;*/
     overflow: hidden;
-}
-div.rowIndexSlider
-{
-        position: relative;
-
-    top:11em;
-    
-/*
-        position: fixed;
-     top: -11em; 
-    bottom: 0%;
-    margin: auto;
-*/
 }
 
 /*pricing*/
@@ -613,8 +617,12 @@ div.container-fluid.moods.text-center
 }
 
 .blankInput[type=number] {
-       width: calc(28% - 2px);
-   }
+    width: 80px;
+    border-bottom: 1px dashed;
+    box-shadow: none;
+    padding: 0;
+    margin: 0 3px;
+}
 
 .page3 .table>thead>tr>th {
       border-right: none;
@@ -999,7 +1007,7 @@ h6.messageProfile {
     font-weight: 800;
 }
 .settingsForm .col-sm-6.accSettings2 {
-    width: 40%;
+    width: 100%;
     padding: 0;
     position: relative;
     left: 0%;
@@ -1039,7 +1047,7 @@ h3.myInvoicesHeadding{
 }
 
 img#investory.img-responsive{
-    width: 178px;
+    width: 140px;
 }
 .froggie {
     width: initial;
@@ -1240,6 +1248,7 @@ div.avatarTestimonial.avtarEdit {
 
 .foot {
     padding-top: 25px;
+    border-radius: 0;
 }
 
 div.buttonSetUp{
@@ -1265,10 +1274,11 @@ div#riskHeight{
 div.includeCarousel
 {
         border-bottom: 2px #35BFD3 dotted;
+        height: 250px;
 }
 
 div.footerFrog{
-        top: 2em;
+    top: 2.5em;
     position: relative;
 }
 
@@ -1293,6 +1303,14 @@ div.footerFrog{
 }
 
 /*navbar*/
+.navbar-toggle > span {
+    height: 3px;
+    border-radius: 20%;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 3px;
+}
 .navbar-default {
     border: 0;
     margin: 0;
@@ -1308,6 +1326,8 @@ div.footerFrog{
     float: none;
     position: relative;
     display: block;
+    text-align: left;
+    padding-left: 50%;
 }
 .mobileHeader .navbar-toggle {
     margin-right: 5px;
@@ -1353,4 +1373,86 @@ div.footerFrog{
 }
 .carousel-inner .item p {
     font-size: 20px!important;
+}
+
+/* dotHR */
+.dotHr.longDotUs.mobile {
+    border-top: 3px #35BFD3 dotted;
+    margin-top: 25px;
+    width: 100%;
+    overflow: visible;
+}
+
+/* index 3 */
+index3 img {
+    position: static;
+    margin-top: 25px;
+}
+
+.index3 img {
+    position: static;
+    margin-top: 25px;
+}
+
+/* index 4 */
+.index4 .includeCarousel h2 {
+    font-size: 1.5em;
+}
+
+#myCarousel.testimonial p {
+    font-weight: 600px;
+    font-size: 16px;
+}
+
+#myCarousel.testimonial h4 {
+    font-size: 12px;
+    font-weight: 300;
+}
+#myCarousel.testimonial div.carousel-inner {
+    width: 100%;
+    height: 140px;
+}
+.faqTour h2{
+    border-bottom: 1px dotted;
+    font-weight: 600;
+    font-size: 28px;
+}
+/* Profile Page */
+.profilePage {
+    margin-top: 65px;
+}
+
+.profilePage .container-fluid.how-it-works.contentEdit {
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.profilePage .label {
+    margin-top: 3px;
+}
+
+.profilePage .form-group {
+    margin-top: 10px;
+}
+
+.profilePage button.btn.btn-lg.moodNav.profileSubmit, .profilePage button.btn.btn-lg.moodNav.profileSubmit2 {
+    height: 32px;
+    line-height: 30px;
+    background: #35BFD3;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    margin: 25px 0 10px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+}
+
+.container-fluid.know-us, .container-fluid.how-it-works, .container-fluid.moods.text-center {
+    margin-top: 65px;
+}
+
+.row.howItWorksRow > div {
+    margin-bottom: 30px;
 }
