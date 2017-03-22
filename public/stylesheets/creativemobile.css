@@ -1454,7 +1454,7 @@ index3 img {
     left: 50%;
 }
 
-.container-fluid.know-us, .container-fluid.how-it-works, .container-fluid.moods.text-center {
+.container-fluid.know-us, .container-fluid.how-it-works, .container-fluid.moods.text-center, .container.settingsPage, .container.myStoryPage {
     margin-top: 65px;
 }
 
@@ -1462,11 +1462,39 @@ index3 img {
     margin-bottom: 30px;
 }
 
-#yourMoodP .mood > img {
+#yourMoodP .mood .myMood {
     display: none;
+    position: relative;
 }
-#yourMoodP .mood > img.active {
+#yourMoodP .mood .myMood.active {
     display: block;
     width: 100%;
     padding-top: 25px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+#yourMoodP .mood .myMood img {
+    width: 100%;
+}
+#yourMoodP .mood .myMood p {
+    position: absolute;
+    left: 50%;
+    color: #e1e1e1;
+    top: 50%;
+    font-size: 30px;
+    transform: translate(-50%);
+    width: 300px;
+}
+.getStartedPage .rowIndexSlider{ 
+    margin-top: 15px;
+}
+.getStartedPage .login-btn .btn.btn-lg.moodNav.go {
+    transform: none;
+    margin: 0;
+}
+
+.getStartedPage .login-btn .btn.btn-lg.moodNav.go {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }

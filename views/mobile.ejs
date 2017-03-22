@@ -22,12 +22,30 @@
                     <p>How are you feeling today</p>
                 </div>
                 <div class="mood">
-                    <img class="Broke" src="images/Broke.png" alt="Home view">
-                    <img class="Loved" src="images/Loved.png" alt="Home view">
-                    <img class="Nerdy" src="images/Nerdy.png" alt="Home view">
-                    <img class="Responsible" src="images/Responsible.png" alt="Home view">
-                    <img class="Rich" src="images/Rich.png" alt="Home view">
-                    <img class="Social" src="images/Social.png" alt="Home view">
+                    <div class="myMood Broke">
+                        <img class="Broke" src="images/Broke.png" alt="Home view">
+                        <p>Feeling Broke</p>
+                    </div>    
+                    <div class="myMood Loved">
+                        <img class="Loved" src="images/Loved.png" alt="Home view">
+                        <p>Feeling Loved</p>
+                    </div>    
+                    <div class="myMood Nerdy">
+                        <img class="Nerdy" src="images/Nerdy.png" alt="Home view">
+                        <p>Feeling Nerdy</p>
+                    </div>    
+                    <div class="myMood Responsible">
+                        <img class="Responsible" src="images/Responsible.png" alt="Home view">
+                        <p>Feeling Responsible</p>
+                    </div>    
+                    <div class="myMood Rich"">
+                        <img class="Rich" src="images/Rich.png" alt="Home view">
+                        <p>Feeling Rich</p>
+                    </div>    
+                    <div class="myMood Social">
+                        <img class="Social" src="images/Social.png" alt="Home view">
+                        <p>Feeling Social</p>
+                    </div>    
                 </div>
                 <div class="photosParent">
                     <div class="row">
@@ -219,7 +237,7 @@ margin-left: 0.5em;">Start <br /> investing</p>
 
 
                 <div class="includeCarousel">
-                    <div id="myCarousel" class="carousel slide text-center carouselEdit" data-ride="carousel">
+                    <div id="myCarousel2" class="carousel slide text-center carouselEdit" data-ride="carousel">
 
 
                         <div class="carousel-inner" role="listbox">
@@ -255,12 +273,12 @@ margin-left: 0.5em;">Start <br /> investing</p>
 
                     </div>
 
-                    <a class="left  " href="#myCarousel" role="button" data-slide="prev">
+                    <a class="left  " href="#myCarousel2" role="button" data-slide="prev">
                         <img src="images/left.png">
 
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="right  " href="#myCarousel" role="button" data-slide="next">
+                    <a class="right  " href="#myCarousel2" role="button" data-slide="next">
 
                         <img src="images/Right.png">
                         <span class="sr-only">Next</span>
@@ -333,7 +351,7 @@ top: -1em;"> Sign Up</button>
             $(document).ready(function() {
                 $('.photosInner').click(function(e) {
                 $('.yourMood').css('display', 'none');
-                $('#yourMoodP .mood img').removeClass('active');
+                $('#yourMoodP .mood .myMood').removeClass('active');
                 $('#yourMoodP .mood .'+e.target.id).addClass("active");
                 });
             });
