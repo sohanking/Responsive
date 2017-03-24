@@ -207,7 +207,7 @@
 <!--    <section id="section1">-->
         
  
-     <div class="container-fluid moods text-center">
+     <div class="container-fluid moods text-center" style="min-height: calc(100% - 245px")>
           
            
         <div class="container" style=" ">
@@ -1083,13 +1083,13 @@
 								   	  	<form action="/GoalSelection" method="post">
 											<input type="hidden" id="amountMaster" name="amountMaster" value="">
 											<input type="text" id="storeData" name="storeData" value="true" hidden>
-												<input type="hidden" id="setGoal" name="setGoal" value="">
-											<input type="hidden" id="getMoodG" name="getMoodG" value="">
-								   <input type="text" id="amnt1" name="amnt1" value="" hidden>
-            <input type="text" id="amnt2" name="amnt2" value="" hidden>
-            <input type="text" id="amnt3" name="amnt3" value="" hidden>
-			<input type="text" id="riskp" name="riskp" value="" hidden>
-								   <input type="text" id="sip" name="sip" value="" hidden>
+									<input type="hidden" id="setGoal" name="setGoal" value="">
+									<input type="hidden" id="getMoodG" name="getMoodG" value="">
+								    <input type="text" id="amnt1" name="amnt1" value="" hidden>
+                                    <input type="text" id="amnt2" name="amnt2" value="" hidden>
+                                    <input type="text" id="amnt3" name="amnt3" value="" hidden>
+                                    <input type="text" id="riskp" name="riskp" value="" hidden>
+								    <input type="text" id="sip" name="sip" value="" hidden>
 								   <input type="text" id="year" name="year" value="" hidden>
 									   <button type="submit"  class="btn btn-lg moodNav signUp">Pay </button>
 											 </form>
@@ -1231,7 +1231,7 @@
 
 													   
                        </div>
-                           <div class="dotHr"> 
+                           <div class="dotHr" style="display: block"> 
                                <div class="login-btn">
                         <% if(loggedIn && !scheme && paid){ %>
 	<form action="/GoalSelection" method="post">

@@ -24,12 +24,11 @@ Colors used inside
 
 /*Body Background for every page*/
 html{
-  overflow:hidden;
   
 }
 
 body {
-    
+    overflow-y: auto;
     background-color:#ffffff;/* #F2F5FB; */
      position: relative;
    
@@ -267,7 +266,7 @@ text-decoration: underline;
 
 .navbar-default {
 /*background-color: #ffffff;*/
-    background-color: rgba(242, 245, 251, 0);
+    background-color: rgba(255, 255, 255, 1);
     border-color: rgba(242, 245, 251, 0);
     /*border-radius: 0px;*/
     padding: 15px 5px 0;
@@ -3077,7 +3076,7 @@ footer {
     position: relative;
 }
 
-.carouselWrapper .left, .carouselWrapper .right {
+.carouselWrapper a.left, .carouselWrapper a.right {
     position: absolute;
     top: 60%;
     transform: translateX(-50%);
