@@ -5,7 +5,6 @@ body, html {
   -moz-transition: opacity 400ms;
   transition: opacity 400ms;
 }
-
 body, .onepage-wrapper, html {
   display: block;
   position: static;
