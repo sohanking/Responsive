@@ -89,6 +89,7 @@ body { text-align: center; font-family: 'open sans'; -webkit-font-smoothing: ant
 .navbar-brand span { z-index:10; display:none; padding:14px 16px; margin-top:1em; width:32em; line-height:18px; padding-right: 5px; cursor: pointer; left: 50%; transform: translateX(-50%) }
 .logoTip{ display:inline;  position:absolute;  border:2px solid #35BFD3 font-weight: 900; font-size: 1.17em; text-align: left; background-color: #ffffff; border-radius: 8px; cursor: default; left: 50%; }
 
+
 .read { color: #35BFD3; text-decoration: underline; cursor: pointer }
 .read { color: #35BFD3; text-decoration: underline; cursor: pointer }
 
@@ -101,7 +102,7 @@ Home Page Whats your mood.
 */
 .yourMood > h1 { font-weight: 700; font-size: 2em; margin-bottom: 0 }
 .yourMood > h4 { color: #35BFD3; font-weight: 600; margin-top: 0; margin-bottom: 0; font-size: 1.5em }
-.yourMood > p {  font-weight: 700; font-size: 1.3em; margin-top: 0 }
+.yourMood > p {  font-weight: 700; font-size: 1.3em; margin-top: 0; margin-left: 12%; margin-right: 12%}
 
 /*
 -----------------------------------------------------------------------------------------
@@ -127,7 +128,6 @@ What we offer
 .what-we-offer p, .how-it-works p { margin-top: 1%; color: #333; font-weight: 600; font-size: 1.2em; margin-bottom: 3% }
 .what-we-offer .row, .how-home .row { margin-left: 50px; margin-right: 50px; margin-top: 6%; margin-bottom: 4% }
 .emergency-funds, .tax-savings, .build-wealth, .smart-goals { cursor: pointer }
-
 
 /*
 -----------------------------------------------------------------------------------------
@@ -831,9 +831,9 @@ position: relative;
   color:#333;
   background-color:#ffffff;/*#F2F5FB;*/
   height:1px;
-      width: 100%;
+         width: 90%;
     top: 1.5em;
-    left: -5.5%;
+    left: auto;
 }
 .frogImageMoods {
     position: relative;
@@ -1119,6 +1119,12 @@ img.change {
 .how-it-works .video-tour
 {
 width: 10%;
+}
+/*pricing page headdings*/
+h2.h2hstyle.shrinkleft1,
+h2.h2hstyle
+{
+/*    font-size: x-large;*/
 }
 
 
@@ -1473,7 +1479,16 @@ Footer
     color: #333;
 }
 
-<!--css newsLetter-->
+/*video tour, faq*/
+h2#show.videoTour{
+      width:initial;
+}
+
+
+div.footerFrog .frogReports{
+    width:initial;
+}
+/*<!--css newsLetter-->*/
 .modal-content.EmailForm{
        padding-left: 2em;
     padding-bottom: 2em;
@@ -1490,6 +1505,8 @@ p.SubscribeToNewsletter:hover{
         cursor: pointer;
     outline: none;
 }
+
+
 
 /*Table*/
 
@@ -2330,8 +2347,14 @@ div.dotHr.NaLDots{
         margin-left: 27%;
 }
 .pricingPanelRow{
+    padding-left:15%;
+    padding-right: 15%;  
+    
+/*
      padding-left: 20em;
-    padding-right: 20em;   margin-top: -2.5%; margin-bottom: 0;
+    padding-right: 20em;  
+*/
+    margin-top: -2.5%; margin-bottom: 0;
 }
 
 div.dotHr.dotPayButton{
@@ -2472,7 +2495,8 @@ section#section4 .dotMenu
 }
 .footerFrog.frogReports {
     position: relative;
-    width: 300px;
+/*    width: 300px;*/
+       width: initial;/* added*/
     height: 100px;
     margin: 0 auto;
     z-index: 1;
@@ -2491,9 +2515,11 @@ section#section4 .dotMenu
 }
 .FAQs {
     transform: translateX(calc(-50% - 100px));
+ 
 }
 .videoTour {
-    transform: translateX(calc(-50% + 100px));
+/*    transform: translateX(calc(-50% + 100px));*/
+    transform: translateX(calc(-50% + 122px));
 }
 .foot left h4 {
     text-align: left;
@@ -2558,17 +2584,21 @@ footer {
 } 
 
 .carouselWrapper .left {
-    left: 20%;
+/*    left: 20%;*/
+    left:2%;
 }
 
 .carouselWrapper .right {
-    right: 20%;
+/*    right: 20%;*/
+    right:2%;
 }
 
 /* Know Us Page*/
 .know-us.text-center.mod-singular-section {
     margin-top: 120px;
 }
+
+
 
 /* Pricing Page */
 .how-it-works {
