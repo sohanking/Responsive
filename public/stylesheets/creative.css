@@ -39,7 +39,8 @@ a:hover { text-decoration: none }
 .btn-lg { padding: 6px 20px 4px }
 .btn-lg:hover { padding: 7px 19px 3px 21px }
 .btn-white { border: 1px solid #35BFD3; background: #fff; color: #35BFD3; box-shadow: 0px 4px 11px -7px }
-.btn-white:hover, .btn-white:focus { box-shadow: 0px 4px 13px -5px; color: #35BFD3 }
+.btn-round { height: 28px; border-radius: 14px; padding: 4px 12px 6px }
+.btn-white:hover, .btn-white:focus { box-shadow: 0px 4px 13px -5px; color: #35BFD3; background-color: #fff; border: 1px solid #35BFD3 }
 .btn-hr-wrapper { position: relative}
 .btn-hr-wrapper::after { content: "."; text-indent: -999em; display: block; width: 100%; position: absolute; top: 50%; transform: translateX(-50%); left:50%; border-top: 2px dotted #35BFD3; z-index: -1; height: 0 }
 
@@ -75,9 +76,15 @@ a:hover { text-decoration: none }
 body { text-align: center; font-family: 'open sans'; -webkit-font-smoothing: antialiased; background: #fff; padding-top: 119px }
 .one-page { padding-top: 0 }
 
-/* Header */
-
-.tipTop { display:inline;  position:absolute;  border:2px solid #FFDE15; color:#333; font-weight: 900; font-size: 1.17em; background-color : #FFDE15; border-radius: 8px; text-decoration:none }
+/* Header */ 
+.tipTop { display: block; border: 2px solid #FFDE15; color: #333; font-weight: 900; font-size: 1.17em; background-color: #FFDE15; border-radius: 8px; text-decoration: none; width: calc(100% - 40px); display: block; position: absolute; top: 225px; left: 50px }
+.how-it-works .panel-body {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-top: 7px; 
+    height:14em;
+	  border-radius: 10px
+}
 .navbar-default { background-color: #fff; border: 0 }
 @media (min-width: 768px) {
     .navbar-center { position: absolute; left: 50%; transform: translateX(-50%); margin-top: 15px }
@@ -118,9 +125,9 @@ Home Page Whats your mood.
     .yourMood { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); margin: 0; }
 }
 .yourMood > h1 { font-size: 32px; margin-bottom: 0; font-weight: 100 }
-.yourMood > h4 { color: #35BFD3; font-weight: 300; font-size: 36px }
+.yourMood > h4 { color: #35BFD3; font-weight: 300; font-size: 32px }
 .yourMood > p { font-weight: 400; font-size: 22px }
-.yourMood > p span {font-weight: bold; color: #FFDE15; animation: blinker 1s linear infinite; font-size: 40px; vertical-align: middle; vertical-align: -webkit-baseline-middle; line-height: 32px }
+.yourMood > p span {font-weight: bold; color: #FFDE15; animation: blinker 1s linear infinite; font-size: 28px; vertical-align: middle; vertical-align: -webkit-baseline-middle; line-height: 32px }
 @keyframes blinker {  
   50% { opacity: 0; }
 }
@@ -177,9 +184,14 @@ How it works
 .how-it-works .pagination>li>a:hover, .how-it-works .pagination>li>a:focus, .how-it-works .pagination>li>a:active { background-color: #35BFD3; color: #F2F5FB; border-color: #35BFD3 }
 .how-it-works .pagination>li>div, .how-it-works .dotHr div, .why-us .dotHr div, .what-we-offer .dotHr div, .page4 .dotHr div, .page2 .dotHr div, .page5 .dotHr div, .page6 .dotHr div #reports .dotHr div, #myStory .dotHr div, #profile .dotHr div, .know-us .dotHr div { float: left; background:#ffffff;/* #F2F5FB;*/ border: 1.5px dotted #35BFD3; border-radius: 50%; margin-top: 0.9em; margin-left: 1px; margin-right: 3px }
 
+.how-it-works .panel { border: 1px solid #35BFD3;  border-radius: 8px; width: initial; position: relative; margin-bottom: 30px }
 
 .why-us .content h2 { margin: 20px 0 10px; font-weight: 500; font-size: 26px }
 .why-us .content p { font-weight: 500 }
+
+.pricingPanelRow p { font-size: 16px }
+.pricingPanelRow .tooltips { display: block; position: relative}
+.container-fluid.how-it-works.text-center, .container-fluid.how-it-works.frNow.text-center { margin-top: 25px }
 .page4 .dotHr div{
     
   margin-top: 0.2em;
@@ -260,49 +272,23 @@ section .know-us {
 }
 */
 
-.open>.dropdown-toggle.btn-primary {
-    background-color:#ffffff;/* #F2F5FB;*/
-    border-color: #333333;
-}
-
 .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
-    background-color:#ffffff;/* #F2F5FB;*/
-    border-color: #333333;
+    background-color: #fff;/* #F2F5FB;*/
+    border-color: #35BFD3;
+    color: #35BFD3;
 }
-
-.moodGoals .btn-primary,
-.moodGoals .btn-primary:hover,
-.moodGoals .btn-primary:active
- {
-    background-color:#ffffff;/* #F2F5FB;*/
-    border-color: #333333;
-}
-
-.moodGoals button {
-    
-    width: 12em;
-}
-
+dropdown-toggle:hover, dropdown-toggle:focus; dropdown-toggle:active { background-color: #fff;  }
 .btn .caret {
     margin-left: 4.5em;
 }
-.moodGoals .btn {
-    
-    padding: 3px 12px;
-    font-size: 14px;
-    font-weight: 700;
-   
-    text-align: left;
-   
-    border-radius: 8px;
-}
-
 .dropdown-menu {
     top: 45px;
+            border-color: #35BFD3;
 }
 
 .dropdown-menu>li>a {
-        font-weight: 700;
+        font-weight: 500;
+    color: #35BFD3;
 }
 
 .dropdown-menu li a:hover, 
@@ -736,17 +722,8 @@ Moods inner pages
     
 }
 
-nav hr {
-position: relative;
-  border:none;
-  border-top:2px dotted #333;
-  color:#333;
-  background-color:#ffffff;/*#F2F5FB;*/
-  height:1px;
-         width: 90%;
-    top: 1.5em;
-    left: auto;
-}
+nav hr {position: relative; border-top:2px dotted #35bfd3; top: 1.5em }
+
 .frogImageMoods {
     position: relative;
     z-index: 1030;
@@ -1139,17 +1116,7 @@ h2.h2hstyle
  border: 1px #35BFD3 solid;
 }
 
- .contentMood .moodNav {
-   
-    background-color: #ffffff;/* #F2F5FB;*/
-    color:#333;
- border: 1px #333 solid;
-     width: 80px;
-text-align:center;
-       font-size: 1em;
-     font-weight: 700;
-  
-   }
+
 
 .contentMood .page4 .moodNav{
      width: auto;
@@ -1270,11 +1237,6 @@ border-radius:10px;
     margin-right: 10px;
 }
 
-.contentMood .btn-lg {
-    
-/*    padding: 2px 10px;*/
-}
-
 .contentMood .worksBtn > .login-btn:nth-child(2) {
     
     margin-left: 0em;
@@ -1297,21 +1259,9 @@ border-radius:10px;
     left: -13.5em;
     bottom: -1em;
 }
-   
-   .contentMood .moodNav:hover, .contentMood  .moodNav:active{
-   
-     color:#35BFD3;
- border: 1px #35BFD3 solid;
-       
-   }
  .contentMood .moodNav:focus{
     
     outline: none;
-}
-.contentMood .page5  .btn-lg,
-.contentMood .page6  .btn-lg {
-    float: left;
-        margin-top: -0.7em;
 }
 .carousel-inner {
     height: 150px;
@@ -2510,3 +2460,7 @@ margin-top: 0.9em;
     font-weight: 600;
 
 }
+
+.wrapper { margin-top: 20px }
+.how-it-works > h4 { font-size: 22px }
+.page6 .btn.btn-lg.moodNav.go { float: left; margin: 10px 65px 5px}
