@@ -538,7 +538,6 @@ Why us
     background-image: none;
     color: #35BFD3;
 }
-
 .item h4 {
   
     font-size: 1em;
@@ -1325,8 +1324,7 @@ Footer
 .foot {
     
     background-color: #35BFD3;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
     border-top-left-radius: 8px;
      border-top-right-radius: 8px;
 }
@@ -1560,16 +1558,15 @@ p.SubscribeToNewsletter:hover{
     width: 25em;
     left: 36em;
 }*/
-
+a.right, a.left { transform: translateY(-80px) }
 a.left {
     position: absolute;
-    left: 35em;
-    top: 50%;
+    left: 40px;
 }
 a.right {
-    right: 35em;
+    right: 40px;
     position: absolute;
-    top: 50%;
+    
 }
 
 /*MOdal Buttons*/
@@ -2265,6 +2262,8 @@ section#section4 .dotMenu
 .foot .right h4, .foot .right p {
     text-align: left;
 }
+
+.foot h4, .foot p { margin: 5px 0 0 }
 
 #invisible {
     display: none;
