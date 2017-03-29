@@ -26,7 +26,7 @@ a:hover { text-decoration: none }
 
 /* Genric Classes */
 
-.txtNormal { font-size: 22px }
+.txtNormal { font-size: 20px }
 .txtBig { font-size: 24px }
 .txtSmall { font-size: 18px }
 .bold{ font-weight: bold }
@@ -39,9 +39,10 @@ a:hover { text-decoration: none }
 .btn-lg { padding: 6px 20px 4px }
 .btn-lg:hover { padding: 7px 19px 3px 21px }
 .btn-white { border: 1px solid #35BFD3; background: #fff; color: #35BFD3; box-shadow: 0px 4px 11px -7px }
-.btn-round { height: 28px; border-radius: 14px; padding: 4px 12px 6px }
+.btn-round { height: 28px; border-radius: 14px; padding: 4px 12px 6px; background: #fff; color: #333; border-color: #333 }
+.btn-round:hover, .btn-round:focus, .btn-round:active, .btn-round:active:hover, .btn-round:active:focus  { height: 28px; border-radius: 14px; padding: 4px 12px 6px; background: #fff; color: #333; border-color: #333 }
 .btn-white:hover, .btn-white:focus { box-shadow: 0px 4px 13px -5px; color: #35BFD3; background-color: #fff; border: 1px solid #35BFD3 }
-.btn-hr-wrapper { position: relative}
+.btn-hr-wrapper { position: relative; margin: 0 65px}
 .btn-hr-wrapper::after { content: "."; text-indent: -999em; display: block; width: 100%; position: absolute; top: 50%; transform: translateX(-50%); left:50%; border-top: 2px dotted #35BFD3; z-index: -1; height: 0 }
 
 
@@ -101,10 +102,10 @@ body { text-align: center; font-family: 'open sans'; -webkit-font-smoothing: ant
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-defaul t.navbar-toggle:focus, .navbar-default .navbar-toggle.collapsed  { background: rgba(255, 255, 255, 0) }
 .login-btn { margin: 20px 15px }
 
-.readMore.toolTip { display: none; min-width: 300px; max-width: 680px; padding: 25px 15px 15px; position: absolute; border: 1px solid #35BFD3; border-radius: 5px; margin-left: 25px; left: 0; right: 0; background: #f0f8ff; box-shadow: 0px 4px 12px -5px #35bfd3 }
+.readMore.toolTip { display: none; min-width: 300px; max-width: 445px; padding: 15px 5px 0; position: absolute; border: 1px solid #35BFD3; border-radius: 5px; margin-left: 25px; left: 0; right: 0; background: #fff; box-shadow: 0px 4px 12px -5px #35bfd3 }
 
 /* Index Page */
-.section { padding-top: 70px }
+.section { padding-top: 79px }
 
 .navbar-brand span { z-index:10; display:none; padding:14px 16px; margin-top:1em; width:32em; line-height:18px; padding-right: 5px; cursor: pointer; left: 50%; transform: translateX(-50%) }
 .logoTip{ display:inline;  position:absolute;  border:2px solid #35BFD3; font-weight: 900; font-size: 1.17em; text-align: left; background-color: #ffffff; border-radius: 8px; cursor: default; left: 50%; }
@@ -124,8 +125,8 @@ Home Page Whats your mood.
 @media(min-width: 769px) {
     .yourMood { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); margin: 0; }
 }
-.yourMood > h1 { font-size: 32px; margin-bottom: 0; font-weight: 100 }
-.yourMood > h4 { color: #35BFD3; font-weight: 300; font-size: 32px }
+.yourMood > h1 { font-size: 26px; margin-bottom: 0; font-weight: 100 }
+.yourMood > h4 { color: #35BFD3; font-weight: 300; font-size: 24px }
 .yourMood > p { font-weight: 400; font-size: 22px }
 .yourMood > p span {font-weight: bold; color: #FFDE15; animation: blinker 1s linear infinite; font-size: 28px; vertical-align: middle; vertical-align: -webkit-baseline-middle; line-height: 32px }
 @keyframes blinker {  
@@ -186,7 +187,7 @@ How it works
 
 .how-it-works .panel { border: 1px solid #35BFD3;  border-radius: 8px; width: initial; position: relative; margin-bottom: 30px }
 
-.why-us .content h2 { margin: 20px 0 10px; font-weight: 500; font-size: 26px }
+.why-us .content h2 { margin: 5px 0; font-weight: 500; font-size: 22px }
 .why-us .content p { font-weight: 500 }
 
 .pricingPanelRow p { font-size: 16px }
@@ -196,7 +197,7 @@ How it works
     
   margin-top: 0.2em;
 }
-#myCarousel { margin-top: 25px }
+#myCarousel { margin: 25px 200px }
 
 .page4 .selectMode .dotHr div{
     
@@ -274,21 +275,19 @@ section .know-us {
 
 .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
     background-color: #fff;/* #F2F5FB;*/
-    border-color: #35BFD3;
-    color: #35BFD3;
+    border-color: #333;
+    color: #333;
 }
-dropdown-toggle:hover, dropdown-toggle:focus; dropdown-toggle:active { background-color: #fff;  }
+dropdown-toggle:hover, dropdown-toggle:focus, dropdown-toggle:active { background-color: #fff;  }
 .btn .caret {
     margin-left: 4.5em;
 }
 .dropdown-menu {
     top: 45px;
-            border-color: #35BFD3;
 }
-
+nav hr { margin: 20px 65px }
 .dropdown-menu>li>a {
         font-weight: 500;
-    color: #35BFD3;
 }
 
 .dropdown-menu li a:hover, 
@@ -484,8 +483,6 @@ Why us
 }
 
 .why-us .content{
-    
-    width: 70%;
     margin-bottom: 1%;
 }
 
@@ -496,15 +493,6 @@ Why us
     margin-bottom: 0%;
     color: #333;
     margin-top: 3%;
-}
-
-.content div > p {
-    margin: -6px;
-    font-weight: 700;
-    font-size: 1em;
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
 }
 
 /*
@@ -520,7 +508,14 @@ Why us
     padding-left: 1.5em;
     padding-right: 1.5em;
 }
-
+.content div > p {
+    margin: -6px;
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
 .how-it-works .content div > p {
    padding-left: 0;
     padding-right: 0; 
@@ -715,18 +710,12 @@ Moods inner pages
 -----------------------------------------------------------------------------------------
 */
 
-.moods {
-    
-    padding-top: 8em;
-
-    
-}
 
 nav hr {position: relative; border-top:2px dotted #35bfd3; top: 1.5em }
 
 .frogImageMoods {
     position: relative;
-    z-index: 1030;
+    z-index: 1;
     top: 2%;
     left: 7%;
     width: 252px;
@@ -1062,6 +1051,7 @@ h2.h2hstyle
     color:#F2F5FB;
         padding: 2px 0px;
         width: 6em;
+        font-weight: 600;
 }
 
 
@@ -1900,10 +1890,6 @@ h6.InvestTeamP{
     font-size:16px;
 }
 
-div.avatarTestimonial.avtarEdit{
-    margin-right:4em;
-}
-
 img.avtarSize{
     
         position: absolute;
@@ -1914,7 +1900,7 @@ img.avtarSize{
 
 img.WFrogImg{
     position: absolute;
-    bottom: 0;
+    bottom: -20px;
     left: 59%;
 }
 h2.WFrogHead{
@@ -2254,7 +2240,7 @@ footer {
 
 /* Know Us Page*/
 .know-us.text-center.mod-singular-section {
-    margin-top: 120px;
+    margin-top: 20px;
 }
 
 
@@ -2332,15 +2318,15 @@ margin-top: 0.9em;
     position: relative;
 }
 
-.topNav,#myStory .dotHr div {
+/*.topNav,#myStory .dotHr div {
     
         position: relative;
     left: 27%;
 	 
-}
+}*/
 .topNav {
-	    z-index: 1030;
-	top: 9em;
+    margin-top: 25px;
+    display: inline-block;
 }
 
 .goalReport .goalReportData{
@@ -2464,3 +2450,5 @@ margin-top: 0.9em;
 .wrapper { margin-top: 20px }
 .how-it-works > h4 { font-size: 22px }
 .page6 .btn.btn-lg.moodNav.go { float: left; margin: 10px 65px 5px}
+.page-pricing .item h4{ font-size: 14px; font-weight: 700 }
+#section4 .item h4 { font-size: 16px }
