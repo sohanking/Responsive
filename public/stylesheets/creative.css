@@ -19,7 +19,7 @@ Colors used inside
     font-family: mermaid;
     src: url(fonts/mermaid1001.ttf);
 }
-p,  h1, h2, h3, div, button, a, li { font-family: 'Josefin Sans', sans-serif; line-height:1.2; color: #373D3F }
+p,  h1, h2, h3, div, button, a, li { font-family: 'Josefin Sans', sans-serif; line-height:1.2; color: #454c4d }
 a { outline:none; cursor: pointer }
 a:hover { text-decoration: none }
 .dropdown-menu{ box-shadow: none }
@@ -31,7 +31,12 @@ a:hover { text-decoration: none }
 .underline { text-decoration: underline }
 
 /* Buttons */
-.btn-white { border: 1px solid #35BFD3; background: #fff; color: #35BFD3 }
+.btn-lg { padding: 6px 20px 4px }
+.btn-lg:hover { padding: 7px 19px 3px 21px }
+.btn-white { border: 1px solid #35BFD3; background: #fff; color: #35BFD3; box-shadow: 0px 4px 11px -7px }
+.btn-white:hover, .btn-white:focus { box-shadow: 0px 4px 13px -5px; color: #35BFD3 }
+.btn-hr-wrapper { position: relative}
+.btn-hr-wrapper::after { content: "."; text-indent: -999em; display: block; width: 100%; position: absolute; top: 50%; transform: translateX(-50%); left:50%; border-top: 2px dotted #35BFD3; z-index: -1; height: 0 }
 
 /* Genric Classes */
 
@@ -60,31 +65,35 @@ a:hover { text-decoration: none }
 
 /* To be refactored */
 #email, #password, #num, #name, div.panel-body {background-color: #ffffff;/* #F2F5FB;*/ outline: 0; -webkit-box-shadow: none; box-shadow: none}
-.email, .password, .number, .name, .pannel-body { background-color: #ffffff; outline: 0; -webkit-box-shadow: none; box-shadow: none }
+.email, .password, .number, .name, .pannel-body { outline: 0; -webkit-box-shadow: none; box-shadow: none }
 /******/
 
 /* Body */
-body { text-align: center; font-family: 'open sans'; -webkit-font-smoothing: antialiased; background: #fff; overflow:hidden }
+body { text-align: center; font-family: 'open sans'; -webkit-font-smoothing: antialiased; background: #f9fcff; overflow:hidden; background: aliceblue }
 
 /* Header */
 
 .tipTop { display:inline;  position:absolute;  border:2px solid #FFDE15; color:#333; font-weight: 900; font-size: 1.17em; background-color : #FFDE15; border-radius: 8px; text-decoration:none }
 .navbar-default { background-color: rgba(242, 245, 251, 0); border: 0 }
-.navbar-center { display: inline-block; float: none }
+@media (min-width: 768px) {
+    .navbar-center { position: absolute; left: 50%; transform: translateX(-50%); margin-top: 15px }
+    }
 .navbar .navbar-collapse { text-align: center }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav >.active > a, .navbar-default .navbar-nav >.active > a:focus, .navbar-default .navbar-nav >.active > a:hover { color: #35BFD3; background-color: rgba(0 0, 0, 0) }
-.navbar-default .navbar-nav > li > a { font-size: 1.4em; font-weight: 700; margin: 0em .6em }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav >.active > a, .navbar-default .navbar-nav >.active > a:focus, .navbar-default .navbar-nav >.active > a:hover { color: #35BFD3; background-color: rgba(0 0, 0, 0); border-bottom: 2px solid}
+.navbar-default .navbar-nav > li > a { font-size: 1.4em; font-weight: 700; margin: 0em .6em; padding: 15px 5px 7px; color: #454c4d }
 .navbar-brand > img {  position: absolute }
 .logo-icon{ position: absolute; left: 128px; top: 23px }
 .logo-icon-blue { opacity: 0 }
 .navbar-brand { width: 208px; height: 64px; position: relative}
 .navbar-toggle {margin: 20px 15px 15px 0; border: 0 } 
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-defaul t.navbar-toggle:focus, .navbar-default .navbar-toggle.collapsed  { background: rgba(255, 255, 255, 0) }
+.login-btn { margin: 20px 15px }
 
-.readMore.toolTip { display: none; min-width: 300px; max-width: 680px; padding: 25px 15px 15px; position: absolute; left: 50%; transform: translateX(-50%); border: 1px solid #35BFD3; border-radius: 5px; margin-top: 25px }
+.readMore.toolTip { display: none; min-width: 300px; max-width: 680px; padding: 25px 15px 15px; position: absolute; border: 1px solid #35BFD3; border-radius: 5px; margin-top: 25px; margin-left: auto; margin-right: auto; left: 0; right: 0 }
 
 /* Index Page */
-.section { padding-top: 84px }
+.section { padding-top: 119px }
 
 .navbar-brand span { z-index:10; display:none; padding:14px 16px; margin-top:1em; width:32em; line-height:18px; padding-right: 5px; cursor: pointer; left: 50%; transform: translateX(-50%) }
 .logoTip{ display:inline;  position:absolute;  border:2px solid #35BFD3 font-weight: 900; font-size: 1.17em; text-align: left; background-color: #ffffff; border-radius: 8px; cursor: default; left: 50%; }
@@ -100,33 +109,53 @@ body { text-align: center; font-family: 'open sans'; -webkit-font-smoothing: ant
 Home Page Whats your mood.
 -----------------------------------------------------------------------------------------
 */
-.yourMood > h1 { font-weight: 700; font-size: 2em; margin-bottom: 0 }
-.yourMood > h4 { color: #35BFD3; font-weight: 600; margin-top: 0; margin-bottom: 0; font-size: 1.5em }
-.yourMood > p {  font-weight: 700; font-size: 1.3em; margin-top: 0; margin-left: 12%; margin-right: 12%}
+.yourMood { margin-top: 300px }
+.yourMood > h1 { font-size: 32px; margin-bottom: 0; font-weight: 100 }
+.yourMood > h4 { color: #35BFD3; font-weight: 300; font-size: 36px }
+.yourMood > p { font-weight: 400; font-size: 22px }
+.yourMood > p span {font-weight: bold; color: #FFDE15; animation: blinker 1s linear infinite; font-size: 40px; vertical-align: middle; vertical-align: -webkit-baseline-middle; line-height: 32px }
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+.text-center.menu:before { display: block; width: 270px; height: 135px; border: 3px dotted #3fbfd1; border-top-left-radius: 270px; border-top-right-radius: 270px; border-bottom: 0; margin: 17px auto 0; left: 0; right: 0 }
+#moodOfMonth {font-weight: 600; position: absolute; bottom: 60px; left: 50%; width: 100px; cursor: pointer; transform: translateX(-50%) }
+#dotMenu { position: fixed; bottom: 40px; width: 100px; z-index: 99999; left: 50%; transform: translateX(-50%)}
+.dot {  width: 8px; height: 8px; display: inline-block; border-radius: 100%; border: 2px #FFDE15 solid; background-color: #FFDE15; margin-right: 4px; margin-bottom: 5px }
+#angle { position: fixed; bottom: 1em; width: 45px; z-index: 99999; left: 50%; transform: translateX(-50%); padding: 10px }
 
+/*Frog Image*/
+.frogImage { position: absolute; z-index: 1030; top: 50%; left: 50%; transform: translate(-50%, -50%); display: none }
+.frogImage > img {  max-width:390px; width: 100%; height: auto; cursor: pointer; }
+.frogImage img:nth-child(2) {    position: absolute; max-width:390px; width: 100%; height: auto; top: 0em; cursor: pointer; }
+.frogImage img:nth-child(3) {   position: absolute; max-width:40px; width: 100%; height: auto; top: 4.5em; left: 19.4em; }
+.frogImage h1 { font-family: mermaid; position: absolute; text-align: center; vertical-align: top; top: 4.5em; left: -1.2em; color: white; font-weight: 900; font-size: 2.5em; width: 100%; cursor: pointer; }
+
+/*Circle Animation*/
+#bg_color .circle { display: block; position: absolute; width: 1px; transform: translate(-50%,-50%); opacity: 1 }
+#bg_color .circlewhite { display: block; position: absolute; width: 1px; transform: translate(-50%,-50%); opacity: 1 }
+#bg_color { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 5; overflow:hidden }
+#bg_color .circle span { display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 100% }
+#bg_color .circlewhite span { display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 100% }
 /*
 -----------------------------------------------------------------------------------------
 What we offer 
 -----------------------------------------------------------------------------------------
 */
+.what-we-offer .container { margin-bottom: 35px}
+#indexLookingFor > div { position: relative; height: 200px}
+#indexLookingFor > div > img { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -75%) }
+#indexLookingFor > div > p { position: absolute; bottom: 0; margin: 0 auto; left: 0; right: 0}
+.what-we-offer h2 { padding-top: 15px }
 
-.what-we-offer .smart-goals > img { margin-left: 16% }
-.what-we-offer .smart-goals > p { margin-top: 8% }
-.what-we-offer .build-wealth > img { margin-top: 30% }
-.what-we-offer .build-wealth > p { margin-top: 26% }
-.what-we-offer .tax-savings > img { margin-top: 15% }
-.what-we-offer .tax-savings > p { margin-top: 19% }
-.what-we-offer .emergency-funds > img { margin-top: 15% }
-.what-we-offer .emergency-funds > p { margin-top: 19% }
 .what-we-offer > .row div > img, .how-it-works > .row div > img{ display: block; margin: auto }
 .changeFoot { left: -9% }
+h2.indexHeadngLookingFor { margin-top: 10px }
 
 /* All Pages mixed fruit juice need to be refactored */
-.what-we-offer, .how-it-works, .why-us { margin-top: 10% }
-.what-we-offer h2, .how-it-works h2, .know-us h2, .why-us > h2{ padding: 0.5em; font-weight: 600; color: #35BFD3; margin-top: 0; margin-bottom: 0; font-size: 3em }
+.how-it-works h2, .know-us h2, .why-us > h2{ padding: 0.5em; font-weight: 600; color: #35BFD3; margin-top: 0; margin-bottom: 0; font-size: 3em }
 .what-we-offer .tuff{ position: relative; left: -26%; top: 1em }
-.what-we-offer p, .how-it-works p { margin-top: 1%; color: #333; font-weight: 600; font-size: 1.2em; margin-bottom: 3% }
-.what-we-offer .row, .how-home .row { margin-left: 50px; margin-right: 50px; margin-top: 6%; margin-bottom: 4% }
+.what-we-offer p, .how-it-works p { font-weight: 300; font-size: 18px }
+.what-we-offer .row, .how-home .row { margin-left: 50px; margin-right: 50px }
 .emergency-funds, .tax-savings, .build-wealth, .smart-goals { cursor: pointer }
 
 /*
@@ -136,17 +165,19 @@ How it works
 */
 
 .how-it-works > .row { margin-top: 3.5% }
-.how-it-works .pagination { position: absolute; left: 50%; transform: translateX(-50%); padding: 0; margin: 0; margin-top: 1% }
+.how-it-works .pagination { /*position: absolute; left: 50%; transform: translateX(-50%);*/ padding: 0; margin: 0 }
 .how-it-works .pagination>li>a { border-radius: 50% !important; background-color: #35BFD3; color: #F2F5FB; font-size: 1.2em; border-color: #35BFD3; cursor: default; font-weight: 700; width: 1.5em; height: 1.5em; padding: 0 }
 .how-it-works .pagination>li>a:hover, .how-it-works .pagination>li>a:focus, .how-it-works .pagination>li>a:active { background-color: #35BFD3; color: #F2F5FB; border-color: #35BFD3 }
 .how-it-works .pagination>li>div, .how-it-works .dotHr div, .why-us .dotHr div, .what-we-offer .dotHr div, .page4 .dotHr div, .page2 .dotHr div, .page5 .dotHr div, .page6 .dotHr div #reports .dotHr div, #myStory .dotHr div, #profile .dotHr div, .know-us .dotHr div { float: left; background:#ffffff;/* #F2F5FB;*/ border: 1.5px dotted #35BFD3; border-radius: 50%; margin-top: 0.9em; margin-left: 1px; margin-right: 3px }
 
 
-
+.why-us .content h2 { margin: 20px 0 10px; font-weight: 500; font-size: 26px }
+.why-us .content p { font-weight: 500 }
 .page4 .dotHr div{
     
   margin-top: 0.2em;
 }
+#myCarousel { margin-top: 25px }
 
 .page4 .selectMode .dotHr div{
     
@@ -502,16 +533,6 @@ Why us
     padding-right: 0; 
     
 }
-
-
-.why-us .signUp {
-    
-float: left;
-    
-}
-
-
-
 .carousel-control.right, .carousel-control.left {
     
     background-image: none;
@@ -521,8 +542,9 @@ float: left;
 .item h4 {
   
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 0;
+    font-size: 20px;
 }
 
 .item span {
@@ -533,7 +555,6 @@ float: left;
 .avatarTestimonial {
 
     padding: 0;
-    height: 5em;
     width: auto;
 }
 
@@ -556,7 +577,8 @@ float: left;
 .avatarTestimonial .name {
     
     font-size: 1em;
-    font-weight: 700;   
+    font-weight: 700;  
+    margin-top: 10px; 
 }
 
 .carousel-control {
@@ -613,38 +635,13 @@ Bottom menu dots and arrow down
         -webkit-transform: rotate(180deg);
     }
 }
-#angle {
-    position: fixed;
-    bottom: 1em;
-    width: 28px;
-    height: 12px;
-    z-index: 99999;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
 
 
-#dotMenu {
-    position: fixed;
-    bottom: 25px;
-    width: 100px;
-    z-index: 99999;
-    left: 50%;
-    transform: translateX(-48%);
-}
 
-.dot {
- 
-    width: 8px;
-    height: 8px;
-    display: inline-block;
-    border-radius: 100%;
-    border: 2px #FFDE15 solid;
-    background-color: #FFDE15;
-    margin-right: 4px;
-    margin-bottom: 5px;
-}
+
+
+
 
 .menu {
    
@@ -659,16 +656,7 @@ Bottom menu dots and arrow down
     background-color: #35BFD3;
 }
 
-#moodOfMonth {
-     
-    font-weight: 600;
-    position: absolute;
-    bottom: 35px;
-    left: 50%;
-    width: 100px;
-    cursor: pointer;
-    transform: translateX(-50%);
-}
+
 
 /*
 Feeling Text Circlural Navigation Menu
@@ -691,9 +679,9 @@ Feeling Text Circlural Navigation Menu
 .feelingCircularMenu ul li a {
 
     color: #333;
-    font-weight: 900;
+    font-weight: 400;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 16px;
 }
 
 .feelingCircularMenu ul li {
@@ -716,100 +704,18 @@ Feeling Text Circlural Navigation Menu
 }
 
 
-.feelingCircularMenu ul li:nth-child(1) {
-    
-    bottom: 2.7em;
-    left: 1.2em; 
-}
+.feelingCircularMenu ul li:nth-child(1), .feelingCircularMenu ul li:nth-child(6) { bottom: 10px }
+.feelingCircularMenu ul li:nth-child(1) { left: 0 }
+.feelingCircularMenu ul li:nth-child(6) { right: -10px }
+.feelingCircularMenu ul li:nth-child(2), .feelingCircularMenu ul li:nth-child(5) { bottom: 75px }
+.feelingCircularMenu ul li:nth-child(2) { left: 20px }
+.feelingCircularMenu ul li:nth-child(5) { right: 22px }
+
+.feelingCircularMenu ul li:nth-child(3), .feelingCircularMenu ul li:nth-child(4)  {bottom: 125px }
+.feelingCircularMenu ul li:nth-child(3) { left: 88px }
+.feelingCircularMenu ul li:nth-child(4) { right: 40px }
 
 
-.feelingCircularMenu ul li:nth-child(2) {
-   
-    bottom: 6em;
-    left: 3.2em;
-}
-
-.feelingCircularMenu ul li:nth-child(3) {
-    
-    bottom: 9em;
-    left: 8em;
-}
-
-.feelingCircularMenu ul li:nth-child(4) {
-    
-    bottom: 9em;
-    left: 14em;
-}
-
-.feelingCircularMenu ul li:nth-child(5) {
-    
-    bottom: 6em;
-    left: 20.8em;
-}
-
-.feelingCircularMenu ul li:nth-child(6) {
-    
-    bottom: 2.7em;
-    left: 22.2em;
-}
-
-/*Frog Image*/
-
-.frogImage {
-    
-    position: absolute;
-    z-index: 1030;
-    top: 10%;
-    left: 50%;
-    width: 500px;
-    height: 300px;
-    margin-top: 0; /* Half the height */
-    margin-left: -200px; /* Half the width */
-    display: none;
-}
-
-.frogImage > img {
-   
-    max-width:390px;
-    width: 100%;
-    height: auto;
-     cursor: pointer;
-}
-
-.frogImage img:nth-child(2) {
-    
-    position: absolute;
-    max-width:390px;
-    width: 100%;
-    height: auto;
-    top: 0em;
-    cursor: pointer;
-}
-
-.frogImage img:nth-child(3) {
-    
-    position: absolute;
-    max-width:40px;
-    width: 100%;
-    height: auto;
-    top: 4.5em;
-    left: 19.4em;
-}
-
-.frogImage h1 {
-    
-    font-family: mermaid;
-    position: absolute;
-    text-align: center;
-    vertical-align: top;
-    top: 4.5em;
-    left: -1.2em;
-    color: white;
-    font-weight: 900;
-    font-size: 2.5em;
-    width: 100%;
-    cursor: pointer;
-}
 
 /*
 -----------------------------------------------------------------------------------------
@@ -1114,12 +1020,12 @@ img.change {
 .how-it-works .go {
    width: 80px; 
 }
-
+/*
 .how-it-works .pricing,
 .how-it-works .video-tour
 {
 width: 10%;
-}
+}*/
 /*pricing page headdings*/
 h2.h2hstyle.shrinkleft1,
 h2.h2hstyle
@@ -1401,7 +1307,9 @@ border-radius:10px;
     float: left;
         margin-top: -0.7em;
 }
-    
+.carousel-inner {
+    height: 150px;
+}  
 .carousel-inner > .container {
     
    
@@ -1453,14 +1361,8 @@ Footer
     margin-right: 3%;
 }
 
-.foot p > a {
-    
-     
-    font-weight: 700;
-    line-height: 0.6;
-
-}
-
+.foot p > a { font-weight: 500; line-height: 0.6; font-size: 16px }
+.SubscribeToNewsletter { }
 .foot .row div {
 	 text-align: left;
 }
@@ -1469,16 +1371,14 @@ Footer
     margin-bottom: 2%;
 }
 
-.newsletter > p {
+footer .newsletter > p {
     
     width: 11em;
     line-height: 1.5;
-    border-bottom: 2px dotted #333333;
     font-weight: 600;
-    font-size: 1.1em;
-    color: #333;
+    font-size: 16px;
 }
-
+footer .newsletter, footer .socialIcons { margin-top: 10px }
 /*video tour, faq*/
 h2#show.videoTour{
       width:initial;
@@ -1807,61 +1707,7 @@ opacity: 0;
 
 }
 
-/*Circle Animation*/
 
-#bg_color .circle {
-    display: block;
-    position: absolute;
-    width: 1px;
-    transform: translate(-50%,-50%);
-    opacity: 1;
-    
-
-}
-
-#bg_color .circlewhite {
-    display: block;
-    position: absolute;
-    width: 1px;
-    transform: translate(-50%,-50%);
-    opacity: 1;
-    
-
-}
-
-
-
- #bg_color {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 5;
-     overflow:hidden;
-}
-
-
-#bg_color .circle span {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-   
-}
-
-#bg_color .circlewhite span {
- display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-}
 
 
 .goalReport{
@@ -1870,123 +1716,7 @@ opacity: 0;
 
 }
 
-.goalReport .goalReportData{
-    position: absolute;
-     cursor: pointer;
-}
 
-.g1{
-    
-    top: -11em;
-    left: 9em;
-}
-
-.g2{
-        top: -6em;
-    left: 13.5em;
-}
-
-
-.g3{
-    top: -1em;
-    left: 10em;
-}
-
-.g4{
-       top: -7em;
-    left: 21em
-}
-
-.g5{
-    
-    top: -1em;
-    left: 21.5em;
-}
-
-.g6{
-    
-    top: -3.5em;
-
-    left: 29em;
-
-}
-
-.g7{
-    
-    top: -5em;
-    left: 36em;
-
-}
-
-.g8{
-    
- top: -6.5em;
-    right: 37em;
-}
-
-.g9{
-    
-    top: -10em;
-    right: 31em;
-}
-
-.g10{
-    
-    top: -1.5em;
-    right: 31em;
-}
-
-.g11{
-    
-   top: -6.5em;
-    right: 23em;
-}
-
-.g12{
-    
-   top: -12em;
-    right: 21em;
-}
-
-.g13{
-    
-       top: -16.5em;
-    right: 14.5em;
-}
-.g14{
-    
-   top: -6.5em;
-    right: 13em;
-
-}
-
-
-.g15{
-    
-        top: -1em;
-    right: 15em;
-
-}
-
-.g15 #invest_withdraw .trackGoals,
-.g14 #invest_withdraw .trackGoals,
-.g13 #invest_withdraw .trackGoals,
-.g12 #invest_withdraw .trackGoals,
-.g11 #invest_withdraw .trackGoals,
-.g10 #invest_withdraw .trackGoals,
-.g9 #invest_withdraw .trackGoals,
-.g8 #invest_withdraw .trackGoals
-{
-    
-    left: -37em;
-}
-
-#goalName {
-
-    color: #333;
-    font-weight: 600;
-
-}
 
 #invest_withdraw {
 
@@ -2251,14 +1981,6 @@ h2.WSHeader{
 /*Responsive mobile First Design*/
 
 @media only screen and (min-width: 769px) {
-	
-
-.what-we-offer,
-.how-it-works,
-.why-us {
-     
-	    margin-top: 4%;
-}
 
 	.what-we-offer h2,
 .how-it-works h2,
@@ -2368,13 +2090,7 @@ div.dotHr.howItWorksSignUp{
     margin-top: -2.5em;
 }
 
-h2.indexHeadngLookingFor
-{
-        position: absolute;
-        left: 50%;
-        margin-top: 3%;
-        transform: translateX(-50%);
-}
+
 
 
 div.dotHr.dotsScriptStory{
@@ -2434,18 +2150,8 @@ div.topNav.abc{
 .tableAccounts{
     width: 78.2%;
 }
-
-.blankInput[type=number] {
-    height: 17px;
-    border: 0;
-    width: calc(14% - 2px);
-    margin-left: 1px;
-    box-shadow: -2px 5px 0px -3px #333;
-    -webkit-transition: box-shadow 0.3s;
-    transition: box-shadow 0.3s;
-    background-color: #ffffff;
-    padding-left: 5px;
-}
+/* Form Elements */
+.blankInput[type=number] { height: 25px; border: 0; margin-left: 1px;  background-color: transparent; padding: 5px; border-bottom: 1px solid }
 
 section#section4 #dotMenu {
     display:none;
@@ -2601,9 +2307,9 @@ footer {
 
 
 /* Pricing Page */
-.how-it-works {
+/*.how-it-works {
     margin-top: 140px;
-}
+}*/
 
 .contentMood .page {
     position: relative;
@@ -2682,4 +2388,122 @@ margin-top: 0.9em;
 .topNav {
 	    z-index: 1030;
 	top: 9em;
+}
+
+.goalReport .goalReportData{
+    position: absolute;
+     cursor: pointer;
+}
+
+.g1{
+    
+    top: -11em;
+    left: 9em;
+}
+
+.g2{
+        top: -6em;
+    left: 13.5em;
+}
+
+
+.g3{
+    top: -1em;
+    left: 10em;
+}
+
+.g4{
+       top: -7em;
+    left: 21em
+}
+
+.g5{
+    
+    top: -1em;
+    left: 21.5em;
+}
+
+.g6{
+    
+    top: -3.5em;
+
+    left: 29em;
+
+}
+
+.g7{
+    
+    top: -5em;
+    left: 36em;
+
+}
+
+.g8{
+    
+ top: -6.5em;
+    right: 37em;
+}
+
+.g9{
+    
+    top: -10em;
+    right: 31em;
+}
+
+.g10{
+    
+    top: -1.5em;
+    right: 31em;
+}
+
+.g11{
+    
+   top: -6.5em;
+    right: 23em;
+}
+
+.g12{
+    
+   top: -12em;
+    right: 21em;
+}
+
+.g13{
+    
+       top: -16.5em;
+    right: 14.5em;
+}
+.g14{
+    
+   top: -6.5em;
+    right: 13em;
+
+}
+
+
+.g15{
+    
+        top: -1em;
+    right: 15em;
+
+}
+
+.g15 #invest_withdraw .trackGoals,
+.g14 #invest_withdraw .trackGoals,
+.g13 #invest_withdraw .trackGoals,
+.g12 #invest_withdraw .trackGoals,
+.g11 #invest_withdraw .trackGoals,
+.g10 #invest_withdraw .trackGoals,
+.g9 #invest_withdraw .trackGoals,
+.g8 #invest_withdraw .trackGoals
+{
+    
+    left: -37em;
+}
+
+#goalName {
+
+    color: #333;
+    font-weight: 600;
+
 }

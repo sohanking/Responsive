@@ -184,26 +184,12 @@ $(function(){
 	
     /*Login Read More*/
     
-     $(".logo-icon,.logo").hover(function(){
-     
-
-     
-    $(".logo a.tooltips span").addClass("logoTip");
-     
-      $(".logo a.tooltips span").show();
-   
-     
- }, function(){
-         
-         
-         
-           /*$(".logo a.tooltips span").hide();  */                    
-                                 
-                                 });
+     $(".navbar-brand #investory").hover(function(){
+        $(".readMore.toolTip").addClass("show");
+    });
     
     $(document).click(function() {
-        
-        $(".logo a.tooltips span").hide(); 
+        $(".readMore.toolTip").removeClass("show");
          $(".goalReportData #invest_withdraw").hide(); 
     });
     var socialname,socianameHover;

@@ -99,8 +99,8 @@ $(document).ready(function () {
                 frogWithdrawAnim
 
 
-                    .fromTo(frogWithdraw1, 0.2, { opacity: 1 }, { opacity: 0, ease: Linear.easeNone })
-                    .fromTo(frogWithdraw2, 0.3, { opacity: 0 }, { opacity: 1, ease: Linear.easeNone })
+                    .fromTo(frogWithdraw2, 0.2, { opacity: 1 }, { opacity: 0, ease: Linear.easeNone })
+                    .fromTo(frogWithdraw1, 0.3, { opacity: 0 }, { opacity: 1, ease: Linear.easeNone })
 
 
                     ;
