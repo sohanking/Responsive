@@ -407,7 +407,7 @@
             
             <div class="login-btn text-center page-buttons">
                                  
-                <button type="" class="btn btn-lg moodNav skip" > Skip </button> 
+                <button type="" class="btn btn-white btn-lg moodNav skip" > Skip </button> 
             </div>
             
            <div class="login-btn text-center page-buttons">
@@ -418,7 +418,7 @@
                   <div></div>
                   <div></div>
            
-                <button type="" class="btn btn-lg moodNav next" > Next </button> 
+                <button type="" class="btn btn-white btn-lg moodNav next" > Next </button> 
                
             </div>
                        <div class="login-btn text-center page-buttons">
@@ -505,8 +505,8 @@
                        <p class="pricingForm">I need INR<input class="blankInput"  name="amount" id="amount" placeholder="" type="number" max="7" value=""/>in<input class="blankInput" placeholder="" type="number" id="time" max="99" value=""/> (Years)</p>
                     <div class="login-btn">
                                  
-                <button type="button" id="go" class="btn btn-lg moodNav go" onclick="setProfile(0,1);" > Go </button> 
-                <button type="" class="btn btn-lg moodNav next page3Sub" > Next </button>
+                <button type="button" id="go" class="btn btn-white btn-lg moodNav go" onclick="setProfile(0,1);" > Go </button> 
+                <button type="" class="btn btn-white btn-lg moodNav next page3Sub" > Next </button>
                         <!--<button type="" class="btn btn-lg moodNav save page3Sub" > Save </button>-->
                     
             </div>
@@ -769,7 +769,7 @@
                                <div class="selectMode">
                                               <div class="dotHr">
                    <a href="#" class="tooltips"> 
-                  <button id="Conservative" type="" class="btn btn-lg moodNav" profile="c" onclick="setProfile(0,2)" > Conservative </button> 
+                  <button id="Conservative" type="" class="btn btn-white btn-lg moodNav" profile="c" onclick="setProfile(0,2)" > Conservative </button> 
 					              <span id="c">
        
         I am a low risk taker. When I hear the word Risk, I think of the danger it represents.
@@ -788,7 +788,7 @@
                 <div></div>
                   <div></div>  
                               <a href="#" class="tooltips">                     
-							<button id="Moderate" type="" class="btn btn-lg moodNav"  profile="m" onclick="setProfile(1,2)" > Moderate </button> 
+							<button id="Moderate" type="" class="btn btn-white btn-lg moodNav"  profile="m" onclick="setProfile(1,2)" > Moderate </button> 
 								  <span id="m">
        
         I am an average risk taker. When I hear the word Risk, I think of the uncertainty it represents.
@@ -807,7 +807,7 @@
                   <div></div>  
                                             
                            <a href="#" class="tooltips">                        
-							<button id="Aggressive" type="" class="btn btn-lg moodNav" profile="a" onclick="setProfile(2,2)" > Aggressive </button> 
+							<button id="Aggressive" type="" class="btn btn-white btn-lg moodNav" profile="a" onclick="setProfile(2,2)" > Aggressive </button> 
 							    <span id="a">
        
        I am a high risk taker. When I hear the word Risk, I think of the opportunity it represents.
@@ -826,7 +826,7 @@
                   <div></div>  
                                  
 						<a href="#" class="tooltips">   
-                            <button id="dontKnow" type="" profile="d" class="btn btn-lg moodNav ">I don't know</button>
+                            <button id="dontKnow" type="" profile="d" class="btn btn-white btn-lg moodNav ">I don't know</button>
     <span id="d">
        
       Click to know your Risk Profile.
@@ -912,8 +912,8 @@
                                    <div class="login-btn">
                                   
              
-                        <button type="" class="btn btn-lg moodNav done " > Done </button>
-                      <button type="" class="btn btn-lg moodNav save " > Save </button>
+                        <button type="" class="btn btn-white btn-lg moodNav done " > Done </button>
+                      <button type="" class="btn btn-white btn-lg moodNav save " > Save </button>
                                    
                                </div>
                                
@@ -931,7 +931,7 @@
             
             <div class="login-btn text-center page-buttons">
                                  
-                <button type="" class="btn btn-lg moodNav done " onclick="myScore();"> Done </button>
+                <button type="" class="btn btn-white btn-lg moodNav done " onclick="myScore();"> Done </button>
             </div>
             
            <div class="login-btn text-center page-buttons">
@@ -1068,7 +1068,7 @@
 													   
                        </div>
                            <div class="dotHr"> 
-                               <div class="login-btn">
+                               <div class="login-btn" style="margin: 0">
                         <% if(loggedIn && !scheme && paid){ %>
 	<form action="/GoalSelection" method="post">
 		<input type="hidden" id="amountMaster" name="amountMaster" value="">
@@ -1081,7 +1081,7 @@
 			<input type="text" id="riskp" name="riskp" value="" hidden>
 								   <input type="text" id="sip" name="sip" value="" hidden>
 								   <input type="text" id="year" name="year" value="" hidden>
-							    <button type="submit" class="btn btn-lg moodNav signUp"> Next </button> 
+							    <button type="submit" class="btn btn-white btn-lg moodNav signUp"> Next </button> 
 								   </form>
 <%  } else if(loggedIn && !scheme && !paid) { %>
 								   	  	<form action="/GoalSelection" method="post">
@@ -1095,13 +1095,13 @@
 			<input type="text" id="riskp" name="riskp" value="" hidden>
 								   <input type="text" id="sip" name="sip" value="" hidden>
 								   <input type="text" id="year" name="year" value="" hidden>
-									   <button type="submit"  class="btn btn-lg moodNav signUp">Pay </button>
+									   <button type="submit"  class="btn btn-white btn-lg moodNav signUp">Pay </button>
 											 </form>
 								<%  } else { %>
 								   
 								 
 								   
-									   <button type="" data-toggle="modal" data-target="#loginModalScheme" class="btn btn-lg moodNav signUp" > login </button> 
+									   <button type="" data-toggle="modal" data-target="#loginModalScheme" class="btn  btn-white btn-lg moodNav signUp" > login </button> 
 								  <% } %>
                 
                            </div>
@@ -1249,7 +1249,7 @@
 			<input type="text" id="riskp" name="riskp" value="" hidden>
 								   <input type="text" id="sip" name="sip" value="" hidden>
 								   <input type="text" id="year" name="year" value="" hidden>
-							    <button type="submit" class="btn btn-lg moodNav signUp"> Next </button> 
+							    <button type="submit" class="btn btn-white btn-lg moodNav signUp"> Next </button> 
 								   </form>
 <%  } else if(loggedIn && !scheme && !paid) { %>
 								   	  	<form action="/GoalSelection" method="post">
@@ -1263,13 +1263,13 @@
 			<input type="text" id="riskp" name="riskp" value="" hidden>
 								   <input type="text" id="sip" name="sip" value="" hidden>
 								   <input type="text" id="year" name="year" value="" hidden>
-									   <button type="submit"  class="btn btn-lg moodNav signUp">Pay </button>
+									   <button type="submit"  class="btn btn-white btn-lg moodNav signUp">Pay </button>
 											 </form>
 								<%  } else { %>
 								   
 								 
 								   
-									   <button type="" data-toggle="modal" data-target="#loginModalScheme" class="btn btn-lg moodNav signUp" > login </button> 
+									   <button type="" data-toggle="modal" data-target="#loginModalScheme" class="btn btn-white btn-lg moodNav signUp" > login </button> 
 								  <% } %>
                            </div>
                                
@@ -1596,7 +1596,7 @@
  
             </div>
         
- <div id="" class="footFixer">
+ <div id="" class="container-fluid footFixer">
    <% include partials/footer %>
      </div>
 <!--Custom Js links -->

@@ -46,6 +46,7 @@ a:hover { text-decoration: none }
 .btn-hr-wrapper::after { content: "."; text-indent: -999em; display: block; width: 100%; position: absolute; top: 50%; transform: translateX(-50%); left:50%; border-top: 2px dotted #35BFD3; z-index: -1; height: 0 }
 .btn-hr-wrapper .dropdown { display: inline-block; position: relative }
 .btn-hr-wrapper .dropdown-menu { top: 25px; left: 6px }
+.btn-hr-wrapper-left { text-align: left; margin-left: 0 }
 
 
 
@@ -212,7 +213,7 @@ margin-top: 0.7em;
     
 .page4 .dotHr
 {
-    
+    height: 200px;
    position: relative;
 }
 
@@ -1120,7 +1121,7 @@ h2.h2hstyle
 
 .contentMood .page2 .login-btn {
     position: absolute;
-    top: 30px!important;
+    top: 0px!important;
     left: 300px;
     
 }
@@ -2452,3 +2453,5 @@ margin-top: 0.9em;
 .page6 .btn.btn-lg.moodNav.go { float: left; margin: 10px 65px 5px}
 .page-pricing .item h4{ font-size: 14px; font-weight: 700 }
 #section4 .item h4 { font-size: 16px }
+.selectMode .tooltips span { display: none; position: absolute; top: 40px; padding: 10px; left: 0 }
+.contentMood .dotHr { float: left }
