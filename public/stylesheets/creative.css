@@ -37,14 +37,15 @@ a:hover { text-decoration: none }
 
 /* Buttons */
 .btn-lg { padding: 6px 20px 4px }
-.btn-lg:hover { padding: 7px 19px 3px 21px }
-.btn-white { border: 1px solid #35BFD3; background: #fff; color: #35BFD3; box-shadow: 0px 4px 11px -7px }
+/*.btn-lg:hover { padding: 7px 19px 3px 21px }*/
+.btn-white { border: 1px solid #35BFD3; background: #fff; color: #35BFD3}
 .btn-round { height: 28px; border-radius: 14px; padding: 4px 12px 6px; background: #fff; color: #333; border-color: #333 }
 .btn-round:hover, .btn-round:focus, .btn-round:active, .btn-round:active:hover, .btn-round:active:focus  { height: 28px; border-radius: 14px; padding: 4px 12px 6px; background: #fff; color: #333; border-color: #333 }
-.btn-white:hover, .btn-white:focus { box-shadow: 0px 4px 13px -5px; color: #35BFD3; background-color: #fff; border: 1px solid #35BFD3 }
+.btn-white:hover, .btn-white:focus { color: #35BFD3; background-color: #fff; border: 1px solid #35BFD3 }
 .btn-hr-wrapper { position: relative; margin: 0 65px}
 .btn-hr-wrapper::after { content: "."; text-indent: -999em; display: block; width: 100%; position: absolute; top: 50%; transform: translateX(-50%); left:50%; border-top: 2px dotted #35BFD3; z-index: -1; height: 0 }
-
+.btn-hr-wrapper .dropdown { display: inline-block; position: relative }
+.btn-hr-wrapper .dropdown-menu { top: 25px; left: 6px }
 
 
 
@@ -102,7 +103,7 @@ body { text-align: center; font-family: 'open sans'; -webkit-font-smoothing: ant
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-defaul t.navbar-toggle:focus, .navbar-default .navbar-toggle.collapsed  { background: rgba(255, 255, 255, 0) }
 .login-btn { margin: 20px 15px }
 
-.readMore.toolTip { display: none; min-width: 300px; max-width: 445px; padding: 15px 5px 0; position: absolute; border: 1px solid #35BFD3; border-radius: 5px; margin-left: 25px; left: 0; right: 0; background: #fff; box-shadow: 0px 4px 12px -5px #35bfd3 }
+.readMore.toolTip { display: none; min-width: 300px; max-width: 445px; padding: 15px 5px 0; position: absolute; border: 1px solid #35BFD3; border-radius: 5px; margin-left: 25px; left: 0; right: 0; background: #fff }
 
 /* Index Page */
 .section { padding-top: 79px }

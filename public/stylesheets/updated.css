@@ -557,7 +557,7 @@ width:auto;
     font-weight: 700;
 }
 
-.page31 div.table-responsive{ margin: 0 auto; width: 596px }
+.page31 div.table-responsive{ margin: 0 auto; width: 760px }
 
 .contentMood .page31> p
 {
@@ -759,6 +759,12 @@ td.aba{
         border-radius: 0em;
     
 }
+
+
+.page31 table.table.table2  tr > td:nth-child(1), .page31 table.table.table1 th:nth-child(1) { width: 108px }
+.page31 table.table.table2  tr > td:nth-child(2), .page31 table.table.table1 th:nth-child(2) { width: auto }
+.page31 table.table.table2  tr > td:nth-child(3), .page31 table.table.table1 th:nth-child(3) { width: 95px }
+.page31 table.table.table2  tr > td:nth-child(4), .page31 table.table.table1 th:nth-child(4) { width: 140px }
 
   
 /*#reports td.corupt{
@@ -1399,9 +1405,10 @@ td.aba{
 }
 button.btn.btn-lg.moodNav.InvoicesButtons{
 	margin-right: 5px;
-        width: 5em;
+    width: 5em;
+    float: right;
 }
-.settingsForm .left .form-group { margin-left: 118pxpx }
+.settingsForm .left .form-group { margin-left: 118px }
 @media(min-width: 1200px) {.settingsForm .left .form-group { margin-left: 215px }
 
 }
