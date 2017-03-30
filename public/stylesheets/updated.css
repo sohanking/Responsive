@@ -465,16 +465,19 @@ width:auto;
     margin-bottom: 0;
     color: #35BFD3;
     font-weight: 500;
-    width: 130px;
     float: left;
     text-align: right;
     margin-right: 10px;
     font-size: 18px;
     padding: 0;
 }
+
 .form-horizontal .control-input { float: left }
-.form-horizontal left .control-label {
-    text-align: right;
+.form-horizontal .right .control-label {
+    width: 115px
+}
+.form-horizontal .left .control-label {
+    width: 80px
 }
 
 .form-horizontal .form-group {
@@ -1409,7 +1412,7 @@ button.btn.btn-lg.moodNav.InvoicesButtons{
     float: right;
 }
 .settingsForm .left .form-group { margin-left: 118px }
-@media(min-width: 1200px) {.settingsForm .left .form-group { margin-left: 215px }
+@media(min-width: 1200px) {.settingsForm .left .form-group { margin-left: 264px }
 
 }
 .settingsForm .form-group { margin-top: 15px }

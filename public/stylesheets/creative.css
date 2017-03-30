@@ -2450,8 +2450,15 @@ margin-top: 0.9em;
 
 .wrapper { margin-top: 20px }
 .how-it-works > h4 { font-size: 22px }
-.page6 .btn.btn-lg.moodNav.go { float: left; margin: 10px 65px 5px}
+.page6 .btn.btn-lg.moodNav.go { margin: 10px 65px 5px;
+    position: relative;
+    top: 15px;
+    left: 50px;}
 .page-pricing .item h4{ font-size: 14px; font-weight: 700 }
 #section4 .item h4 { font-size: 16px }
-.selectMode .tooltips span { display: none; position: absolute; top: 40px; padding: 10px; left: 0 }
+.selectMode .tooltips span { display: none; position: absolute; top: 40px; padding: 10px; left: initial; right: initial }
+.selectMode .tooltips:nth-of-type(1) span { left: 0 }
+.selectMode .tooltips:nth-of-type(2) span { left: 25% }
+.selectMode .tooltips:nth-of-type(3) span { right: 0 }
+.selectMode .tooltips:nth-of-type(4) span { right: 0 }
 .contentMood .dotHr { float: left }
