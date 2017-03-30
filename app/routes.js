@@ -519,6 +519,30 @@ app.get('/KnowUs',isLoggedIn, function(req, res){
 	  
   });}
 });
+app.get('/plans',isLoggedIn, function(req, res){
+	
+		currentPage = req.session.activePage = "/plans";
+	
+	loginStatus = checkLoginStatus(req);
+     mobile = req.useragent["isMobile"]
+	if(mobile){
+        res.render('plans.ejs')
+    }
+    
+    else
+    {res.render('plans.ejs',{
+	  user : req.user ,
+	  selectorDisplay: "show",
+	  smessage: req.flash('signupMessage'),
+		lmessage: req.flash('loginMessage'),
+	  	loggedIn: loginStatus,
+	  	  footerDisplay: "show",
+	  footerData1: "Blog",
+	  footerData2: "FAQs"
+    
+	  
+  });}
+});
 
 	
 app.post("/PANStatus", function(req, res){
