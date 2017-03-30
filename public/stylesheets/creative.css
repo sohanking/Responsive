@@ -1510,10 +1510,10 @@ p.SubscribeToNewsletter:hover{
 a.right, a.left { transform: translateY(-80px) }
 a.left {
     position: absolute;
-    left: 40px;
+    left: -20px;
 }
 a.right {
-    right: 40px;
+    right: -20px;
     position: absolute;
     
 }
