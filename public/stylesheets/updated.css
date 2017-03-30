@@ -461,11 +461,20 @@ width:auto;
 }
 
 .form-horizontal .control-label {
-    padding-top: 0.2em;
+    padding-top: 20px;
     margin-bottom: 0;
-    text-align: left;
     color: #35BFD3;
-    font-weight: 900;
+    font-weight: 500;
+    width: 130px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 0;
+}
+.form-horizontal .control-input { float: left }
+.form-horizontal left .control-label {
+    text-align: right;
 }
 
 .form-horizontal .form-group {
@@ -535,19 +544,10 @@ width:auto;
 
 
  
-.settingsForm .col-sm-6 {
-    width: 40%;
-    padding: 0;
-  
-}
 
 .settingsForm .col-md-3, 
 .settingsForm .col-md-2{
  padding-left: 0;
-  
-}
-.settingsForm  {
-     margin-left: 20%;
   
 }
 .story p {
@@ -557,13 +557,7 @@ width:auto;
     font-weight: 700;
 }
 
-.page31 div.table-responsive{
-        margin-left: 21.7em;
-    padding-left: 6em;
-    padding-right: 3.75em;
-    margin-top: 1em;
-    
-}
+.page31 div.table-responsive{ margin: 0 auto; width: 596px }
 
 .contentMood .page31> p
 {
@@ -591,7 +585,6 @@ width:auto;
    border:1px solid #35BFD3; 
 
     border-collapse: separate;
-    width: 64%;
    
      content: fixed;
 }
@@ -658,19 +651,6 @@ width:auto;
     width:200px;
     
 }
-
-
-.scrollbar{
-    width:520px;
-    height:150px;
-    overflow:auto;
-    text-align:justify;    
-    margin-top:0px;
-    margin-left:0px;
-    float:left;
-     }  
-
-
 
 #ex3::-webkit-scrollbar-track{
 border:1px #35BFD3 solid;
@@ -775,16 +755,6 @@ td.aba{
     padding-right: 3.75em;
 }
 
-
-#reports .upgrade{
-    position: relative;
-    top: -3.5em;
-    left: 1em;
-
-
-   
-}
-
 #reports td.corrupt{
         border-radius: 0em;
     
@@ -872,7 +842,7 @@ div.col-md-2{
 }
 
 h2.stylingH{
-      margin-right: 12%;
+      margin-right: 15%;
     padding-top: 0em;
       padding-bottom:5px;
     color: #35BFD3;
@@ -906,47 +876,18 @@ p.paraF{
     color:#35BFD3;
     text-align: left;
     font-size:1em;
-}
-
-#reports .upgrade{
-    position: relative;
-    top: -3.5em;
-left: 4em;
+}  
 
 
-   
-}
-
-button.btn.btn-sm.moodNav.signUp.giveUp1{
-    font-weight:800;
-    font-size:1em;
-     width: 8em;
-    margin-bottom:0.8em;
-    border-radius:10px;
-
-}
-button.btn.btn-sm.moodNav.signUp.gaveUp1{
-    font-weight:bolder;
-    font-size:1em;
-     width: 5em;
-    margin-bottom:0.8em;
-    border-radius:10px;
-
+button.btn.btn-sm.moodNav.signUp.giveUp1, button.btn.btn-sm.moodNav.signUp.gaveUp1{
+    margin: 8px;
+    width: 100px;
 }
 
 #reports td.corrupt{
         border-radius: 0em;
     
 }
-
-
-.scrollbar{
-    width:70em;
-  height:15em;
-    overflow:auto;
-    overflow-x: hidden;
-    margin-top: 0em;
-     }
 
 #reports div.panel-body.panelBodyCut{
     padding:5px;
@@ -985,10 +926,6 @@ button.btn.btn-sm.moodNav.signUp.gaveUp1{
    
     width:90em;margin-top:0px;height:1em;
 }
-#reports div.text-center{
-    height:2.5em;
-}
-
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
@@ -1004,10 +941,6 @@ input[type=date]::-webkit-inner-spin-button {
 }
 
 /*ruthu css profile*/
-#profile .froggie{
-    width: 9em;
-    
-}
 #profile .dotHr div {
     position: relative;
     left: 28%;
@@ -1092,37 +1025,6 @@ body.panelBodyCut{
     
     width: 50em;
 }
-#reports div.text-center{
-    height:2.5em;
-}
-
-
-#reports .upgrade{
-    position: relative;
-    top: -3.5em;
-    left: 1em;
-
-
-   
-}
-
-#reports td.corrupt{
-        border-radius: 0em;
-    
-}
-
-
-
-
-#reports .upgrade{
-    position: relative;
-    top: -3.5em;
-    left: 1em;
-
-
-   
-}
-
 #reports td.corrupt{
         border-radius: 0em;
     
@@ -1137,46 +1039,19 @@ button#menu1.btn.btn.btn-primary.dropdown-toggle.selectReport{
     padding-bottom: 4px;
     font-weight:900;
 }
-#reports .upgrade{
-    position: relative;
-    top: -3.5em;
-left: 4em;
-
-
-   
-}
-
-button.btn.btn-sm.moodNav.signUp.giveUp1{
-    font-weight:800;
-    font-size:1em;
-     width: 8em;
-    margin-bottom:0.8em;
-    border-radius:10px;
-    margin-right: 1em;/*added*/
-
-}
-button.btn.btn-sm.moodNav.signUp.gaveUp1{
-    font-weight:bolder;
-    font-size:1em;
-     width: 5em;
-    margin-bottom:0.8em;
-    border-radius:10px;
-    margin-right: 1em;/*added*/
-
-}
-
 #reports td.corrupt{
         border-radius: 0em;
     
 }
-
+.scrollbar .container-fluid.how-it-works.text-center{ margin: 0 }
 
 .scrollbar{
-    width:77em;
-  height:17.4em;/*added*/
+    width:855px;
     overflow:auto;
     overflow-x: hidden;
     margin-top: 0em;
+    height: 243px;
+    margin: 0 auto;
      }
 
 #reports div.panel-body.panelBodyCut{
@@ -1212,27 +1087,27 @@ button.btn.btn-sm.moodNav.signUp.gaveUp1{
 
 
 
-#reports div.row.panelRow.scroll{
-   
-    width:76em;margin-top:0px;height:1em;    padding-left: 16em;
+#reports div.row.panelRow.scroll{    margin-top: 0px;
+    height: 1em;
+    width: 840px;
+    margin: 0 auto;
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-#reports div.text-center{
-    height:2.5em;
-}
-
 
 /*added*/
-div.btnCenterReport1{
+/*div.btnCenterReport1{
     position: absolute;
     bottom: 50px;
     left: 41%;
-}
+}*/
 /*added*/
-div.btnCenterReport2{
+/*div.btnCenterReport2{
     position: absolute;
     left: 44%;
     bottom: 0;
-}
+}*/
 
 #report h4.paint{
     margin-top:0px;
@@ -1271,11 +1146,6 @@ div.btnCenterReport2{
   background-color:#FFDE15;    
  border-radius: 10px;
 }
-#reports div.text-center{
-    height:2.5em;
-    margin-top: 0px;/*added*/
-}
-
 
 #report div.row.panelRow.scroll{
     
@@ -1284,24 +1154,17 @@ div.btnCenterReport2{
 
 
 
-#reports .upgrade{
-        position: absolute;
-    top: 35.7%;
-    left: 51.5%;
-width: 6em;
-    border-radius: 10px;
-
-
-   
-}
-
 #reports td.corrupt{
         border-radius: 0em;
     
 }
-
 #reports div.text-center {
     align-content: center;
+    position: relative;
+    height: 45px;
+}
+#reports > div.text-center {
+    height: auto;
 }
 
 
@@ -1487,7 +1350,6 @@ button.btn.btn-lg.moodNav.login.InvoicesButtons{
     margin-bottom: 1em;
 }
 #settings div.col-sm-6.accSettings {
-    left: 7em;
     font-weight: bolder;
 }
 h6.messageProfile {
@@ -1495,12 +1357,6 @@ h6.messageProfile {
     margin-top: 0px;
     margin-bottom: 0.65em;
     font-weight: 800;
-}
-#settings div.col-sm-6 .accSettingsCol2 {
-    right: 2em;
-    top:  0em;
-    font-weight: bolder;
-	left: -1em;
 }
 #settings div.col-md-3.pricingLabel.column2 {
     bottom: 0.2em;
@@ -1533,10 +1389,8 @@ td.aba{
     padding-right: 3.75em;
 }
 #reports .upgrade{
-    position: relative;
-    left: 45%;
-    margin-top: 12px;
-    left: 45%;
+    position: absolute;
+    bottom: 10px;
 }
 
 #reports td.corrupt{
@@ -1547,4 +1401,8 @@ button.btn.btn-lg.moodNav.InvoicesButtons{
 	margin-right: 5px;
         width: 5em;
 }
+.settingsForm .left .form-group { margin-left: 118pxpx }
+@media(min-width: 1200px) {.settingsForm .left .form-group { margin-left: 215px }
 
+}
+.settingsForm .form-group { margin-top: 15px }

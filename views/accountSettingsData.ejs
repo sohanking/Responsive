@@ -1,154 +1,124 @@
- <head> <link rel="stylesheet" href="stylesheets/responsive.css"></head>  
+<head>
+    <link rel="stylesheet" href="stylesheets/responsive.css">
+</head>
 <div id="settings" class="text-center">
-       <link rel="stylesheet" href="stylesheets/responsive2560.css"  media="screen and (width:2560px) and (height:1600px)">
-			   <br>
-			   <br>
-			   <br>
-			   <br>
-			   <br>
-			   <br>
-			   <br>
-			   <br>
-			    <br>
-			   <br>
-               
-               
-      <h3 class="settingsDataHeader">Settings</h3>
-			  
-           <div class="settingsForm">   
-      <form class="form-horizontal">
-                          
-          <div class="col-sm-6 accSettings">
-              
-            <div class="form-group">
-                               
-                <label class="control-label  col-sm-3" for="pwd">Password:
-                </label>
-               
-                <div class="col-md-3">
-                
-                    <input type="password" class="form-controler" value="abcdefg" > 
-            
+    <link rel="stylesheet" href="stylesheets/responsive2560.css" media="screen and (width:2560px) and (height:1600px)">
+    <h3 class="settingsDataHeader">Settings</h3>
+
+    <div class="container settingsForm">
+        <form class="form-horizontal">
+
+            <div class="col-sm-6 accSettings left">
+                <div class="form-group">
+                    <label class="control-label" for="pwd">Password:</label>
+                    <div class="control-input">
+                        <input type="password" class="form-controler" value="abcdefg">
+                    </div>
                 </div>
-                                   
-                <br>
-                              
-            </div>       
-                                    
-            
-            <div class="form-group">
-                
-                              
-                <label class="control-label  col-sm-3" for="text" >Risk Profile:</label>
-                        
-                <div class="col-md-3">
-                                            
-                    <input type="text" style="color: #35BFD3;" class="form-controler" placeholder="" value="Changed on 10/10/2017">
-                                              
-                    <h6 class="messageProfile"><i>This can be changed once in a year</i></h6>
-                                       
+                <div class="form-group">
+                    <label class="control-label" for="text">Risk Profile:</label>
+                    <div class="control-input">
+                        <input type="text" style="color: #35BFD3;" class="form-controler" placeholder="" value="Changed on 10/10/2017">
+                        <h6 class="messageProfile"><i>This can be changed once in a year</i></h6>
+                    </div>
                 </div>
-                                    
-                <br>                          
-                              
-              </div>        
-                                    
-              
-             <div class="form-group">
-                                  
-                 <div class="dropdown">
-                             
-                     <label class="control-label  col-sm-3" for="text">Music:</label>
-                                       
-                     <div class="col-md-3">
-                        <select class="form-controler edit" ><span class="caretNext caretNext1 caret "></span>
+
+
+                <div class="form-group">
+
+                    <div class="dropdown">
+
+                        <label class="control-label" for="text">Music:</label>
+
+                        <div class="control-input">
+                            <select class="form-controler edit"><span class="caretNext caretNext1 caret "></span>
                             <option  >On </option>
         <option  >Off</option>
                                    
-                            </select>       
-                     </div>
-                                    
-                     <br>
-                                                            
-                 </div>        
-                              
-              </div>            
-                     
-          </div>
-                      
-                   
-          <div class="col-sm-6 accSettings2">
-                     
-            
-              <div class="form-group"  style="padding-bottom: 9px;">
-                       
-                              
-                  <label class="control-label  col-sm-4 accSettingsCol2" for="text">Pricing Package:</label>
-                                       
-                  <div class="col-md-3 pricingLabel column2">
-                                            
-                      <input type="text" class="form-controler"style="" placeholder="" value="INR 99 Per Month">
-                                              
-                                        
-                  </div>
-                                   
-                  <br>
-                                  
-                               
-              </div>
-                         
-                       
-                         
-              <br>
-                         
-              <br>
-                         
-              <br>
-                      
-                                            
-                            
-                                               
-<!--
+                            </select>
+                        </div>
+
+                        <br>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-sm-6 accSettings2 right">
+
+
+                <div class="form-group" style="padding-bottom: 9px;">
+
+
+                    <label class="control-label accSettingsCol2" for="text">Pricing Package:</label>
+
+                    <div class="control-input pricingLabel column2">
+
+                        <input type="text" class="form-controler" style="" placeholder="" value="INR 99 Per Month">
+
+
+                    </div>
+
+                    <br>
+
+
+                </div>
+
+
+
+                <br>
+
+                <br>
+
+                <br>
+
+
+
+
+                <!--
                          <ul class="dropdown-menu"  role="menu" aria-labelledby="music">
                <li role="presentation"><a role="menuitem" tabindex="1" id="on" href="#">On</a></li>           
                            <li role="presentation"><a role="menuitem" tabindex="1" id="off" href="#">Off</a></li>  
                                                
                          </ul>                 
 -->
-                          
-              <div class="form-group">
-                                   
-                  <div class="dropdown">
-                             
-                      <label class="control-label  col-sm-4 accSettingsCol2" for="text">Notifications:</label>
-                                        
-                      <div class="col-md-3 pricingLabel column2">
-                                          
-                         <select class="form-controler edit selectGender" ><span class="caretNext caretNext1 caret "></span>
+
+                <div class="form-group">
+
+                    <div class="dropdown">
+
+                        <label class="control-label  col-sm-4 accSettingsCol2" for="text">Notifications:</label>
+
+                        <div class="control-input pricingLabel column2">
+
+                            <select class="form-controler edit selectGender"><span class="caretNext caretNext1 caret "></span>
                             <option  >On </option>
         <option  >Off</option>
                                    
-                            </select>                           
-                                        
-                      </div>
-                                   
-                      <br>
-                                  
-                              
-                  </div>        
-                
-              </div>        
-                                    
-                                    
-                              
-          </div>            
-                                    
-                                    
-                                    
-             </form>                       
-                    
-          </div>
-                
-                   
-               
+                            </select>
+
+                        </div>
+
+                        <br>
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </form>
+
     </div>
+
+
+
+</div>
