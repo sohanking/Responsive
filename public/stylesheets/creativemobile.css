@@ -1,11 +1,14 @@
 body{
         height: 100%;
         overflow-y: auto;
+        padding: 0;
 }
 .navbar-default {
        margin: auto;
     padding: initial;
 }
+.navbar-toggle { margin: 20px -5px 0 0 }
+.navbar-header a{ padding: 15px 0; display: block }
 
 .how-it-works {
     margin-top: 21%;
@@ -124,6 +127,7 @@ div.index2{
 }
 .yourMood > h1 {
      font-size: medium;
+     font-weight: 300;
 }
 .yourMood > h4 {
 font-size: smaller;

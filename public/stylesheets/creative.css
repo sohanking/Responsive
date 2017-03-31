@@ -441,7 +441,7 @@ p, h1, h2, h3, div, button, a, li {
     
        padding-top: 120px;
 }
-
+.wrapper .faqs { padding: 0 }
 .faqs > h2 {
     
     padding: 0.2em;
@@ -2263,12 +2263,12 @@ footer {
 }
 
 /* FAQs */
-.faqFooter {
+/*.faqFooter {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-}
+}*/
 
 /* Profile Page*/
 .container-fluid.how-it-works.contentEdit {
