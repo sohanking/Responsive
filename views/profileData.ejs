@@ -264,7 +264,7 @@
                                                             
                                                             
               <div class="form-group Up">
-                               <div style="float: left; margin-top: 14px">                                          
+                               <div style="float: left">                                          
                               <label class="control-label">DOB:</label>
                                                                            
                               
@@ -278,16 +278,16 @@
 							
 								  
                              <input id="calendar" type="date" value="<% if(profile.dob) {%><%= profile.dob.getFullYear(); %>-<%= monthDates[profile.dob.getMonth()]; %>-<%= profile.dob.getDate(); %><%}%>"
-								  style="    width: 7.87em;    margin-top: -0.25em;"  name="calendar" class="form-controler" > 
+								  style="    width: 7.87em;    margin-top: -0.25em; margin-left: 4px"  name="calendar" class="form-controler" > 
                                                                           
                               </div>
                                                                    
-                              <label class="control-label Ageing"style="width: 22px; line-height: 1px">Age:</label>
+                              <label class="control-label Ageing"style="width: 22px">Age:</label>
                                                                              
                               <div id="profileAge" style=""  maxvalue="2">
                                                                                 
                                   <input type="number" id="age" value="<%= profile.age %>" name="age" class="form-controler Ageing1"
-                                         style="margin-bottom: -1em; ;width: 2.35em;margin-left: 0.2em;    margin-top: -2em;"  ng-model="Age" ng-minlength="2" ng-maxlength="2" required/>
+                                         style="width: 2.35em;margin-left: 0.2em;    margin-top: -3px;"  ng-model="Age" ng-minlength="2" ng-maxlength="2" required/>
                                         <span ng-show="profileInformation.age.$touched && profileInformation.age.$invalid"  >Age is invalid(must be 18 and above).</span>                                         
                               </div>
                                          
@@ -373,7 +373,7 @@
 
 <!--             <section id="section22">-->
        
-             <div class="container how-it-works contentEdit">
+             <div class="container-fluid how-it-works contentEdit">
                                      
                  <div class="row" style="">
                                         
@@ -446,7 +446,7 @@
                                     
                                                                                 
                                   </div>         
-                               <div class="form-group Up">
+                               <div class="form-group Up" style="margin-top: 25px">
                                                                    
                               <label class="control-label" style="">Document1</label>
                                                                            

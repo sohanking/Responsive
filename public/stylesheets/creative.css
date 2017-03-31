@@ -88,7 +88,9 @@ body { text-align: center; font-family: 'open sans'; -webkit-font-smoothing: ant
     height:14em;
 	  border-radius: 10px
 }
+
 .navbar-default { background-color: #fff; border: 0 }
+.viewing-page-1 .navbar-default  { background: transparent }
 @media (min-width: 768px) {
     .navbar-center { position: absolute; left: 50%; transform: translateX(-50%); margin-top: 15px }
     }
@@ -108,6 +110,7 @@ body { text-align: center; font-family: 'open sans'; -webkit-font-smoothing: ant
 
 /* Index Page */
 .section { padding-top: 79px }
+#section1 { padding-top: 0 }
 
 .navbar-brand span { z-index:10; display:none; padding:14px 16px; margin-top:1em; width:32em; line-height:18px; padding-right: 5px; cursor: pointer; left: 50%; transform: translateX(-50%) }
 .logoTip{ display:inline;  position:absolute;  border:2px solid #35BFD3; font-weight: 900; font-size: 1.17em; text-align: left; background-color: #ffffff; border-radius: 8px; cursor: default; left: 50%; }
@@ -228,11 +231,7 @@ float: left;
     
 }
 
-.moodGoals {
-    
-        position: absolute;
-            left: 34%;
-}
+.moodGoals { position: absolute; left: 50%; transform: translateX(-50%) }
 
 .moodGoals > .dropdown,
 .moodGoals > img {
@@ -1905,15 +1904,16 @@ img.WFrogImg{
     bottom: -20px;
     left: 59%;
 }
-h2.WFrogHead{
+h2.WFrogHead, h2.WSHeader{
     
     border-top-width: 0.5em;
-    padding-bottom: 0em;
+    padding: 10px 0;
+    margin: 5px 0
 }
 img.WInvstImg{
     position: absolute;
     bottom: 0;
-    left: 30%;
+    left: 25%;
 }
 h2.WSHeader{
     padding-bottom: 0px;
@@ -2046,7 +2046,8 @@ div.dotHr.dotsScriptStory{
     margin: 0 auto;
 }
 .rowFrogs .frogsWrapper .frogContainer { flex: 1 }
-.rowFrogs .frogsWrapper { display:  flex }
+.rowFrogs .frogsWrapper .frogContainer:first-child:after { content: "."; width: 13px; height: 13px; display: block; color: #FFDE15; background: #FFDE15; margin: 5px auto 3px; border-radius: 50% }
+.rowFrogs .frogsWrapper { display:  flex; padding: 10px 0 20px }
 textarea#comment.form-controler.addressSection3
 {
        position: relative; 
@@ -2535,10 +2536,11 @@ button.btn.saved{
 .how-it-works .form-horizontal .rightSetting .control-label { width: 105px; margin-right: 5px }
 .how-it-works .form-horizontal .rightSetting > div { width: 300px!important }
 .how-it-works .form-horizontal .control-label { text-align: left }
-.how-it-works .form-horizontal .control-label.Ageing {margin: 24px 0 0 4px }
+.how-it-works .form-horizontal .control-label.Ageing {margin: 0 7px 0 5px }
 .how-it-works .profileSubmit { position: static }
-.how-it-works .form-horizontal #profileAge { margin-top: 17px }
 .how-it-works h2.profilePan { margin: 5px auto 15px!important }
 .how-it-works input[type=file] { width: 180px; float: left }
 .how-it-works .form-group { min-height: 40px }
 .how-it-works input, .how-it-works select { height: 28px }
+.settingsFrogs { margin-top: 25px }
+.WFrogHead { padding: 10px 0; margin: 5px 0 }
