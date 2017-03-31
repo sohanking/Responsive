@@ -47,6 +47,8 @@ a:hover { text-decoration: none }
 .btn-hr-wrapper .dropdown { display: inline-block; position: relative }
 .btn-hr-wrapper .dropdown-menu { top: 25px; left: 6px }
 .btn-hr-wrapper-left { text-align: left; margin-left: 0 }
+.btn-hr-wrapper.clean { margin-right: 0; margin-left: 0 }
+
 
 
 
