@@ -2042,11 +2042,11 @@ div.dotHr.dotsScriptStory{
     }*/
 .rowFrogs
 {
-    width: 100%;
-    margin-top: 2em;
-    margin-left: 22em;
+    width: 450px;
+    margin: 0 auto;
 }
-
+.rowFrogs .frogsWrapper .frogContainer { flex: 1 }
+.rowFrogs .frogsWrapper { display:  flex }
 textarea#comment.form-controler.addressSection3
 {
        position: relative; 
@@ -2065,7 +2065,7 @@ h2.NameAndLogo{
 }
 
 div.row.testimonyRow{
-     margin-top: 9em;   
+     margin-top: 25px;   
 }
 th.thDates{
        width: 8em;
@@ -2528,7 +2528,17 @@ button.btn.saved{
 .pageSavedPlan .table>tbody>tr>td:nth-child(4) {
     border-right: 0;
 }
-/*alredy present*/
 .table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
     border-top: 0;
 }
+.how-it-works .form-horizontal .settingSection2 .control-label, .how-it-works .form-horizontal .setting .control-label { width: 60px; margin-right: 5px }
+.how-it-works .form-horizontal .rightSetting .control-label { width: 105px; margin-right: 5px }
+.how-it-works .form-horizontal .rightSetting > div { width: 300px!important }
+.how-it-works .form-horizontal .control-label { text-align: left }
+.how-it-works .form-horizontal .control-label.Ageing {margin: 24px 0 0 4px }
+.how-it-works .profileSubmit { position: static }
+.how-it-works .form-horizontal #profileAge { margin-top: 17px }
+.how-it-works h2.profilePan { margin: 5px auto 15px!important }
+.how-it-works input[type=file] { width: 180px; float: left }
+.how-it-works .form-group { min-height: 40px }
+.how-it-works input, .how-it-works select { height: 28px }
