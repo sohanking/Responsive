@@ -23,6 +23,7 @@ p,  h1, h2, h3, div, button, a, li { font-family: 'Josefin Sans', sans-serif; li
 a { outline:none; cursor: pointer }
 a:hover { text-decoration: none }
 .dropdown-menu{ box-shadow: none }
+textarea { resize: none }
 
 /* Genric Classes */
 
@@ -38,7 +39,7 @@ a:hover { text-decoration: none }
 /* Buttons */
 .btn-lg { padding: 6px 20px 4px }
 /*.btn-lg:hover { padding: 7px 19px 3px 21px }*/
-.btn-white { border: 1px solid #35BFD3; background: #fff; color: #35BFD3}
+.btn { border: 1px solid #35BFD3; background: #fff; color: #35BFD3}
 .btn-round { height: 28px; border-radius: 14px; padding: 4px 12px 6px; background: #fff; color: #333; border-color: #333 }
 .btn-round:hover, .btn-round:focus, .btn-round:active, .btn-round:active:hover, .btn-round:active:focus  { height: 28px; border-radius: 14px; padding: 4px 12px 6px; background: #fff; color: #333; border-color: #333 }
 .btn-white:hover, .btn-white:focus { color: #35BFD3; background-color: #fff; border: 1px solid #35BFD3 }
@@ -130,7 +131,7 @@ Home Page Whats your mood.
 */
 .yourMood { margin-top: 300px }
 @media(min-width: 769px) {
-    .yourMood { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); margin: 0; }
+    .yourMood { position: absolute; top: 50%; left:0; right: 0; margin: 0 auto; }
 }
 .yourMood > h1 { font-size: 26px; margin-bottom: 0; font-weight: 100 }
 .yourMood > h4 { color: #35BFD3; font-weight: 300; font-size: 24px }
@@ -2546,3 +2547,6 @@ button.btn.saved{
 .how-it-works input, .how-it-works select { height: 28px }
 .settingsFrogs { margin-top: 25px }
 .WFrogHead { padding: 10px 0; margin: 5px 0 }
+@media (min-width: 768px) {
+   .viewing-page-1 .navbar-collapse.collapse, nav.navbar.navbar-default.navbar-fixed-top.mod-nav .navbar-collapse.collapse{display:block!important }
+}

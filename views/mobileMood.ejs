@@ -255,7 +255,7 @@
                  
             </div>
                 
-                   <div class="col-md-8 "style="    margin-top: 37%;">
+                   <div class="col-xs-12 ">
                  
                   
                   
@@ -268,7 +268,7 @@
 							 <span id="yp">> Your Plan</span>
 						   </p>
                          <% if(!scheme) { if(!abcd) {%>  
-                           <div id="" class="page1">
+                           <div class="page1">
                         <h2>Please select your goal</h2>
                        <p>You can always add or change a goal after you have signed up</p>
                        
@@ -887,8 +887,6 @@
 
 													   
                        </div>
-                          <!-- <div class="dotHr"> -->
-                               <div class="login-btn">
                         <% if(loggedIn && !scheme && paid){ %>
 	<form action="/GoalSelection" method="post">
 		<input type="hidden" id="amountMaster" name="amountMaster" value="">
@@ -915,13 +913,17 @@
 			<input type="text" id="riskp" name="riskp" value="" hidden>
 								   <input type="text" id="sip" name="sip" value="" hidden>
 								   <input type="text" id="year" name="year" value="" hidden>
+                                   <div class="btn-hr-wrapper">
 									   <button type="submit"  class="btn btn-lg moodNav signUp">Pay </button>
+                                       </div>
 											 </form>
 								<%  } else { %>
 								   
 								 
 								   
-									   <button type="" data-toggle="modal" data-target="#loginModalScheme" class="btn btn-lg moodNav signUp" > login </button> 
+									   <div class="btn-hr-wrapper">
+                                       <button type="" data-toggle="modal" data-target="#loginModalScheme" class="btn btn-lg moodNav signUp" > login </button> 
+                                       </div>
 								  <% } %>
                            </div>
                                
@@ -1024,104 +1026,16 @@
 					
                         <div id="" class="page6">
                             <!--<h2>Your Plan</h2>-->
-										    <div class="dotHr"> 
-                               <div class="login-btn">
-                        
-<button type="" data-toggle="modal" data-target="#myPanModal" class="btn btn-lg moodNav go" style=""> Invest </button> 
+	<div class="btn-hr-wrapper">
+                        <button type="" data-toggle="modal" data-target="#myPanModal" class="btn btn-lg go" style=""> Invest </button> </div>
 								   <form action="/GoalSelectionRefresh" method="get">
 									   <input type="text" id="restart" name="restart" value="true" hidden>
-								       <button type="submit" class="btn btn-lg moodNav go" style="    width: initial;
-"> Start Fresh </button> 
+								       <!--<button type="submit" class="btn btn-lg moodNav go" style="    width: initial;
+"> Start Fresh </button> -->
 									   </form>
 				
                 
-                           </div>
-                               
-                            <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-							   
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                                   <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                            <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                                   <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                               <div></div>
-                                         <div></div>
-                               <div></div>
-                 
-                            </div>
+                           
 							<br />
 <p>So, you need to invest INR <span id="invest1"><%=assetFromDb.sip %></span> Monthly</p>
                             

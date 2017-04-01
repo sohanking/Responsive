@@ -1,35 +1,8 @@
+html { height: 100% }
 body{
         height: 100%;
         overflow-y: auto;
-        padding: 0;
-}
-.navbar-default {
-       margin: auto;
-    padding: initial;
-}
-.navbar-toggle { margin: 20px -5px 0 0 }
-.navbar-header a{ padding: 15px 0; display: block }
-
-.how-it-works {
-    margin-top: 21%;
-}
-
-
-.navbar-default .navbar-nav > li > a {
-    color: #333333;
-    font-size: 1em;
-    font-weight: 700;
-    margin-right: 1.2em;
-    text-align: left;
-}
-
-.modal-content {
-    padding-left: initial;
-    padding-right: initial;
-    padding-bottom: 3em;
-    border: 1px solid #35BFD3;
-    box-shadow: none;
-    background-color: #ffffff;
+        padding: 0
 }
 .frogIndex
 {
@@ -37,22 +10,25 @@ body{
     top: inherit;
 
 }
+.navbar-header a { display: block; padding: 15px 0 }
 nav.navbar.navbar-inverse.mobileHeader
 {
 /*    position: fixed;*/
-    width: 100%;    
+    width: 100%;   
+    margin-bottom: 0;
 }
 body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
     position: inherit;
 }
 .container-fluid {
-       height: auto;
+       height: 100%;
 }
 
 .logo-icon, .logo-icon-blue {
+    left: 90px;
     position: absolute;
-       left: 8em;
-    top: 0.52em;
+    top: 8px;
+    width: 17px;
 }
 
 div.navbar.navbar-inverse.mobileHeader{
@@ -64,25 +40,29 @@ div.navbar.navbar-inverse.mobileHeader{
 }
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #333333;
+    height: 3px;
+    border-radius: 3px;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: #ffffff;
 }
 .navbar .navbar-collapse {
     text-align: center;
-    margin-left: 0em;
+    margin-left: 0;
     border: none;
-        width: 50%;
+    margin-right: 0;
+    background: #fff
 }
 .navbar .navbar-nav {
     display: block;
     float: none;
     vertical-align: top;
-background-color: white;}
+}
 .navbar-inverse .navbar-nav>li>a {
     color: #333333;
     font-weight: 800;
     padding: 0em;
+    font-size: 18px
 }
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
     color:#35BFD3;
@@ -92,53 +72,32 @@ background-color: white;}
     border-color: transparent;
 }
 
-/*Index page*/
-
-
-
-/*
-.photosInner {
-    height: inherit;
-    width: inherit;
-    overflow: hidden;
-    position: relative;
-}
-
-div.photos {
-
-           width: initial;
-    overflow: hidden;
-
-}
-*/
-/*
-img.change {
-       width: 10%;
-
-}
-*/
 div.yourMoodParent{
-
-          width: 100%; 
-          height: 81%;
+    position: relative;
+    width: 100%;
+    height: calc(100% - 65px);
+    /*margin-top: 65px;*/
 }
 div.index2{
-    height: auto;
+    height: calc(100% - 65px);
 }
 .yourMood > h1 {
-     font-size: medium;
+     font-size: large;
      font-weight: 300;
+     margin-top: 0; 
 }
 .yourMood > h4 {
-font-size: smaller;
+font-size: medium;
 }
 .yourMood > p {
-        font-size: xx-small;
+        font-size: small;
   }
 .yourMood {
-          margin-top: 63%;
-        margin-bottom: 50%;
-/*    transform: translateY(350%);*/
+margin-top:auto;
+    top: 35%;
+    position: relative;
+    transform: translateY(-50%);
+    top: 35%;
 }
 
 /*frog image*/
@@ -198,9 +157,12 @@ h2.indexheader,h2.whatWeOffer,h2.indexheader3
 
 
 }
-h2.indexheader
-{    border-top: 3px #35BFD3 dotted;
-    font-size: 1.5em;
+h2.indexheader {
+    border-top: 3px #35BFD3 dotted;
+    font-size: 1.6em;
+    margin: 0;
+    padding: 25px 0 15px;
+
 }
 
 h2.indexheader3
@@ -218,20 +180,16 @@ button.btn.btn-lg.moodNav.getStarted{
     width: auto;
 }
 div.photosParent {
-
-/*
     left: 0%;
     right: 0%;
-        position: relative;
-*/
-/*     top: 69%;*/
-
+    position: absolute;
+    bottom: 50px;
 }
 
 
 /*know us page*/
 .knowUs1{
-       margin-top: 25%; 
+    
 }
 .know-us h2 {
        font-weight: 600;
@@ -289,25 +247,38 @@ p.WhoWeAreP
     left: 0em;
     margin: auto;
 }
-div#myCarousel.carousel.slide.text-center.carouselEdit {
+/*div#myCarousel.carousel.slide.text-center.carouselEdit {
    position: relative;
     width: 85%;
     left: 0em;
     margin: auto;
-}
+}*/
 a.left {
     position: relative;
-    left: -41%;
+    left: -45%;
          top: -8em;
 }
 a.right {
-    right: -41%;
+    right: -45%;
     position: relative;
        top: -8em;
 }
+.slider-control{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+.slider-control .left {
+    float: Left;
+    position: static;
+}
+
 .slider-control .right {
-    position: relative;
-    left: 65%;
+    float: right;
+    position: static;
 }
 
 #Responsible,p#Changing Season,#Broke,#Rich,#Loved,#Nerdy,#Responsible,#Social
@@ -346,9 +317,9 @@ div.mobileWhatWeOffer{
     width:100%;
     height:100%
 }
-button#indexScriptYourStory.btn.btn-lg.moodNav.story {
+/*button#indexScriptYourStory.btn.btn-lg.moodNav.story {
     width: 53%;
-}
+}*/
 /*index section3*/
 .PAN {
     top: 0%;
@@ -380,13 +351,12 @@ a#index4.left,a#index4.right
     top: -6em;
 }
  div.carousel-inner {
-      position: relative;
-/*    width: 48%;*/
-         width: 100%;
+    position: relative;
+    width: calc(100% - 70px);
     font-weight: bolder;
     margin: auto;
     overflow: hidden;
-         height: 12em;
+    height: 12em;
 }
  div#index4 div.carousel-inner {
       position: relative;
@@ -418,60 +388,47 @@ a#index4.left,a#index4.right
     border-radius: 50%;
 }
 
-div.index4{
-          height: initial;
-}
-div.index3
+/*div.index4{
+           height: 91%;
+}*/
+/*div.index3
 {
-                   height: initial;
+           height: 155%;
     border-bottom: 3px #35BFD3 dotted;
-
-}
+}*/
 .footerFrog > img {
     position: relative;
     bottom: 0;
     left: 0;
     z-index: 1030;
-    width: 45%;
 }
 
-/*
-.slider {
-
+.rowIndexSlider .slider {
     position: relative;
-    left: 15%;
     top: inherit;
-    right: 15%;
-    left: 15%;
-    right: 15%;
+    left: 0;
+}
+.rowIndexSlider .photos {
+    height: 60px;
+    width: 225px;
+    margin: 0 auto;
+}
+.rowIndexSlider .photosInner {
+    height: 60px;
 
 }
-*/
+.rowIndexSlider .photosInner {
+    position: relative;
+    z-index: 999;
+}
 img.change {
         width: 12%;
 }
-/*
 .photos {
-
+/*        width: 17em;*/
        width: 71%;
-
+/*    width:51%;*/
     overflow: hidden;
-}
-*/
-div.rowIndexSlider
-{
-/*
-        position: relative;
-
-    top:11em;
-*/
-    
-/*
-        position: fixed;
-     top: -11em; 
-    bottom: 0%;
-    margin: auto;
-*/
 }
 
 /*pricing*/
@@ -502,16 +459,12 @@ div.row.howItWorksRow {
 a#pricingCarousel.left{
        position: relative;
     left: -46%;
-      right: -46%;
-    position: relative;
-    top: -5em; 
+    top: -3em; 
 }
 a#pricingCarousel.right {
     right: -46%;
     position: relative;
-        right: -46%;
-    position: relative;
-    top: -5em;
+    top: -3em;
 }
 
 .pricingPanelRow {
@@ -650,8 +603,12 @@ div.container-fluid.moods.text-center
 }
 
 .blankInput[type=number] {
-       width: calc(28% - 2px);
-   }
+    width: 80px;
+    border-bottom: 1px dashed;
+    box-shadow: none;
+    padding: 0;
+    margin: 0 3px;
+}
 
 .page3 .table>thead>tr>th {
       border-right: none;
@@ -1030,13 +987,13 @@ table.table.table2 tr > td:nth-child(1) {
     box-shadow: none;
 }
 h6.messageProfile {
-      width: initial;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 15em;
+    margin-top: 0px;
+    margin-bottom: 0.65em;
     font-weight: 800;
 }
 .settingsForm .col-sm-6.accSettings2 {
-    width: 40%;
+    width: 100%;
     padding: 0;
     position: relative;
     left: 0%;
@@ -1076,7 +1033,7 @@ h3.myInvoicesHeadding{
 }
 
 img#investory.img-responsive{
-      max-width: 60%;
+    width: 140px;
 }
 .froggie {
     width: initial;
@@ -1149,7 +1106,6 @@ button.btn.btn-lg.moodNav.profileSubmit2{
     padding-right: 0;
     font-size: 18px;
 }
-
 .sliderFaqs div.panel {
     padding: 5px;
     margin-bottom: 0;
@@ -1234,7 +1190,7 @@ button.btn.btn-lg.moodNav.profileSubmit2{
 
 .sliderFaqs div.panel.show {
     opacity: 1;
-    max-height: initial;
+    max-height: 500px;
 }
 
 .btn-circle {
@@ -1250,7 +1206,8 @@ button.btn.btn-lg.moodNav.profileSubmit2{
     font-size: 1.2em;
       background-color: #ffffff;
 }
-.faqs {padding-top:25%;
+.faqs {
+    padding-top: initial;
 }
 button.accordion.btn-lg.investementbutton
 {
@@ -1275,9 +1232,14 @@ div.avatarTestimonial.avtarEdit {
 }
 
 .foot {
-    padding-top: 25%;
+    padding-top: 25px;
+    border-radius: 0;
 }
+footer .foot {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 
+}
 div.buttonSetUp{
     position: relative;
 }
@@ -1300,11 +1262,11 @@ div#riskHeight{
 }
 div.includeCarousel
 {
-        border-bottom: 2px #35BFD3 dotted;
+        height: 250px;
 }
 
 div.footerFrog{
-        top: 2em;
+    top: 2.5em;
     position: relative;
 }
 
@@ -1327,48 +1289,182 @@ div.footerFrog{
     display: none;
     right: initial;
 }
-.slider-control {
-    position: relative;
-    /* top: -4em; */
-    left: -11%;
-    display: none;
+
+/*navbar*/
+.navbar-toggle > span {
+    height: 3px;
+    border-radius: 20%;
 }
 
-
-/*trial get started*/
-.slider {/*404*/
-    position: relative;
-    left: 15%;
-    top: inherit;
-    right: 15%;
-    left: 2%;
-    right: 15%;
-    /* margin: auto; */
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 3px;
 }
-.photos {/*422*/
-    /* width: 17em; */
-    width: 100%;
-    /* width: 51%; */
-    overflow: hidden;
-}
-.photosInner {/*added*/
-    height: initial;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-.settingsForm .col-sm-6.accSettings2 {
-    width: initial;
+.navbar-default {
+    border: 0;
+    margin: 0;
     padding: 0;
+}
+.mobileHeader {
+    border: 0;
+}
+.mobileHeader .navbar-header {
+    float: none;
+}
+.mobileHeader .navbar-nav>li {
+    float: none;
     position: relative;
-    left: 0%;
+    display: block;
+    text-align: left;
+    padding-left: 40%;
+    height: 40px;
 }
-h3.settingsDataHeader
-{
-        padding-top: 17%;
+.mobileHeader .navbar-toggle {
+    margin-right: 5px;
+    margin-top: 6px;
 }
-div.page1
-{
-/*        margin-top: 25%;*/
+
+.mobileHeader .navbar-default {
+    background: #fff;
 }
+
+.moodNav {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar-default {
+   background-color: #fff;
+}
+
+/*.mobileHeader .collapse {
+    display: none!important;
+}*/
+
+.mobileHeader .collapse.in {
+    display: block!important;
+}
+
+.mobileHeader .navbar-toggle {
+    display: block;
+    float: right;
+    margin-top: 15px;
+    margin-right: -5px
+}
+
+.mobileHeader .logoImage {
+    display: block;
+    position: relative;
+    margin: 15px;
+    float: left;
+}
+
+/*Carousel*/
+.carousel-inner .item img {
+    margin: 0 0 5px!important;
+}
+.carousel-inner .item p {
+    font-size: 20px!important;
+}
+
+/* dotHR */
+.dotHr.longDotUs.mobile {
+    border-top: 3px #35BFD3 dotted;
+    margin-top: 25px;
+    width: 100%;
+    overflow: visible;
+}
+
+/* index 3 */
+index3 img {
+    position: static;
+    margin-top: 25px;
+}
+
+.index3 img {
+    position: static;
+    margin-top: 25px;
+}
+
+/* index 4 */
+.index4 .includeCarousel h2 {
+    font-size: 1.5em;
+}
+#myCarousel { margin: 25px 0 0 }
+#myCarousel.testimonial p {
+    font-weight: 600px;
+    font-size: 16px;
+}
+
+#myCarousel.testimonial h4 {
+    font-size: 12px;
+    font-weight: 300;
+}
+#myCarousel.testimonial div.carousel-inner {
+    width: 100%;
+    height: 140px;
+}
+.faqTour h2{
+    border-bottom: 1px dotted;
+    font-weight: 600;
+    font-size: 28px;
+}
+/* Profile Page */
+.profilePage {
+    margin-top: 65px;
+}
+
+.profilePage .container-fluid.how-it-works.contentEdit {
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.profilePage .label {
+    margin-top: 3px;
+}
+
+.profilePage .form-group {
+    margin-top: 10px;
+}
+
+.profilePage button.btn.btn-lg.moodNav.profileSubmit, .profilePage button.btn.btn-lg.moodNav.profileSubmit2 {
+    height: 32px;
+    line-height: 30px;
+    background: #35BFD3;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    margin: 25px 0 10px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+}
+
+.container-fluid.know-us, .container-fluid.how-it-works, .container-fluid.moods.text-center {
+    margin-top: 65px;
+}
+
+.row.howItWorksRow > div {
+    margin-bottom: 30px;
+}
+
+#yourMoodP .mood .myMood {
+    display: none;
+    position: relative
+}
+#yourMoodP .mood .myMood.active {
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+}
+#yourMoodP .mood .myMood img { width: 90%; max-width: 400px }
+#yourMoodP .mood .myMood p { position: absolute;
+    top: 66%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 38px;
+}
+.yourMood h1, .yourMood h4, .yourMood p { font-weight: 500 }
+.row.howItWorksRow .column-sm-4 img { width: initial }
+.row.howItWorksRow .column-sm-4 p { font-size: 18px }
