@@ -116,8 +116,8 @@
          </div>  
           <div class="btn-hr-wrapper" >
 
-       
-			  <% if(!loggedIn && !paid) {%>
+                <% = loggedIn %>
+			  <% if(!paid) {%>
 			 <button type="" data-toggle="modal" data-target="#loginModal" class="btn btn-white btn-lg moodNav pay" >Pay</button>
 			  <% } else if(loggedIn && !scheme &&!paid){%> 
 			 

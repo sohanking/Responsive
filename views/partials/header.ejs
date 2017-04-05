@@ -22,7 +22,9 @@
             <ul class="nav navbar-nav navbar-center">
                 <li><a href="KnowUs">Know us</a></li>
                 <li><a  href="Pricing">Pricing</a></li>
-                <li><a  href="GoalSelection">Get Started</a></li>
+                <% if(!loggedIn) {%>
+                    <li><a  href="GoalSelection">Get Started</a></li>
+                <% } %>
             </ul>
             <ul class="nav navbar-nav navbar-right login-btn">
             <% if(!loggedIn) {%>
